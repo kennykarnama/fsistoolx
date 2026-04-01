@@ -969,8 +969,6 @@ _deps
 *.dll
 
 # Fortran module files
-*.mod
-*.smod
 
 # Compiled Static libraries
 *.lai
@@ -1033,6 +1031,10 @@ _deps
 
 # Kernel Module Compile Results
 *.mod*
+!go.mod
+!go.sum
+!go.work
+!go.work.sum
 *.cmd
 .tmp_versions/
 modules.order

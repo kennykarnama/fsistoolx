@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classxercesc_1_1DOMException.html" title="xercesc::DOMException" alt="" coords="5,56,171,83"/>
+<area shape="rect" id="node2" href="$classxercesc_1_1DOMLSException.html" title="xercesc::DOMLSException" alt="" coords="229,5,411,32"/>
+<area shape="rect" id="node3" href="$classxercesc_1_1DOMRangeException.html" title="Range operations may throw a DOMRangeException as specified in their method descriptions. " alt="" coords="219,56,421,83"/>
+<area shape="rect" id="node4" href="$classxercesc_1_1DOMXPathException.html" title="xercesc::DOMXPathException" alt="" coords="219,107,421,133"/>
+</map>

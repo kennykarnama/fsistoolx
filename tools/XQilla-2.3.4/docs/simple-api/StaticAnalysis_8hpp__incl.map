@@ -1,0 +1,9 @@
+<map id="StaticAnalysis.hpp" name="StaticAnalysis.hpp">
+<area shape="rect" id="node4" href="$StaticType_8hpp.html" title="xqilla/ast/StaticType.hpp" alt="" coords="214,80,380,107"/>
+<area shape="rect" id="node5" href="$AnyAtomicType_8hpp.html" title="xqilla/items/AnyAtomicType.hpp" alt="" coords="433,155,644,181"/>
+<area shape="rect" id="node11" href="$XPath2MemoryManager_8hpp.html" title="xqilla/framework/XPath2Memory\lManager.hpp" alt="" coords="663,305,873,346"/>
+<area shape="rect" id="node16" href="$XMemory_8hpp.html" title="xercesc/util/XMemory.hpp" alt="" coords="1083,403,1257,429"/>
+<area shape="rect" id="node6" href="$Item_8hpp.html" title="xqilla/items/Item.hpp" alt="" coords="341,229,483,256"/>
+<area shape="rect" id="node7" href="$ReferenceCounted_8hpp.html" title="xqilla/framework/Reference\lCounted.hpp" alt="" coords="287,305,468,346"/>
+<area shape="rect" id="node8" href="$MemoryManager_8hpp.html" title="xercesc/framework/Memory\lManager.hpp" alt="" coords="593,395,777,437"/>
+</map>

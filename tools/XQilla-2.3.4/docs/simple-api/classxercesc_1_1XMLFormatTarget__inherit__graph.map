@@ -1,0 +1,6 @@
+<map id="xercesc::XMLFormatTarget" name="xercesc::XMLFormatTarget">
+<area shape="rect" id="node3" href="$classxercesc_1_1LocalFileFormatTarget.html" title="xercesc::LocalFileFormat\lTarget" alt="" coords="433,5,602,46"/>
+<area shape="rect" id="node4" href="$classxercesc_1_1MemBufFormatTarget.html" title="xercesc::MemBufFormatTarget" alt="" coords="416,71,619,97"/>
+<area shape="rect" id="node5" href="$classxercesc_1_1StdOutFormatTarget.html" title="xercesc::StdOutFormatTarget" alt="" coords="420,121,615,148"/>
+<area shape="rect" id="node2" href="$classxercesc_1_1XMemory.html" title="This class makes it possible to override the C++ memory management by adding new/delete operators to ..." alt="" coords="6,71,138,97"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="xercesc::DOMCharacterData" name="xercesc::DOMCharacterData">
+<area shape="rect" id="node3" href="$classxercesc_1_1DOMComment.html" title="This interface inherits from CharacterData and represents the content of a comment, i.e., all the characters between the starting &#39; &lt;!–&#39; and ending &#39;–&gt;&#39;. " alt="" coords="5,155,168,181"/>
+<area shape="rect" id="node4" href="$classxercesc_1_1DOMText.html" title="The DOMText interface inherits from DOMCharacterData and represents the textual content (termed chara..." alt="" coords="193,155,327,181"/>
+<area shape="rect" id="node2" href="$classxercesc_1_1DOMNode.html" title="The DOMNode interface is the primary datatype for the entire Document Object Model. " alt="" coords="104,5,243,32"/>
+<area shape="rect" id="node5" href="$classxercesc_1_1DOMCDATASection.html" title="CDATA sections are used to escape blocks of text containing characters that would otherwise be regard..." alt="" coords="161,229,359,256"/>
+</map>

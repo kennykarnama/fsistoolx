@@ -1,0 +1,3 @@
+/Users/kenny/go/src/github.com/kennykarnama/thy/build/CMakeFiles/score_parser.dir
+/Users/kenny/go/src/github.com/kennykarnama/thy/build/CMakeFiles/edit_cache.dir
+/Users/kenny/go/src/github.com/kennykarnama/thy/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,16 @@
+<map id="xercesc::DOMNode" name="xercesc::DOMNode">
+<area shape="rect" id="node2" href="$classxercesc_1_1DOMAttr.html" title="The DOMAttr class refers to an attribute of an XML element. " alt="" coords="245,5,373,32"/>
+<area shape="rect" id="node3" href="$classxercesc_1_1DOMCharacterData.html" title="The DOMCharacterData interface extends DOMNode with a set of attributes and methods for accessing cha..." alt="" coords="213,56,405,83"/>
+<area shape="rect" id="node7" href="$classxercesc_1_1DOMDocument.html" title="The DOMDocument interface represents the entire XML document. " alt="" coords="226,107,393,133"/>
+<area shape="rect" id="node8" href="$classxercesc_1_1DOMDocumentFragment.html" title="DOMDocumentFragment is a &quot;lightweight&quot; or &quot;minimal&quot; DOMDocument object. " alt="" coords="198,157,421,184"/>
+<area shape="rect" id="node9" href="$classxercesc_1_1DOMDocumentType.html" title="Each DOMDocument has a doctype attribute whose value is either null or a DOMDocumentType object..." alt="" coords="211,208,407,235"/>
+<area shape="rect" id="node10" href="$classxercesc_1_1DOMElement.html" title="By far the vast majority of objects (apart from text) that authors encounter when traversing a docume..." alt="" coords="232,259,387,285"/>
+<area shape="rect" id="node11" href="$classxercesc_1_1DOMEntity.html" title="This interface represents an entity, either parsed or unparsed, in an XML document. " alt="" coords="239,309,380,336"/>
+<area shape="rect" id="node12" href="$classxercesc_1_1DOMEntityReference.html" title="DOMEntityReference objects may be inserted into the structure model when an entity reference is in th..." alt="" coords="209,360,410,387"/>
+<area shape="rect" id="node13" href="$classxercesc_1_1DOMNotation.html" title="This interface represents a notation declared in the DTD. " alt="" coords="231,411,387,437"/>
+<area shape="rect" id="node14" href="$classxercesc_1_1DOMProcessingInstruction.html" title="The DOMProcessingInstruction interface represents a &quot;processing instruction&quot;, used in XML as a way to..." alt="" coords="193,461,426,488"/>
+<area shape="rect" id="node15" href="$classxercesc_1_1DOMXPathNamespace.html" title="The DOMXPathNamespace interface is returned by DOMXPathResult interfaces to represent the XPath names..." alt="" coords="203,512,416,539"/>
+<area shape="rect" id="node4" href="$classxercesc_1_1DOMComment.html" title="This interface inherits from CharacterData and represents the content of a comment, i.e., all the characters between the starting &#39; &lt;!–&#39; and ending &#39;–&gt;&#39;. " alt="" coords="475,31,639,57"/>
+<area shape="rect" id="node5" href="$classxercesc_1_1DOMText.html" title="The DOMText interface inherits from DOMCharacterData and represents the textual content (termed chara..." alt="" coords="491,81,624,108"/>
+<area shape="rect" id="node6" href="$classxercesc_1_1DOMCDATASection.html" title="CDATA sections are used to escape blocks of text containing characters that would otherwise be regard..." alt="" coords="688,81,885,108"/>
+</map>

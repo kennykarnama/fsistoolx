@@ -1,0 +1,32 @@
+<map id="ReferenceCounted" name="ReferenceCounted">
+<area shape="rect" id="node2" href="$classEventGenerator.html" title="EventGenerator" alt="" coords="185,247,298,273"/>
+<area shape="rect" id="node4" href="$classItem.html" title="Item" alt="" coords="217,309,265,336"/>
+<area shape="rect" id="node31" href="$classTimezone.html" title="Timezone" alt="" coords="202,360,281,387"/>
+<area shape="rect" id="node3" href="$classASTNodeEventGenerator.html" title="ASTNodeEventGenerator" alt="" coords="347,233,517,260"/>
+<area shape="rect" id="node5" href="$classAnyAtomicType.html" title="AnyAtomicType" alt="" coords="375,284,489,311"/>
+<area shape="rect" id="node29" href="$classFunctionRef.html" title="FunctionRef" alt="" coords="385,335,479,361"/>
+<area shape="rect" id="node30" href="$classNode.html" title="Node" alt="" coords="405,385,459,412"/>
+<area shape="rect" id="node6" href="$classATAnySimpleType.html" title="This class represents the atomic types (ie, the simple types which are not list or union types) with ..." alt="" coords="589,5,720,32"/>
+<area shape="rect" id="node7" href="$classATAnyURIOrDerived.html" title="ATAnyURIOrDerived" alt="" coords="582,56,727,83"/>
+<area shape="rect" id="node8" href="$classATBase64BinaryOrDerived.html" title="ATBase64BinaryOrDerived" alt="" coords="565,107,744,133"/>
+<area shape="rect" id="node9" href="$classATBooleanOrDerived.html" title="ATBooleanOrDerived" alt="" coords="582,157,727,184"/>
+<area shape="rect" id="node10" href="$classATDurationOrDerived.html" title="ATDurationOrDerived" alt="" coords="581,208,728,235"/>
+<area shape="rect" id="node11" href="$classATHexBinaryOrDerived.html" title="ATHexBinaryOrDerived" alt="" coords="575,259,734,285"/>
+<area shape="rect" id="node12" href="$classATNotationOrDerived.html" title="ATNotationOrDerived" alt="" coords="581,309,728,336"/>
+<area shape="rect" id="node13" href="$classATQNameOrDerived.html" title="ATQNameOrDerived" alt="" coords="583,360,726,387"/>
+<area shape="rect" id="node14" href="$classATStringOrDerived.html" title="ATStringOrDerived" alt="" coords="589,411,721,437"/>
+<area shape="rect" id="node15" href="$classATUntypedAtomic.html" title="ATUntypedAtomic" alt="" coords="590,461,719,488"/>
+<area shape="rect" id="node16" href="$classDateOrTimeType.html" title="DateOrTimeType" alt="" coords="593,512,716,539"/>
+<area shape="rect" id="node25" href="$classNumeric.html" title="Numeric" alt="" coords="619,740,690,767"/>
+<area shape="rect" id="node17" href="$classATDateOrDerived.html" title="ATDateOrDerived" alt="" coords="814,309,941,336"/>
+<area shape="rect" id="node18" href="$classATDateTimeOrDerived.html" title="ATDateTimeOrDerived" alt="" coords="800,360,955,387"/>
+<area shape="rect" id="node19" href="$classATGDayOrDerived.html" title="ATGDayOrDerived" alt="" coords="811,411,943,437"/>
+<area shape="rect" id="node20" href="$classATGMonthDayOrDerived.html" title="ATGMonthDayOrDerived" alt="" coords="793,461,961,488"/>
+<area shape="rect" id="node21" href="$classATGMonthOrDerived.html" title="ATGMonthOrDerived" alt="" coords="805,512,949,539"/>
+<area shape="rect" id="node22" href="$classATGYearMonthOrDerived.html" title="ATGYearMonthOrDerived" alt="" coords="792,563,963,589"/>
+<area shape="rect" id="node23" href="$classATGYearOrDerived.html" title="ATGYearOrDerived" alt="" coords="810,613,945,640"/>
+<area shape="rect" id="node24" href="$classATTimeOrDerived.html" title="ATTimeOrDerived" alt="" coords="814,664,941,691"/>
+<area shape="rect" id="node26" href="$classATDecimalOrDerived.html" title="ATDecimalOrDerived" alt="" coords="804,715,951,741"/>
+<area shape="rect" id="node27" href="$classATDoubleOrDerived.html" title="ATDoubleOrDerived" alt="" coords="808,765,947,792"/>
+<area shape="rect" id="node28" href="$classATFloatOrDerived.html" title="ATFloatOrDerived" alt="" coords="814,816,941,843"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="xercesc::DOMText" name="xercesc::DOMText">
+<area shape="rect" id="node4" href="$classxercesc_1_1DOMCDATASection.html" title="CDATA sections are used to escape blocks of text containing characters that would otherwise be regard..." alt="" coords="5,229,203,256"/>
+<area shape="rect" id="node2" href="$classxercesc_1_1DOMCharacterData.html" title="The DOMCharacterData interface extends DOMNode with a set of attributes and methods for accessing cha..." alt="" coords="8,80,200,107"/>
+<area shape="rect" id="node3" href="$classxercesc_1_1DOMNode.html" title="The DOMNode interface is the primary datatype for the entire Document Object Model. " alt="" coords="35,5,173,32"/>
+</map>

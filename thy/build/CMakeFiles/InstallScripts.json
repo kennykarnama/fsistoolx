@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/kenny/go/src/github.com/kennykarnama/thy/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

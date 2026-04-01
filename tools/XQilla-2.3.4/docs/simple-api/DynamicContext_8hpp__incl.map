@@ -1,0 +1,18 @@
+<map id="DynamicContext.hpp" name="DynamicContext.hpp">
+<area shape="rect" id="node2" href="$StaticContext_8hpp.html" title="xqilla/context/StaticContext.hpp" alt="" coords="1183,80,1391,107"/>
+<area shape="rect" id="node28" href="$ATDurationOrDerived_8hpp.html" title="xqilla/items/ATDurationOr\lDerived.hpp" alt="" coords="143,155,315,197"/>
+<area shape="rect" id="node4" href="$XQilla_8hpp.html" title="xqilla/simple&#45;api/XQilla.hpp" alt="" coords="1293,584,1472,611"/>
+<area shape="rect" id="node15" href="$DocumentCache_8hpp.html" title="xqilla/schema/DocumentCache.hpp" alt="" coords="1172,163,1401,189"/>
+<area shape="rect" id="node8" href="$PlatformUtils_8hpp.html" title="xercesc/util/PlatformUtils.hpp" alt="" coords="1699,675,1893,701"/>
+<area shape="rect" id="node13" href="$XMemory_8hpp.html" title="xercesc/util/XMemory.hpp" alt="" coords="1499,675,1673,701"/>
+<area shape="rect" id="node5" href="$MemoryManager_8hpp.html" title="xercesc/framework/Memory\lManager.hpp" alt="" coords="1291,667,1475,709"/>
+<area shape="rect" id="node17" href="$XPath2MemoryManager_8hpp.html" title="xqilla/framework/XPath2Memory\lManager.hpp" alt="" coords="1044,577,1255,618"/>
+<area shape="rect" id="node21" href="$Node_8hpp.html" title="xqilla/items/Node.hpp" alt="" coords="921,253,1068,280"/>
+<area shape="rect" id="node22" href="$ATQNameOrDerived_8hpp.html" title="xqilla/items/ATQNameOrDerived.hpp" alt="" coords="766,344,1004,371"/>
+<area shape="rect" id="node26" href="$ATBooleanOrDerived_8hpp.html" title="xqilla/items/ATBooleanOr\lDerived.hpp" alt="" coords="571,337,741,378"/>
+<area shape="rect" id="node23" href="$AnyAtomicType_8hpp.html" title="xqilla/items/AnyAtomicType.hpp" alt="" coords="351,427,561,453"/>
+<area shape="rect" id="node24" href="$Item_8hpp.html" title="xqilla/items/Item.hpp" alt="" coords="418,501,560,528"/>
+<area shape="rect" id="node25" href="$ReferenceCounted_8hpp.html" title="xqilla/framework/Reference\lCounted.hpp" alt="" coords="600,577,781,618"/>
+<area shape="rect" id="node29" href="$ATDecimalOrDerived_8hpp.html" title="xqilla/items/ATDecimalOr\lDerived.hpp" alt="" coords="144,246,315,287"/>
+<area shape="rect" id="node30" href="$Numeric_8hpp.html" title="xqilla/items/Numeric.hpp" alt="" coords="145,344,311,371"/>
+</map>

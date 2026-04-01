@@ -1,0 +1,132 @@
+=========================================
+TEST FAILED: asuransi
+=========================================
+Date: Fri Jan  2 10:39:52 WIB 2026
+Exit Code: 1
+Inherent DS: ../testdata/inherentds_asuransi.xml
+KPMR DS: ../testdata/kpmrds_asuransi.xml
+Inherent Risk Profile: ../testdata/inherent_riskpro.xml
+KPMR Risk Profile: ../testdata/kpmr_riskpro.xml
+=========================================
+
+=========================================
+TEST FAILED: hukum
+=========================================
+Date: Fri Jan  2 10:39:52 WIB 2026
+Exit Code: 1
+Inherent DS: ../testdata/inherentds_hukum.xml
+KPMR DS: ../testdata/kpmrds_hukum.xml
+Inherent Risk Profile: ../testdata/inherent_riskpro.xml
+KPMR Risk Profile: ../testdata/kpmr_riskpro.xml
+=========================================
+
+=========================================
+TEST FAILED: imbalhasil
+=========================================
+Date: Fri Jan  2 10:39:52 WIB 2026
+Exit Code: 1
+Inherent DS: ../testdata/inherentds_imbalhasil.xml
+KPMR DS: ../testdata/kpmrds_imbalhasil.xml
+Inherent Risk Profile: ../testdata/inherent_riskpro.xml
+KPMR Risk Profile: ../testdata/kpmr_riskpro.xml
+=========================================
+
+=========================================
+TEST FAILED: intragroup
+=========================================
+Date: Fri Jan  2 10:39:52 WIB 2026
+Exit Code: 1
+Inherent DS: ../testdata/inherentds_intragroup.xml
+KPMR DS: ../testdata/kpmrds_intragroup.xml
+Inherent Risk Profile: ../testdata/inherent_riskpro.xml
+KPMR Risk Profile: ../testdata/kpmr_riskpro.xml
+=========================================
+
+=========================================
+TEST FAILED: investasi
+=========================================
+Date: Fri Jan  2 10:39:52 WIB 2026
+Exit Code: 1
+Inherent DS: ../testdata/inherentds_investasi.xml
+KPMR DS: ../testdata/kpmrds_investasi.xml
+Inherent Risk Profile: ../testdata/inherent_riskpro.xml
+KPMR Risk Profile: ../testdata/kpmr_riskpro.xml
+=========================================
+
+=========================================
+TEST FAILED: kepatuhan
+=========================================
+Date: Fri Jan  2 10:39:52 WIB 2026
+Exit Code: 1
+Inherent DS: ../testdata/inherentds_kepatuhan.xml
+KPMR DS: ../testdata/kpmrds_kepatuhan.xml
+Inherent Risk Profile: ../testdata/inherent_riskpro.xml
+KPMR Risk Profile: ../testdata/kpmr_riskpro.xml
+=========================================
+
+=========================================
+TEST FAILED: kredit
+=========================================
+Date: Fri Jan  2 10:39:52 WIB 2026
+Exit Code: 1
+Inherent DS: ../testdata/inherentds_kredit.xml
+KPMR DS: ../testdata/kpmrds_kredit.xml
+Inherent Risk Profile: ../testdata/inherent_riskpro.xml
+KPMR Risk Profile: ../testdata/kpmr_riskpro.xml
+=========================================
+
+=========================================
+TEST FAILED: likuiditas
+=========================================
+Date: Fri Jan  2 10:39:53 WIB 2026
+Exit Code: 1
+Inherent DS: ../testdata/inherentds_likuiditas.xml
+KPMR DS: ../testdata/kpmrds_likuiditas.xml
+Inherent Risk Profile: ../testdata/inherent_riskpro.xml
+KPMR Risk Profile: ../testdata/kpmr_riskpro.xml
+=========================================
+
+=========================================
+TEST FAILED: operasional
+=========================================
+Date: Fri Jan  2 10:39:53 WIB 2026
+Exit Code: 1
+Inherent DS: ../testdata/inherentds_operasional.xml
+KPMR DS: ../testdata/kpmrds_operasional.xml
+Inherent Risk Profile: ../testdata/inherent_riskpro.xml
+KPMR Risk Profile: ../testdata/kpmr_riskpro.xml
+=========================================
+
+=========================================
+TEST FAILED: pasar
+=========================================
+Date: Fri Jan  2 10:39:53 WIB 2026
+Exit Code: 1
+Inherent DS: ../testdata/inherentds_pasar.xml
+KPMR DS: ../testdata/kpmrds_pasar.xml
+Inherent Risk Profile: ../testdata/inherent_riskpro.xml
+KPMR Risk Profile: ../testdata/kpmr_riskpro.xml
+=========================================
+
+=========================================
+TEST FAILED: reputasi
+=========================================
+Date: Fri Jan  2 10:39:53 WIB 2026
+Exit Code: 1
+Inherent DS: ../testdata/inherentds_reputasi.xml
+KPMR DS: ../testdata/kpmrds_reputasi.xml
+Inherent Risk Profile: ../testdata/inherent_riskpro.xml
+KPMR Risk Profile: ../testdata/kpmr_riskpro.xml
+=========================================
+
+=========================================
+TEST FAILED: stratejik
+=========================================
+Date: Fri Jan  2 10:39:53 WIB 2026
+Exit Code: 1
+Inherent DS: ../testdata/inherentds_stratejik.xml
+KPMR DS: ../testdata/kpmrds_stratejik.xml
+Inherent Risk Profile: ../testdata/inherent_riskpro.xml
+KPMR Risk Profile: ../testdata/kpmr_riskpro.xml
+=========================================
+

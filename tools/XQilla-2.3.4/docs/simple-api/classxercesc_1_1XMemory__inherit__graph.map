@@ -1,0 +1,30 @@
+<map id="xercesc::XMemory" name="xercesc::XMemory">
+<area shape="rect" id="node2" href="$classDocumentCache.html" title="Expression Context is a storage for contexts. " alt="" coords="217,5,337,32"/>
+<area shape="rect" id="node3" href="$classItemFactory.html" title="ItemFactory" alt="" coords="231,56,323,83"/>
+<area shape="rect" id="node4" href="$classModuleCache.html" title="ModuleCache" alt="" coords="226,107,329,133"/>
+<area shape="rect" id="node5" href="$classScope.html" title="used inside VariableStore to implement variable scoping " alt="" coords="218,157,337,184"/>
+<area shape="rect" id="node6" href="$classSequence.html" title="An eagerly evaluated result of a query execution. " alt="" coords="237,208,317,235"/>
+<area shape="rect" id="node7" href="$classSequenceBuilder.html" title="SequenceBuilder" alt="" coords="217,259,337,285"/>
+<area shape="rect" id="node8" href="$classStaticContext.html" title="The parse time static context interface. " alt="" coords="226,309,329,336"/>
+<area shape="rect" id="node10" href="$classStaticType.html" title="Class that represents the static type of an expression. " alt="" coords="235,360,320,387"/>
+<area shape="rect" id="node11" href="$classUpdateFactory.html" title="UpdateFactory" alt="" coords="223,411,331,437"/>
+<area shape="rect" id="node12" href="$classURIResolver.html" title="This is an abstract class used to resolve URIs in different ways. " alt="" coords="228,461,327,488"/>
+<area shape="rect" id="node13" href="$classVarHashEntry.html" title="The class that stores the values of the variables. " alt="" coords="196,512,359,539"/>
+<area shape="rect" id="node14" href="$classVariableTypeStore.html" title="This is the wrapper class for the variable store, which implements the lookup and scoping of simple v..." alt="" coords="213,563,342,589"/>
+<area shape="rect" id="node15" href="$classxercesc_1_1InputSource.html" title="A single input source for an XML entity. " alt="" coords="204,613,351,640"/>
+<area shape="rect" id="node20" href="$classxercesc_1_1XMLFormatTarget.html" title="xercesc::XMLFormatTarget" alt="" coords="187,664,368,691"/>
+<area shape="rect" id="node24" href="$classxercesc_1_1XMLFormatter.html" title="This class provides the basic formatting capabilities that are required to turn the Unicode based XML..." alt="" coords="198,715,357,741"/>
+<area shape="rect" id="node25" href="$classXQilla.html" title="Provides factory methods for creating XQQuery and DynamicContext objects. " alt="" coords="249,765,306,792"/>
+<area shape="rect" id="node26" href="$classXQillaConfiguration.html" title="XQillaConfiguration" alt="" coords="210,820,345,847"/>
+<area shape="rect" id="node29" href="$classXQQuery.html" title="Encapsulates a query expression. " alt="" coords="239,871,315,897"/>
+<area shape="rect" id="node9" href="$classDynamicContext.html" title="The execution time dynamic context interface. " alt="" coords="457,309,577,336"/>
+<area shape="rect" id="node16" href="$classxercesc_1_1LocalFileInputSource.html" title="This class is a derivative of the standard InputSource class. " alt="" coords="418,453,617,480"/>
+<area shape="rect" id="node17" href="$classxercesc_1_1MemBufInputSource.html" title="This class is a derivative of the standard InputSource class. " alt="" coords="420,504,615,531"/>
+<area shape="rect" id="node18" href="$classxercesc_1_1StdInInputSource.html" title="This class is a derivative of the standard InputSource class. " alt="" coords="429,555,606,581"/>
+<area shape="rect" id="node19" href="$classxercesc_1_1URLInputSource.html" title="This class is a derivative of the standard InputSource class. " alt="" coords="431,605,604,632"/>
+<area shape="rect" id="node21" href="$classxercesc_1_1LocalFileFormatTarget.html" title="xercesc::LocalFileFormat\lTarget" alt="" coords="433,657,602,698"/>
+<area shape="rect" id="node22" href="$classxercesc_1_1MemBufFormatTarget.html" title="xercesc::MemBufFormatTarget" alt="" coords="416,723,619,749"/>
+<area shape="rect" id="node23" href="$classxercesc_1_1StdOutFormatTarget.html" title="xercesc::StdOutFormatTarget" alt="" coords="420,773,615,800"/>
+<area shape="rect" id="node27" href="$classFastXDMConfiguration.html" title="FastXDMConfiguration" alt="" coords="440,824,595,851"/>
+<area shape="rect" id="node28" href="$classXercesConfiguration.html" title="XercesConfiguration" alt="" coords="447,875,587,901"/>
+</map>

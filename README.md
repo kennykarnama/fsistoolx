@@ -12,4 +12,6 @@ docker buildx build \
 	--target deps-bundle \
 	--output type=tar,dest=deps-bundle-stage.tar \
 	.
+
+tar -xf deps-bundle-stage.tar deps-bundle.tar.gz
 ```

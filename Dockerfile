@@ -118,10 +118,10 @@ COPY ./tools/XQilla-2.3.4 /XQilla-2.3.4
 RUN cd /XQilla-2.3.4 && \
     rm -rf .libs && \
     rm -f compile-delayed-module compile-delayed-module.o && \
-    ./configure --prefix=/usr/local --build=aarch64-unknown-linux-gnu --with-xerces=/usr/local && \
+    ./configure --prefix=/usr/local --build=x86_64-unknown-linux-gnu --with-xerces=/usr/local && \
     find ./src/functions -name '*.xq' -exec touch -t 200001010000 {} \; && \
     find ./src/functions -name '*.hpp' -exec touch {} \; && \
-    make && \
+    make -j$(nproc) && \
     make install
 
 COPY ./ilfreporter-0.0.1 /ilfreporter-0.0.1

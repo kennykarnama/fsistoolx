@@ -1,0 +1,28 @@
+ // RI0700100101
+ var consolidateValue1 = findConsolidateByCode("SI07001000");
+ var r1 = ratingByThreshold(thresholdByCode("RI0700100101"), consolidateValue1);        var s1 = scoreByRating(scoreFormulaByCode("RI0700100101"), r1);
+
+ var w1 = weightByCode("RI0700100101");
+
+ var sxb1 = s1 * w1 * 1.0;
+
+// RI0700100102
+
+
+  var consolidateValue2 = findConsolidateByCode("SI07002000");
+  var r2 = ratingByThreshold(thresholdByCode("RI0700100102"), consolidateValue2);               var s2 = scoreByRating(scoreFormulaByCode("RI0700100102"), r2);           var w2 = weightByCode("RI0700100102");
+
+
+
+ var sxb2 = s2 * w2 * 1.0;     
+
+ // RI0700100103
+
+var consolidateValue3 = findConsolidateByCode("SI07003000");
+var r3 = ratingByThreshold(thresholdByCode("RI0700100103"), consolidateValue3);                var s3 = scoreByRating(scoreFormulaByCode("RI0700100103"), r3);
+
+var w3 = weightByCode("RI0700100103"); 
+var sxb3 = s3 * w3 * 1.0;  
+
+var total = sxb1 + sxb2 + sxb3;
+return total;

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/inherent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/inherent ../xsd/InherentDataSource.xsd">
+  <riskName>Risiko Operasional</riskName>
+  <list>
+    <item>
+      <code/>
+      <consolidate>0</consolidate>
+      <dataName/>
+      <detail/>
+      <id>487</id>
+    </item>
+    <item>
+      <code>SI04001000</code>
+      <consolidate>0</consolidate>
+      <dataName>Skala usaha</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04001000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>278</id>
+    </item>
+    <item>
+      <code>SI04002000</code>
+      <consolidate>0</consolidate>
+      <dataName>Struktur organisasi</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04002000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>282</id>
+    </item>
+    <item>
+      <code>SI04003000</code>
+      <consolidate>0</consolidate>
+      <dataName>Kompleksitas proses bisnis dan keragaman produk/jasa</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04003000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>283</id>
+    </item>
+    <item>
+      <code>SI04004000</code>
+      <consolidate>0</consolidate>
+      <dataName>Corporate action</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04004000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>284</id>
+    </item>
+    <item>
+      <code>SI04005000</code>
+      <consolidate>0</consolidate>
+      <dataName>Pengembangan bisnis baru</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04005000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>285</id>
+    </item>
+    <item>
+      <code>SI04006000</code>
+      <consolidate>0</consolidate>
+      <dataName>Keterlibatan pihak ketiga (outsourcing) pada aktivitas operasional tertentu sehingga tidak sepenuhnya berada dalam pengendalian LJK dalam Konglomerasi Keuangan.&#xD;
+Penggunaan jasa pihak ketiga berpotensi mengganggu operasional LJK dalam Konglomerasi Keuangan seperti kegagalan pihak ketiga dalam memberikan jasa sesuai yang disepakati, pelanggaran terhadap pengamanan data atau informasi atau perlakuan salah kepada nasabah</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04006000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>286</id>
+    </item>
+    <item>
+      <code>SI04007000</code>
+      <consolidate>0</consolidate>
+      <dataName>Realisasi Biaya Training</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04007000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>287</id>
+    </item>
+    <item>
+      <code>SI04008000</code>
+      <consolidate>0</consolidate>
+      <dataName>Turn Over Karyawan (Regretted)</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04008000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>524</id>
+    </item>
+    <item>
+      <code>SI04009000</code>
+      <consolidate>0</consolidate>
+      <dataName>Kegagalan karena faktor manusia (human error)</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04009000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>289</id>
+    </item>
+    <item>
+      <code>SI04010000</code>
+      <consolidate>0</consolidate>
+      <dataName>Rata-rata Modal 1 semester pada periode pelaporan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04010000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>290</id>
+    </item>
+    <item>
+      <code>SI04011000</code>
+      <consolidate>0</consolidate>
+      <dataName>SDM tidak memiliki sertifikasi keahlian</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04011000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>291</id>
+    </item>
+    <item>
+      <code>SI04012000</code>
+      <consolidate>0</consolidate>
+      <dataName>Turn over pegawai yang memiliki izin Wakil Pedagang Efek</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04012000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>292</id>
+    </item>
+    <item>
+      <code>SI04013000</code>
+      <consolidate>0</consolidate>
+      <dataName>Kompleksitas sistem TI</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04013000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>293</id>
+    </item>
+    <item>
+      <code>SI04014000</code>
+      <consolidate>0</consolidate>
+      <dataName>Perubahan sistem TI</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04014000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>294</id>
+    </item>
+    <item>
+      <code>SI04015000</code>
+      <consolidate>0</consolidate>
+      <dataName>Kerentanan sistem TI terhadap ancaman dan serangan TI</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04015000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>295</id>
+    </item>
+    <item>
+      <code>SI04016000</code>
+      <consolidate>0</consolidate>
+      <dataName>Maturity sistem TI</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04016000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>297</id>
+    </item>
+    <item>
+      <code>SI04017000</code>
+      <consolidate>0</consolidate>
+      <dataName>Kegagalan sistem TI</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04017000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>298</id>
+    </item>
+    <item>
+      <code>SI04018000</code>
+      <consolidate>0</consolidate>
+      <dataName>Keandalan infrastruktur pendukung</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04018000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>300</id>
+    </item>
+    <item>
+      <code>SI04019000</code>
+      <consolidate>0</consolidate>
+      <dataName>Kerugian yang ditimbulkan akibat fraud</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04019000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>301</id>
+    </item>
+    <item>
+      <code>SI04020000</code>
+      <consolidate>0</consolidate>
+      <dataName>1) Fraud internal&#xD;
+ Fraud internal merupakan tindakan penyalahgunaan yang disengaja oleh pegawai LJK dalam Konglomerasi Keuangan dan melanggar Undang-Undang yang menyebabkan kerugian/potensi kerugian bagi LJK tersebut. Bentuk-bentuk fraud internal antara lain, pencurian dan penggelapan uang.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04020000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>302</id>
+    </item>
+    <item>
+      <code>SI04021000</code>
+      <consolidate>0</consolidate>
+      <dataName>2) Fraud eksternal&#xD;
+ Fraud eksternal merupakan tindakan pencurian yang disengaja oleh pihak ketiga dan melanggar Undang-Undang yang menyebabkan kerugian/potensi kerugian bagi LJK dalam Konglomerasi Keuangan, baik secara finansial maupun nonfinansial. Bentuk-bentuk fraud eksternal antara lain, penipuan dan pencurian.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI04021000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>303</id>
+    </item>
+  </list>
+  <responseCode>00</responseCode>
+  <responseMessage>Success</responseMessage>
+</data>

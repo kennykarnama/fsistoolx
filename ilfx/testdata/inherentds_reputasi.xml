@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/inherent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/inherent ../xsd/InherentDataSource.xsd">
+  <riskName>Risiko Reputasi</riskName>
+  <list>
+    <item>
+      <code/>
+      <consolidate>0</consolidate>
+      <dataName/>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0</value>
+        </row>
+      </detail>
+      <id>335</id>
+    </item>
+    <item>
+      <code>SI06001000</code>
+      <consolidate>0</consolidate>
+      <dataName>Kredibilitas pemilik dan perusahaan terkait.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI06001000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+        ]]>
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>322</id>
+    </item>
+    <item>
+      <code>SI06002000</code>
+      <consolidate>0</consolidate>
+      <dataName>Kejadian yang memengaruhi reputasi (reputational event) pada pemilik dan perusahaan terkait.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI06002000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>323</id>
+    </item>
+    <item>
+      <code>SI06003000</code>
+      <consolidate>0</consolidate>
+      <dataName>transparansi informasi keuangan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI06003000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>324</id>
+    </item>
+    <item>
+      <code>SI06004000</code>
+      <consolidate>0</consolidate>
+      <dataName>pelanggaran hal-hal yang telah disepakati dalam kerjasama bisnis dengan pemangku kepentingan lainnya.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI06004000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>325</id>
+    </item>
+    <item>
+      <code>SI06005000</code>
+      <consolidate>0</consolidate>
+      <dataName>Jumlah nasabah yang menggunakan produk yang kompleks pada LJK dalam Konglomerasi Keuangan.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI06005000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>326</id>
+    </item>
+    <item>
+      <code>SI06006000</code>
+      <consolidate>0</consolidate>
+      <dataName>Jumlah dan materialitas kerjasama LJK dalam Konglomerasi Keuangan dengan mitra bisnis, dalam hal terdapat potensi adanya kejadian yang memengaruhi reputasi mitra bisnis.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI06006000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>327</id>
+    </item>
+    <item>
+      <code>SI06007000</code>
+      <consolidate>0</consolidate>
+      <dataName>Rata-rata Modal 1 semester pada periode pelaporan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI06007000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>328</id>
+    </item>
+    <item>
+      <code>SI06008000</code>
+      <consolidate>0</consolidate>
+      <dataName>Frekuensi pemberitaan negatif.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI06008000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>330</id>
+    </item>
+    <item>
+      <code>SI06009000</code>
+      <consolidate>0</consolidate>
+      <dataName>Materialitas (realisasi kerugian) pemberitaan negatif</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI06009000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>331</id>
+    </item>
+    <item>
+      <code>SI06010000</code>
+      <consolidate>0</consolidate>
+      <dataName>Jenis media dan ruang lingkup pemberitaan negatif.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI06010000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>332</id>
+    </item>
+    <item>
+      <code>SI06011000</code>
+      <consolidate>0</consolidate>
+      <dataName>Frekuensi keluhan nasabah terhadap jasa dan produk yang disediakan oleh LJK dalam Konglomerasi Keuangan.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI06011000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>333</id>
+    </item>
+    <item>
+      <code>SI06012000</code>
+      <consolidate>0</consolidate>
+      <dataName>Materialitas keluhan nasabah.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI06012000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>334</id>
+    </item>
+  </list>
+  <responseCode>00</responseCode>
+  <responseMessage>Success</responseMessage>
+</data>

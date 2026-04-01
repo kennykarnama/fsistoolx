@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/kpmr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/kpmr ./xsd/KPMRDataSource.xsd">
+  <riskName>Risiko Asuransi</riskName>
+  <list>
+    <id>220</id>
+    <code>SK10004000</code>
+    <risk_id>7</risk_id>
+    <assesment_factor>Sistem Pengendalian</assesment_factor>
+    <children>
+      <item>
+        <id>222</id>
+        <code>SK10004002</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko asuransi oleh SKAIT baik dari sisi metodologi,frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi PUJK</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10004000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + 1;
+}
+
+print(total_count);
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>223</id>
+        <code>SK10004003</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko asuransi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10004003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>221</id>
+        <code>SK10004001</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko asuransi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10004001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>224</id>
+        <code>SK10004004</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko asuransi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10004004");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>216</id>
+    <code>SK10003000</code>
+    <risk_id>7</risk_id>
+    <assesment_factor>Proses Manajemen Risiko, SIM dan SDM</assesment_factor>
+    <children>
+      <item>
+        <id>218</id>
+        <code>SK10003002</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko asuransi sehingga menghasilkan pelaporan Risiko asuransi secara keseluruhan yang komprehensif dan terintegrasi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10003000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>219</id>
+        <code>SK10003003</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Pemenuhan sumber daya manusia pada PUJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko asuransi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10003003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>217</id>
+        <code>SK10003001</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Proses manajemen Risiko asuransi oleh PUJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko asuransi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10003001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>211</id>
+    <code>SK10002000</code>
+    <risk_id>7</risk_id>
+    <assesment_factor>Kerangka Manajemen Risiko</assesment_factor>
+    <children>
+      <item>
+        <id>212</id>
+        <code>SK10002001</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Fungsi Manajemen Risiko asuransi pada PUJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10002000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>215</id>
+        <code>SK10002004</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Terdapat kebijakan, prosedur, dan limit Risiko asuransi Konglomerasi Keuangan untuk seluruh area manajemen Risiko asuransi Konglomerasi Keuangan yang diterapkan dan dipahami</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10002004");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>213</id>
+        <code>SK10002002</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Delegasi kewenangan pada PUJK yang memiliki eksposur Risiko asuransi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10002002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>214</id>
+        <code>SK10002003</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Strategi Risiko asuransi  dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko asuransi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10002003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>206</id>
+    <code>SK10001000</code>
+    <risk_id>7</risk_id>
+    <assesment_factor>Tata Kelola (Risk Governance)</assesment_factor>
+    <children>
+      <item>
+        <id>207</id>
+        <code>SK10001001</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Penetapan tingkat Risiko asuransi yang akan diambil oleh PUJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis secara keseluruhan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10001000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>210</id>
+        <code>SK10001004</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Pelaksanaan tugas Dewan Komisaris dan Direksi PUJK secara keseluruhan untuk Risiko asuransi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10001004");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>208</id>
+        <code>SK10001002</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Awareness dan pemahaman Dewan Komisaris dan Direksi PUJK mengenai manajemen Risiko asuransi Konglomerasi Keuangan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10001002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>209</id>
+        <code>SK10001003</code>
+        <risk_id>7</risk_id>
+        <assesment_factor>Budaya Risiko asuransi dan internalisasi budaya Risiko pada seluruh PUJK dalam Konglomerasi Keuangan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK10001003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+</data>

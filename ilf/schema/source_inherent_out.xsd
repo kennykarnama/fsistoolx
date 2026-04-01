@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+  <!-- Root element -->
+  <xs:element name="sourceInherentRevampReport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="record" type="RecordType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <!-- Record complex type -->
+  <xs:complexType name="RecordType">
+    <xs:sequence>
+      <xs:element name="risiko" type="RisikoType" minOccurs="0"/>
+      <xs:element name="sandiBefore" type="xs:string" minOccurs="0"/>
+      <xs:element name="sandiRevamp" type="SandiRevampType" minOccurs="0"/>
+      <xs:element name="permintaanData" type="xs:string" minOccurs="0"/>
+      <xs:element name="pic" type="xs:string" minOccurs="0"/>
+      <xs:element name="petunjukPengisian" type="xs:string" minOccurs="0"/>
+      <xs:element name="kualitatifKuantitatif" type="KualitatifKuantitatifType" minOccurs="0"/>
+      <xs:element name="inputType" type="InputTypeType" minOccurs="0"/>
+      <xs:element name="logicLjk" type="xs:string" minOccurs="0"/>
+      <xs:element name="logicKonsolidasi" type="LogicKonsolidasiType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <!-- Simple type for risiko: standard risk categories -->
+  <xs:simpleType name="RisikoType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Kredit"/>
+      <xs:enumeration value="Pasar"/>
+      <xs:enumeration value="Likuiditas"/>
+      <xs:enumeration value="Operasional"/>
+      <xs:enumeration value="Hukum"/>
+      <xs:enumeration value="Reputasi"/>
+      <xs:enumeration value="Stratejik"/>
+      <xs:enumeration value="Kepatuhan"/>
+      <xs:enumeration value="Intragrup"/>
+      <xs:enumeration value="Asuransi"/>
+      <xs:enumeration value="Investasi"/>
+      <xs:enumeration value="Imbal Hasil"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- Simple type for sandiRevamp: SI code pattern -->
+  <xs:simpleType name="SandiRevampType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="SI[0-9]{8}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- Simple type for kualitatifKuantitatif -->
+  <xs:simpleType name="KualitatifKuantitatifType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="kualitatif"/>
+      <xs:enumeration value="kuantitatif"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- Simple type for inputType -->
+  <xs:simpleType name="InputTypeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="input"/>
+      <xs:enumeration value="Input"/>
+      <xs:enumeration value="threshold"/>
+      <xs:enumeration value="Threshold"/>
+      <xs:enumeration value="sistem"/>
+      <xs:enumeration value="Sistem"/>
+      <xs:enumeration value="system"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- Simple type for logicKonsolidasi: flexible string (allows formulas, expressions) -->
+  <xs:simpleType name="LogicKonsolidasiType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

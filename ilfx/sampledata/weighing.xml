@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CompanyWeights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/Weight.xsd">
+    
+    <Category name="Bank">
+        <Company>
+            <Code>PT. Bank Sinarmas</Code>
+            <BobotBidangUsaha>0.4</BobotBidangUsaha>
+            <BobotPerPUJK>0.8</BobotPerPUJK>
+            <BobotBankPembiayaan>0.78</BobotBankPembiayaan>
+        </Company>
+        <Company>
+            <Code>BNS</Code>
+            <BobotBidangUsaha>0.2</BobotBidangUsaha>
+            <BobotPerPUJK>0.11</BobotPerPUJK>
+        </Company>
+    </Category>
+
+    <Category name="Asuransi">
+        <Company><Code>ASJ</Code><BobotBidangUsaha>0.35</BobotBidangUsaha><BobotPerPUJK>0.56</BobotPerPUJK></Company>
+        <Company><Code>ASM</Code><BobotBidangUsaha>0.29</BobotBidangUsaha></Company>
+        <Company><Code>ASIT</Code><BobotBidangUsaha>0.04</BobotBidangUsaha></Company>
+        <Company><Code>ASO</Code><BobotBidangUsaha>0.02</BobotBidangUsaha></Company>
+        <Company><Code>RNM</Code><BobotBidangUsaha>0.08</BobotBidangUsaha></Company>
+        <Company><Code>SMI</Code><BobotBidangUsaha>0</BobotBidangUsaha></Company>
+        <Company><Code>SMLI</Code><BobotBidangUsaha>0</BobotBidangUsaha></Company>
+    </Category>
+
+    <Category name="Perusahaan Efek">
+        <Company><Code>SMS</Code><BobotBidangUsaha>0.1</BobotBidangUsaha><BobotPerPUJK>0.7</BobotPerPUJK></Company>
+        <Company><Code>SAM</Code><BobotBidangUsaha>0.3</BobotBidangUsaha></Company>
+    </Category>
+
+    <Category name="Pembiayaan">
+        <Company><Code>SMMF</Code><BobotBidangUsaha>0.15</BobotBidangUsaha><BobotPerPUJK>0.75</BobotPerPUJK><BobotBankPembiayaan>0.09</BobotBankPembiayaan></Company>
+        <Company><Code>AB</Code><BobotBidangUsaha>0.25</BobotBidangUsaha><BobotBankPembiayaan>0.02</BobotBankPembiayaan></Company>
+    </Category>
+</CompanyWeights>

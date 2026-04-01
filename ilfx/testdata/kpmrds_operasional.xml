@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/kpmr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/kpmr ../xsd/KPMRDataSource.xsd">
+  <riskName>Risiko Operasional</riskName>
+  <list>
+    <id>105</id>
+    <code>SK04004000</code>
+    <risk_id>11</risk_id>
+    <assesment_factor>Sistem Pengendalian</assesment_factor>
+    <children>
+      <item>
+        <id>108</id>
+        <code>SK04004003</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko operasional</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04004000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>106</id>
+        <code>SK04004001</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko operasional</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04004001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>109</id>
+        <code>SK04004004</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko operasional</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04004004");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>107</id>
+        <code>SK04004002</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko operasional oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04004002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>99</id>
+    <code>SK04003000</code>
+    <risk_id>11</risk_id>
+    <assesment_factor>Proses Manajemen Risiko, SIM dan SDM</assesment_factor>
+    <children>
+      <item>
+        <id>102</id>
+        <code>SK04003002</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Keandalan Business Continuity Management Konglomerasi Keuangan.</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04003000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>103</id>
+        <code>SK04003003</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko operasional sehingga menghasilkan pelaporan Risiko operasional secara keseluruhan yang komprehensif dan terintegrasi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04003003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>101</id>
+        <code>SK04003001</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Proses manajemen Risiko operasional oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko operasional</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04003001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>104</id>
+        <code>SK04003004</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko operasional</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04003004");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>62</id>
+    <code>SK04002000</code>
+    <risk_id>11</risk_id>
+    <assesment_factor>Kerangka Manajemen Risiko</assesment_factor>
+    <children>
+      <item>
+        <id>97</id>
+        <code>SK04002002</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Strategi Risiko operasional dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko operasional</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04002000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>98</id>
+        <code>SK04002003</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Terdapat kebijakan, prosedur, dan limit Risiko operasional untuk seluruh area manajemen Risiko operasional yang diterapkan dan dipahami</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04002003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>96</id>
+        <code>SK04002001</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Fungsi Manajemen Risiko operasional pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04002001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>91</id>
+    <code>SK04001000</code>
+    <risk_id>11</risk_id>
+    <assesment_factor>Tata Kelola (Risk Governance)</assesment_factor>
+    <children>
+      <item>
+        <id>95</id>
+        <code>SK04001004</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko operasional</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04001000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>93</id>
+        <code>SK04001002</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko operasional</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04001002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>94</id>
+        <code>SK04001003</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Budaya Risiko operasional dan internalisasi budaya Risiko pada seluruh LJK dalam Konglomerasi Keuangan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04001003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>92</id>
+        <code>SK04001001</code>
+        <risk_id>11</risk_id>
+        <assesment_factor>Penetapan tingkat Risiko operasional yang akan diambil oleh LJK dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis LJK secara keseluruhan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK04001001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+</data>

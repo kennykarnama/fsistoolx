@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/kpmr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/kpmr ../xsd/KPMRDataSource.xsd">
+  <riskName>Risiko Hukum</riskName>
+  <list>
+    <id>125</id>
+    <code>SK05004000</code>
+    <risk_id>12</risk_id>
+    <assesment_factor>Sistem Pengendalian</assesment_factor>
+    <children>
+      <item>
+        <id>127</id>
+        <code>SK05004002</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko hukum oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05004000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>128</id>
+        <code>SK05004003</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko hukum</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05004003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>126</id>
+        <code>SK05004001</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko hukum</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05004001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>129</id>
+        <code>SK05004004</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko hukum</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05004004");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>120</id>
+    <code>SK05003000</code>
+    <risk_id>12</risk_id>
+    <assesment_factor>Proses Manajemen Risiko, SIM dan SDM</assesment_factor>
+    <children>
+      <item>
+        <id>124</id>
+        <code>SK05003004</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko hukum</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05003000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>122</id>
+        <code>SK05003002</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Assessment terkait pencadangan atas kemungkinan kerugian terhadap kasus hukum LJK dalam Konglomerasi Keuangan yang sedang berjalan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05003002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>123</id>
+        <code>SK05003003</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko hukum sehingga menghasilkan pelaporan Risiko hukum secara keseluruhan yang komprehensif dan terintegrasi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05003003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>121</id>
+        <code>SK05003001</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Proses manajemen Risiko hukum oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko hukum</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05003001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>116</id>
+    <code>SK05002000</code>
+    <risk_id>12</risk_id>
+    <assesment_factor>Kerangka Manajemen Risiko</assesment_factor>
+    <children>
+      <item>
+        <id>117</id>
+        <code>SK05002001</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Fungsi Manajemen Risiko hukum pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05002000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>118</id>
+        <code>SK05002002</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Strategi Risiko hukum dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko hukum</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05002002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>119</id>
+        <code>SK05002003</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Terdapat kebijakan, prosedur, dan limit Risiko hukum untuk seluruh area manajemen Risiko hukum yang diterapkan dan dipahami</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05002003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>111</id>
+    <code>SK05001000</code>
+    <risk_id>12</risk_id>
+    <assesment_factor>Tata Kelola (Risk Governance)</assesment_factor>
+    <children>
+      <item>
+        <id>114</id>
+        <code>SK05001003</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Budaya Risiko hukum dan internalisasi budaya Risiko pada seluruh LJK dalam Konglomerasi Keuangan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05001000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>112</id>
+        <code>SK05001001</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Penetapan tingkat Risiko hukum yang akan diambil oleh LJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis secara keseluruhan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05001001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>115</id>
+        <code>SK05001004</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko hukum</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05001004");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>113</id>
+        <code>SK05001002</code>
+        <risk_id>12</risk_id>
+        <assesment_factor>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko hukum</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK05001002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+</data>

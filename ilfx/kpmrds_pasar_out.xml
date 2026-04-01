@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/kpmr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/kpmr ./xsd/KPMRDataSource.xsd">
+  <riskName>Risiko Pasar</riskName>
+  <list>
+    <id>51</id>
+    <code>SK02001000</code>
+    <risk_id>9</risk_id>
+    <assesment_factor>Tata Kelola (Risk Governance)</assesment_factor>
+    <children>
+      <item>
+        <id>54</id>
+        <code>SK02001003</code>
+        <risk_id>9</risk_id>
+        <assesment_factor>Budaya Risiko Pasar dan internalisasi budaya Risiko pada LJK dalam Konglomerasi Keuangan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK02001000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>52</id>
+        <code>SK02001001</code>
+        <risk_id>9</risk_id>
+        <assesment_factor>Penetapan tingkat Risiko Pasar yang akan diambil oleh LJK dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis LJK secara keseluruhan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK02001001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>55</id>
+        <code>SK02001004</code>
+        <risk_id>9</risk_id>
+        <assesment_factor>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko Pasar</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK02001004");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>53</id>
+        <code>SK02001002</code>
+        <risk_id>9</risk_id>
+        <assesment_factor>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko Pasar</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK02001002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>66</id>
+    <code>SK02004000</code>
+    <risk_id>9</risk_id>
+    <assesment_factor>Sistem Pengendalian</assesment_factor>
+    <children>
+      <item>
+        <id>70</id>
+        <code>SK02004004</code>
+        <risk_id>9</risk_id>
+        <assesment_factor>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko Pasar</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK02004000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>68</id>
+        <code>SK02004002</code>
+        <risk_id>9</risk_id>
+        <assesment_factor>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko Pasar oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK02004002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>69</id>
+        <code>SK02004003</code>
+        <risk_id>9</risk_id>
+        <assesment_factor>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko Pasar</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK02004003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>67</id>
+        <code>SK02004001</code>
+        <risk_id>9</risk_id>
+        <assesment_factor>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko Pasar</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK02004001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>60</id>
+    <code>SK02003000</code>
+    <risk_id>9</risk_id>
+    <assesment_factor>Proses Manajemen Risiko, SIM dan SDM</assesment_factor>
+    <children>
+      <item>
+        <id>61</id>
+        <code>SK02003001</code>
+        <risk_id>9</risk_id>
+        <assesment_factor>Proses manajemen Risiko Pasar oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko Pasar</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK02003000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>64</id>
+        <code>SK02003002</code>
+        <risk_id>9</risk_id>
+        <assesment_factor>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko Pasar sehingga menghasilkan pelaporan Risiko Pasar Konglomerasi Keuangan secara keseluruhan yang komprehensif dan terintegrasi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK02003002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>65</id>
+        <code>SK02003003</code>
+        <risk_id>9</risk_id>
+        <assesment_factor>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko Pasar</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK02003003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>56</id>
+    <code>SK02002000</code>
+    <risk_id>9</risk_id>
+    <assesment_factor>Kerangka Manajemen Risiko</assesment_factor>
+    <children>
+      <item>
+        <id>59</id>
+        <code>SK02002003</code>
+        <risk_id>9</risk_id>
+        <assesment_factor>Terdapat kebijakan, prosedur, dan limit Risiko Pasar untuk seluruh area manajemen Risiko Pasar yang diterapkan dan dipahami</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK02002000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>57</id>
+        <code>SK02002001</code>
+        <risk_id>9</risk_id>
+        <assesment_factor>Fungsi Manajemen Risiko Pasar pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK02002001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>58</id>
+        <code>SK02002002</code>
+        <risk_id>9</risk_id>
+        <assesment_factor>Strategi pengelolaan Risiko pasar Konglomerasi Keuangan termasuk strategi trading dan pengelolaan posisi non-trading book.</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK02002002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+</data>

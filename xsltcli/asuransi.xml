@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kpmr_risk_profile_tree xmlns="http://example.com/kpmr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/kpmr ../../files/xsd/KPMRRiskProfile.xsd">
+  <node>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <profile_id>RK10000000</profile_id>
+    <assessment_factor></assessment_factor>
+    <derived_from/>
+    <threshold/>
+    <input_type/>
+    <source_reference/>
+    <calculation_logic/>
+    <risk_id>0</risk_id>
+    <id>1427</id>
+    <weight>100.000000</weight>
+    <score_formula>1:92&#13;
+2:76&#13;
+3:60&#13;
+4:44&#13;
+5:28</score_formula>
+    <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    <rating_rule>
+var child_0 = findConsolidateByCode("SK10001000");
+      var consolidateValue = (child_0) / 1;
+      var r = ratingByThreshold(thresholdByCode("RK10000000"), consolidateValue);
+      return r;
+</rating_rule>
+    <score_rule>
+var child_0 = findConsolidateByCode("SK10001000");
+      var consolidateValue = (child_0) / 1;
+      var r = ratingByThreshold(thresholdByCode("RK10000000"), consolidateValue);
+      var s = scoreByRating(scoreFormulaByCode("RK10000000"), r);
+      return s;
+</score_rule>
+    <value_rule>
+print("updated");
+
+var child_0 = findConsolidateByCode("SK10001000");
+      var consolidateValue = (child_0) / 1;
+      return consolidateValue * 1.0;
+</value_rule>
+    <children>
+      <node>
+        <risiko_name>Risiko Asuransi</risiko_name>
+        <profile_id>RK10001000</profile_id>
+        <assessment_factor>Tata Kelola (Risk Governance)</assessment_factor>
+        <derived_from>Risk Profile</derived_from>
+        <threshold>5 : x&lt;= 36
+4:  36 &lt; x &lt;= 52
+3:  52 &lt; x &lt;= 68
+2:  68 &lt; x &lt;= 84
+1:  84 &lt; x &lt;= 100</threshold>
+        <input_type>system</input_type>
+        <source_reference/>
+        <calculation_logic>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</calculation_logic>
+        <risk_id>0</risk_id>
+        <id>1428</id>
+        <weight>25.000000</weight>
+        <score_formula>1:92&#13;
+2:76&#13;
+3:60&#13;
+4:44&#13;
+5:28</score_formula>
+        <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+        <rating_rule>
+var consolidateValue1 = findConsolidateByCode("SK10001001");
+          var r1 = ratingByThreshold(thresholdByCode("RK10000000"), consolidateValue1);
+          var s1 = scoreByRating(scoreFormulaByCode("RK10000000"), r1);
+          var w1 = weightByCode("RK10001001");
+          var sxb1 = s1 * w1 * 1.0;
+          
+          var consolidateValue2 = findConsolidateByCode("SK10001002");
+          var r2 = ratingByThreshold(thresholdByCode("RK10000000"), consolidateValue2);
+          var s2 = scoreByRating(scoreFormulaByCode("RK10000000"), r2);
+          var w2 = weightByCode("RK10001002");
+          var sxb2 = s2 * w2 * 1.0;
+          
+          var consolidateValue3 = findConsolidateByCode("SK10001003");
+          var r3 = ratingByThreshold(thresholdByCode("RK10000000"), consolidateValue3);
+          var s3 = scoreByRating(scoreFormulaByCode("RK10000000"), r3);
+          var w3 = weightByCode("RK10001003");
+          var sxb3 = s3 * w3 * 1.0;
+          
+          var consolidateValue4 = findConsolidateByCode("SK10001004");
+          var r4 = ratingByThreshold(thresholdByCode("RK10000000"), consolidateValue4);
+          var s4 = scoreByRating(scoreFormulaByCode("RK10000000"), r4);
+          var w4 = weightByCode("RK10001004");
+          var sxb4 = s4 * w4 * 1.0;
+          
+          var total = sxb1 + sxb2 + sxb3 + sxb4;
+          var r = ratingByThreshold(thresholdByCode("RK10000000"), total);
+          return r;
+</rating_rule>
+        <score_rule>
+var consolidateValue1 = findConsolidateByCode("SK10001001");
+          var r1 = ratingByThreshold(thresholdByCode("RK10000000"), consolidateValue1);
+          var s1 = scoreByRating(scoreFormulaByCode("RK10000000"), r1);
+          var w1 = weightByCode("RK10001001");
+          var sxb1 = s1 * w1 * 1.0;
+          
+          var consolidateValue2 = findConsolidateByCode("SK10001002");
+          var r2 = ratingByThreshold(thresholdByCode("RK10000000"), consolidateValue2);
+          var s2 = scoreByRating(scoreFormulaByCode("RK10000000"), r2);
+          var w2 = weightByCode("RK10001002");
+          var sxb2 = s2 * w2 * 1.0;
+          
+          var consolidateValue3 = findConsolidateByCode("SK10001003");
+          var r3 = ratingByThreshold(thresholdByCode("RK10000000"), consolidateValue3);
+          var s3 = scoreByRating(scoreFormulaByCode("RK10000000"), r3);
+          var w3 = weightByCode("RK10001003");
+          var sxb3 = s3 * w3 * 1.0;
+          
+          var consolidateValue4 = findConsolidateByCode("SK10001004");
+          var r4 = ratingByThreshold(thresholdByCode("RK10000000"), consolidateValue4);
+          var s4 = scoreByRating(scoreFormulaByCode("RK10000000"), r4);
+          var w4 = weightByCode("RK10001004");
+          var sxb4 = s4 * w4 * 1.0;
+          
+          var total = sxb1 + sxb2 + sxb3 + sxb4;
+          return total;
+</score_rule>
+        <value_rule></value_rule>
+        <children>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10001002</profile_id>
+            <assessment_factor>Awareness dan pemahaman Dewan Komisaris dan Direksi PUJK mengenai manajemen Risiko asuransi Konglomerasi Keuangan</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : x ==  1
+2 : x ==  2
+3 : x ==  3
+4 : x ==  4
+5 : x ==  5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10001002</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1430</id>
+            <weight>25.000000</weight>
+            <score_formula>1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28</score_formula>
+            <rating_to_score>1:92
+      2:76
+      3:60
+      4:44
+      5:28</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10001002");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10000000"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10001002");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10000000"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10000000"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10001002");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10001001</profile_id>
+            <assessment_factor>Penetapan tingkat Risiko asuransi yang akan diambil oleh PUJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis secara keseluruhan</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : x ==  1
+2 : x ==  2
+3 : x ==  3
+4 : x ==  4
+5 : x ==  5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10001001</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1429</id>
+            <weight>25.000000</weight>
+            <score_formula>1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28</score_formula>
+            <rating_to_score>1:92
+      2:76
+      3:60
+      4:44
+      5:28</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10001001");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10001001"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10001001");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10001001"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10001001"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10001001");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10001003</profile_id>
+            <assessment_factor>Budaya Risiko asuransi dan internalisasi budaya Risiko pada seluruh PUJK dalam Konglomerasi Keuangan</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : x ==  1
+2 : x ==  2
+3 : x ==  3
+4 : x ==  4
+5 : x ==  5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10001003</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1431</id>
+            <weight>25.000000</weight>
+            <score_formula>1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28</score_formula>
+            <rating_to_score>1:92
+      2:76
+      3:60
+      4:44
+      5:28</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10001003");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10001003"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10001003");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10001003"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10001003"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10001003");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10001004</profile_id>
+            <assessment_factor>Pelaksanaan tugas Dewan Komisaris dan Direksi PUJK secara keseluruhan untuk Risiko asuransi</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : x ==  1
+2 : x ==  2
+3 : x ==  3
+4 : x ==  4
+5 : x ==  5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10001004</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1432</id>
+            <weight>25.000000</weight>
+            <score_formula>1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28</score_formula>
+            <rating_to_score>1:92
+      2:76
+      3:60
+      4:44
+      5:28</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10001004");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10001004"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10001004");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10001004"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10001004"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10001004");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+        </children>
+      </node>
+      <node>
+        <risiko_name>Risiko Asuransi</risiko_name>
+        <profile_id>RK10002000</profile_id>
+        <assessment_factor>Kerangka Manajemen Risiko</assessment_factor>
+        <derived_from>Risk Profile</derived_from>
+        <threshold>5 : x&lt;= 36
+4:  36 &lt; x &lt;= 52
+3:  52 &lt; x &lt;= 68
+2:  68 &lt; x &lt;= 84
+1:  84 &lt; x &lt;= 100</threshold>
+        <input_type>system</input_type>
+        <source_reference/>
+        <calculation_logic>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</calculation_logic>
+        <risk_id>0</risk_id>
+        <id>1433</id>
+        <weight>25.000000</weight>
+        <score_formula>1:92&#13;
+2:76&#13;
+3:60&#13;
+4:44&#13;
+5:28</score_formula>
+        <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+        <rating_rule>
+var consolidateValue1 = findConsolidateByCode("SK10002001");
+          var r1 = ratingByThreshold(thresholdByCode("RK10002000"), consolidateValue1);
+          var s1 = scoreByRating(scoreFormulaByCode("RK10002000"), r1);
+          var w1 = weightByCode("RK10002001");
+          var sxb1 = s1 * w1 * 1.0;
+          
+          var consolidateValue2 = findConsolidateByCode("SK10002002");
+          var r2 = ratingByThreshold(thresholdByCode("RK10002000"), consolidateValue2);
+          var s2 = scoreByRating(scoreFormulaByCode("RK10002000"), r2);
+          var w2 = weightByCode("RK10002002");
+          var sxb2 = s2 * w2 * 1.0;
+          
+          var consolidateValue3 = findConsolidateByCode("SK10002003");
+          var r3 = ratingByThreshold(thresholdByCode("RK10002000"), consolidateValue3);
+          var s3 = scoreByRating(scoreFormulaByCode("RK10002000"), r3);
+          var w3 = weightByCode("RK10002003");
+          var sxb3 = s3 * w3 * 1.0;
+          
+          var consolidateValue4 = findConsolidateByCode("SK10002004");
+          var r4 = ratingByThreshold(thresholdByCode("RK10002000"), consolidateValue4);
+          var s4 = scoreByRating(scoreFormulaByCode("RK10002000"), r4);
+          var w4 = weightByCode("RK10002004");
+          var sxb4 = s4 * w4 * 1.0;
+          
+          var total = sxb1 + sxb2 + sxb3 + sxb4;
+          var r = ratingByThreshold(thresholdByCode("RK10002000"), total);
+          return r;
+</rating_rule>
+        <score_rule>
+// RK10002001
+          var consolidateValue1 = findConsolidateByCode("SK10002001");
+          var r1 = ratingByThreshold(thresholdByCode("RK10002000"), consolidateValue1);
+          var s1 = scoreByRating(scoreFormulaByCode("RK10002000"), r1);
+          var w1 = weightByCode("RK10002001");
+          var sxb1 = s1 * w1 * 1.0;
+          
+          // RK10002002
+          var consolidateValue2 = findConsolidateByCode("SK10002002");
+          var r2 = ratingByThreshold(thresholdByCode("RK10002000"), consolidateValue2);
+          var s2 = scoreByRating(scoreFormulaByCode("RK10002000"), r2);
+          var w2 = weightByCode("RK10002002");
+          var sxb2 = s2 * w2 * 1.0;
+          
+          // RK10002003
+          var consolidateValue3 = findConsolidateByCode("SK10002003");
+          var r3 = ratingByThreshold(thresholdByCode("RK10002000"), consolidateValue3);
+          var s3 = scoreByRating(scoreFormulaByCode("RK10002000"), r3);
+          var w3 = weightByCode("RK10002003");
+          var sxb3 = s3 * w3 * 1.0;
+          
+          // RK10002004
+          var consolidateValue4 = findConsolidateByCode("SK10002004");
+          var r4 = ratingByThreshold(thresholdByCode("RK10002000"), consolidateValue4);
+          var s4 = scoreByRating(scoreFormulaByCode("RK10002000"), r4);
+          var w4 = weightByCode("RK10002004");
+          var sxb4 = s4 * w4 * 1.0;
+          
+          // RK10002000 total
+          var total = sxb1 + sxb2 + sxb3 + sxb4;
+          return total;
+</score_rule>
+        <value_rule></value_rule>
+        <children>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10002001</profile_id>
+            <assessment_factor>Fungsi Manajemen Risiko asuransi pada PUJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : Value = 1
+2 : Value = 2
+3 : Value = 3
+4 : Value = 4
+5 : Value = 5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10002001</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1336</id>
+            <weight>25.000000</weight>
+            <score_formula>&#13;
+1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28&#13;
+</score_formula>
+            <rating_to_score>
+1:92
+      2:76
+      3:60
+      4:44
+      5:28
+</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10002001");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10002000"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10002001");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10002000"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10002000"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10002001");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10002002</profile_id>
+            <assessment_factor>Delegasi kewenangan pada PUJK yang memiliki eksposur Risiko asuransi</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : x ==  1
+2 : x ==  2
+3 : x ==  3
+4 : x ==  4
+5 : x ==  5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10002002</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1435</id>
+            <weight>25.000000</weight>
+            <score_formula>1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28</score_formula>
+            <rating_to_score>1:92
+      2:76
+      3:60
+      4:44
+      5:28</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10002002");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10002002"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10002002");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10002002"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10002002"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10002002");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10002003</profile_id>
+            <assessment_factor>Strategi Risiko asuransi  dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko asuransi</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : x ==  1
+2 : x ==  2
+3 : x ==  3
+4 : x ==  4
+5 : x ==  5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10002003</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1436</id>
+            <weight>25.000000</weight>
+            <score_formula>1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28</score_formula>
+            <rating_to_score>1:92
+      2:76
+      3:60
+      4:44
+      5:28</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10002003");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10002003"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10002003");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10002003"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10002003"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10002003");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10002004</profile_id>
+            <assessment_factor>Terdapat kebijakan, prosedur, dan limit Risiko asuransi Konglomerasi Keuangan untuk seluruh area manajemen Risiko asuransi Konglomerasi Keuangan yang diterapkan dan dipahami</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : x ==  1
+2 : x ==  2
+3 : x ==  3
+4 : x ==  4
+5 : x ==  5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10002004</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1437</id>
+            <weight>25.000000</weight>
+            <score_formula>1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28</score_formula>
+            <rating_to_score>1:92
+      2:76
+      3:60
+      4:44
+      5:28</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10002004");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10002004"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10002004");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10002004"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10002004"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10002004");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+        </children>
+      </node>
+      <node>
+        <risiko_name>Risiko Asuransi</risiko_name>
+        <profile_id>RK10003000</profile_id>
+        <assessment_factor>Proses Manajemen Risiko, SIM dan SDM</assessment_factor>
+        <derived_from>Risk Profile</derived_from>
+        <threshold>5 : x&lt;= 36
+4:  36 &lt; x &lt;= 52
+3:  52 &lt; x &lt;= 68
+2:  68 &lt; x &lt;= 84
+1:  84 &lt; x &lt;= 100</threshold>
+        <input_type>system</input_type>
+        <source_reference/>
+        <calculation_logic>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</calculation_logic>
+        <risk_id>0</risk_id>
+        <id>1438</id>
+        <weight>25.000000</weight>
+        <score_formula>1:92&#13;
+2:76&#13;
+3:60&#13;
+4:44&#13;
+5:28</score_formula>
+        <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+        <rating_rule>
+var consolidateValue1 = findConsolidateByCode("SK10003001");
+          var r1 = ratingByThreshold(thresholdByCode("RK10003000"), consolidateValue1);
+          var s1 = scoreByRating(scoreFormulaByCode("RK10003000"), r1);
+          var w1 = weightByCode("RK10003001");
+          var sxb1 = s1 * w1 * 1.0;
+          
+          var consolidateValue2 = findConsolidateByCode("SK10003002");
+          var r2 = ratingByThreshold(thresholdByCode("RK10003000"), consolidateValue2);
+          var s2 = scoreByRating(scoreFormulaByCode("RK10003000"), r2);
+          var w2 = weightByCode("RK10003002");
+          var sxb2 = s2 * w2 * 1.0;
+          
+          var consolidateValue3 = findConsolidateByCode("SK10003003");
+          var r3 = ratingByThreshold(thresholdByCode("RK10003000"), consolidateValue3);
+          var s3 = scoreByRating(scoreFormulaByCode("RK10003000"), r3);
+          var w3 = weightByCode("RK10003003");
+          var sxb3 = s3 * w3 * 1.0;
+          
+          var total = sxb1 + sxb2 + sxb3;
+          var r = ratingByThreshold(thresholdByCode("RK10003000"), total);
+          return r;
+</rating_rule>
+        <score_rule>
+// RK10003001
+          var consolidateValue1 = findConsolidateByCode("SK10003001");
+          var r1 = ratingByThreshold(thresholdByCode("RK10003000"), consolidateValue1);
+          var s1 = scoreByRating(scoreFormulaByCode("RK10003000"), r1);
+          var w1 = weightByCode("RK10003001");
+          var sxb1 = s1 * w1 * 1.0;
+          
+          // RK10003002
+          var consolidateValue2 = findConsolidateByCode("SK10003002");
+          var r2 = ratingByThreshold(thresholdByCode("RK10003000"), consolidateValue2);
+          var s2 = scoreByRating(scoreFormulaByCode("RK10003000"), r2);
+          var w2 = weightByCode("RK10003002");
+          var sxb2 = s2 * w2 * 1.0;
+          
+          // RK10003003
+          var consolidateValue3 = findConsolidateByCode("SK10003003");
+          var r3 = ratingByThreshold(thresholdByCode("RK10003000"), consolidateValue3);
+          var s3 = scoreByRating(scoreFormulaByCode("RK10003000"), r3);
+          var w3 = weightByCode("RK10003003");
+          var sxb3 = s3 * w3 * 1.0;
+          
+          // RK10003000 total
+          var total = sxb1 + sxb2 + sxb3;
+          return total;
+</score_rule>
+        <value_rule></value_rule>
+        <children>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10003001</profile_id>
+            <assessment_factor>Proses manajemen Risiko asuransi oleh PUJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko asuransi</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : x ==  1
+2 : x ==  2
+3 : x ==  3
+4 : x ==  4
+5 : x ==  5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10003001</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1439</id>
+            <weight>33.330000</weight>
+            <score_formula>1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28</score_formula>
+            <rating_to_score>1:92
+      2:76
+      3:60
+      4:44
+      5:28</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10003001");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10003000"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10003001");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10003000"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10003000"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10003001");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10003002</profile_id>
+            <assessment_factor>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko asuransi sehingga menghasilkan pelaporan Risiko asuransi secara keseluruhan yang komprehensif dan terintegrasi</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : x ==  1
+2 : x ==  2
+3 : x ==  3
+4 : x ==  4
+5 : x ==  5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10003002</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1440</id>
+            <weight>33.330000</weight>
+            <score_formula>1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28</score_formula>
+            <rating_to_score>1:92
+      2:76
+      3:60
+      4:44
+      5:28</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10003002");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10003002"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10003002");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10003002"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10003002"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10003002");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10003003</profile_id>
+            <assessment_factor>Pemenuhan sumber daya manusia pada PUJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko asuransi</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : x ==  1
+2 : x ==  2
+3 : x ==  3
+4 : x ==  4
+5 : x ==  5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10003003</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1441</id>
+            <weight>33.330000</weight>
+            <score_formula>1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28</score_formula>
+            <rating_to_score>1:92
+      2:76
+      3:60
+      4:44
+      5:28</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10003003");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10003003"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10003003");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10003003"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10003003"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10003003");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+        </children>
+      </node>
+      <node>
+        <risiko_name>Risiko Asuransi</risiko_name>
+        <profile_id>RK10004000</profile_id>
+        <assessment_factor>Sistem Pengendalian</assessment_factor>
+        <derived_from>Risk Profile</derived_from>
+        <threshold>5 : x&lt;= 36
+4:  36 &lt; x &lt;= 52
+3:  52 &lt; x &lt;= 68
+2:  68 &lt; x &lt;= 84
+1:  84 &lt; x &lt;= 100</threshold>
+        <input_type>system</input_type>
+        <source_reference/>
+        <calculation_logic>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</calculation_logic>
+        <risk_id>0</risk_id>
+        <id>1442</id>
+        <weight>25.000000</weight>
+        <score_formula>1:92&#13;
+2:76&#13;
+3:60&#13;
+4:44&#13;
+5:28</score_formula>
+        <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+        <rating_rule>
+var consolidateValue1 = findConsolidateByCode("SK10004001");
+          var r1 = ratingByThreshold(thresholdByCode("RK10004000"), consolidateValue1);
+          var s1 = scoreByRating(scoreFormulaByCode("RK10004000"), r1);
+          var w1 = weightByCode("RK10004001");
+          var sxb1 = s1 * w1 * 1.0;
+          
+          var consolidateValue2 = findConsolidateByCode("SK10004002");
+          var r2 = ratingByThreshold(thresholdByCode("RK10004000"), consolidateValue2);
+          var s2 = scoreByRating(scoreFormulaByCode("RK10004000"), r2);
+          var w2 = weightByCode("RK10004002");
+          var sxb2 = s2 * w2 * 1.0;
+          
+          var consolidateValue3 = findConsolidateByCode("SK10004003");
+          var r3 = ratingByThreshold(thresholdByCode("RK10004000"), consolidateValue3);
+          var s3 = scoreByRating(scoreFormulaByCode("RK10004000"), r3);
+          var w3 = weightByCode("RK10004003");
+          var sxb3 = s3 * w3 * 1.0;
+          
+          var consolidateValue4 = findConsolidateByCode("SK10004004");
+          var r4 = ratingByThreshold(thresholdByCode("RK10004000"), consolidateValue4);
+          var s4 = scoreByRating(scoreFormulaByCode("RK10004000"), r4);
+          var w4 = weightByCode("RK10004004");
+          var sxb4 = s4 * w4 * 1.0;
+          
+          var total = sxb1 + sxb2 + sxb3 + sxb4;
+          var r = ratingByThreshold(thresholdByCode("RK10004000"), total);
+          return r;
+</rating_rule>
+        <score_rule>
+var consolidateValue1 = findConsolidateByCode("SK10004001");
+          var r1 = ratingByThreshold(thresholdByCode("RK10004000"), consolidateValue1);
+          var s1 = scoreByRating(scoreFormulaByCode("RK10004000"), r1);
+          var w1 = weightByCode("RK10004001");
+          var sxb1 = s1 * w1 * 1.0;
+          
+          var consolidateValue2 = findConsolidateByCode("SK10004002");
+          var r2 = ratingByThreshold(thresholdByCode("RK10004000"), consolidateValue2);
+          var s2 = scoreByRating(scoreFormulaByCode("RK10004000"), r2);
+          var w2 = weightByCode("RK10004002");
+          var sxb2 = s2 * w2 * 1.0;
+          
+          var consolidateValue3 = findConsolidateByCode("SK10004003");
+          var r3 = ratingByThreshold(thresholdByCode("RK10004000"), consolidateValue3);
+          var s3 = scoreByRating(scoreFormulaByCode("RK10004000"), r3);
+          var w3 = weightByCode("RK10004003");
+          var sxb3 = s3 * w3 * 1.0;
+          
+          var consolidateValue4 = findConsolidateByCode("SK10004004");
+          var r4 = ratingByThreshold(thresholdByCode("RK10004000"), consolidateValue4);
+          var s4 = scoreByRating(scoreFormulaByCode("RK10004000"), r4);
+          var w4 = weightByCode("RK10004004");
+          var sxb4 = s4 * w4 * 1.0;
+          
+          var total = sxb1 + sxb2 + sxb3 + sxb4;
+          return total;
+</score_rule>
+        <value_rule></value_rule>
+        <children>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10004001</profile_id>
+            <assessment_factor>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko asuransi</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : x ==  1
+2 : x ==  2
+3 : x ==  3
+4 : x ==  4
+5 : x ==  5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10004001</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1443</id>
+            <weight>25.000000</weight>
+            <score_formula>1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28</score_formula>
+            <rating_to_score>1:92
+      2:76
+      3:60
+      4:44
+      5:28</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10004001");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10004000"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10004001");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10004000"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10004000"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10004001");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10004002</profile_id>
+            <assessment_factor>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko asuransi oleh SKAIT baik dari sisi metodologi,frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi PUJK</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : x ==  1
+2 : x ==  2
+3 : x ==  3
+4 : x ==  4
+5 : x ==  5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10004002</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1444</id>
+            <weight>25.000000</weight>
+            <score_formula>1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28</score_formula>
+            <rating_to_score>1:92
+      2:76
+      3:60
+      4:44
+      5:28</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10004002");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10004002"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10004002");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10004002"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10004002"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10004002");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10004003</profile_id>
+            <assessment_factor>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko asuransi</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : x ==  1
+2 : x ==  2
+3 : x ==  3
+4 : x ==  4
+5 : x ==  5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10004003</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1445</id>
+            <weight>25.000000</weight>
+            <score_formula>1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28</score_formula>
+            <rating_to_score>1:92
+      2:76
+      3:60
+      4:44
+      5:28</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10004003");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10004003"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10004003");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10004003"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10004003"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10004003");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+          <node>
+            <risiko_name>Risiko Asuransi</risiko_name>
+            <profile_id>RK10004004</profile_id>
+            <assessment_factor>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko asuransi</assessment_factor>
+            <derived_from>data source</derived_from>
+            <threshold>1 : x ==  1
+2 : x ==  2
+3 : x ==  3
+4 : x ==  4
+5 : x ==  5</threshold>
+            <input_type>system</input_type>
+            <source_reference>SK10004004</source_reference>
+            <calculation_logic>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</calculation_logic>
+            <risk_id>0</risk_id>
+            <id>1446</id>
+            <weight>25.000000</weight>
+            <score_formula>1:92&#13;
+      2:76&#13;
+      3:60&#13;
+      4:44&#13;
+      5:28</score_formula>
+            <rating_to_score>1:92
+      2:76
+      3:60
+      4:44
+      5:28</rating_to_score>
+            <rating_rule>
+var consolidateValue = findConsolidateByCode("SK10004004");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10004004"), consolidateValue);
+              
+              return r;
+</rating_rule>
+            <score_rule>
+var consolidateValue = findConsolidateByCode("SK10004004");
+              
+              var r = ratingByThreshold(thresholdByCode("RK10004004"), consolidateValue);
+              
+              var s = scoreByRating(scoreFormulaByCode("RK10004004"), r);
+              
+              return s;
+</score_rule>
+            <value_rule>
+var consolidateValue = findConsolidateByCode("SK10004004");
+              return consolidateValue * 1.0;
+</value_rule>
+          </node>
+        </children>
+      </node>
+    </children>
+  </node>
+</kpmr_risk_profile_tree>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/inherent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/inherent ../xsd/InherentDataSource.xsd">
+  <riskName>Risiko Asuransi</riskName>
+  <list>
+    <item>
+      <code/>
+      <consolidate>0</consolidate>
+      <dataName/>
+      <detail/>
+      <id>492</id>
+    </item>
+    <item>
+      <code>SI10001000</code>
+      <consolidate>0</consolidate>
+      <dataName>Cadangan Teknis Periode Berjalan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI10001000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>476</id>
+    </item>
+    <item>
+      <code>SI10002000</code>
+      <consolidate>0</consolidate>
+      <dataName>Premi Neto Periode Berjalan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI10002000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>477</id>
+    </item>
+    <item>
+      <code>SI10003000</code>
+      <consolidate>0</consolidate>
+      <dataName>Klaim Bruto Periode Berjalan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI10003000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>478</id>
+    </item>
+    <item>
+      <code>SI10004000</code>
+      <consolidate>0</consolidate>
+      <dataName>Premi Bruto Periode Berjalan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI10004000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>479</id>
+    </item>
+    <item>
+      <code>SI10005000</code>
+      <consolidate>0</consolidate>
+      <dataName>Klaim Neto Periode Berjalan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI10005000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>480</id>
+    </item>
+    <item>
+      <code>SI10006000</code>
+      <consolidate>0</consolidate>
+      <dataName>Modal Sendiri Periode Berjalan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI10006000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>481</id>
+    </item>
+    <item>
+      <code>SI10007000</code>
+      <consolidate>0</consolidate>
+      <dataName>Jumlah Polis yang Batal Selama Periode Berjalan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI10007000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>482</id>
+    </item>
+    <item>
+      <code>SI10008000</code>
+      <consolidate>0</consolidate>
+      <dataName>Jumlah Polis Baru pada Periode Sebelumnya</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI10008000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>483</id>
+    </item>
+    <item>
+      <code>SI10009000</code>
+      <consolidate>0</consolidate>
+      <dataName>Rasio Cadangan Teknis Periode Berjalan/Premi Neto Periode Berjalan (%)</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI10009000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>484</id>
+    </item>
+    <item>
+      <code>SI10010000</code>
+      <consolidate>0</consolidate>
+      <dataName>Rasio Klaim Bruto Periode Berjalan/Premi Bruto Periode Berjalan (%)</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI10010000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>485</id>
+    </item>
+    <item>
+      <code>SI10011000</code>
+      <consolidate>0</consolidate>
+      <dataName>Rasio Klaim Neto Periode Berjalan/Premi Neto Periode Berjalan (%)</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI10011000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>490</id>
+    </item>
+    <item>
+      <code>SI10012000</code>
+      <consolidate>0</consolidate>
+      <dataName>Rasio Premi Neto Periode Berjalan/Modal Sendiri Periode Berjalan (%)</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI10012000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>491</id>
+    </item>
+    <item>
+      <code>SI10013000</code>
+      <consolidate>0</consolidate>
+      <dataName>Rasio Jumlah Polis yang Batal Selama Periode Berjalan/Jumlah Polis Baru pada Periode Sebelumnya (%)</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI10013000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>296</id>
+    </item>
+  </list>
+  <responseCode>00</responseCode>
+  <responseMessage>Success</responseMessage>
+</data>

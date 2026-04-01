@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/inherent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/inherent ./xsd/InherentDataSource.xsd">
+  <riskName>Risiko Kredit</riskName>
+  <list>
+    <item>
+      <code>SI01001000</code>
+      <consolidate>11</consolidate>
+      <dataName>Total Aset</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01001000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>11</value>
+        </row>
+      </detail>
+      <id>527</id>
+    </item>
+    <item>
+      <code>SI01002000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Aset semester sebelumnya</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01002000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0</value>
+        </row>
+      </detail>
+      <id>529</id>
+    </item>
+    <item>
+      <code>SI01003000</code>
+      <consolidate>1</consolidate>
+      <dataName>Nominal Aset Terbesar yang ada di Neraca LJK</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01003000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>470</id>
+    </item>
+    <item>
+      <code>SI01004000</code>
+      <consolidate>1</consolidate>
+      <dataName>Total Kredit atau Pembiayaan</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01004000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>471</id>
+    </item>
+    <item>
+      <code>SI01005000</code>
+      <consolidate>1</consolidate>
+      <dataName>Kredit atau Pembiayaan kepada Debitur Inti</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01005000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>472</id>
+    </item>
+    <item>
+      <code>SI01006000</code>
+      <consolidate>1</consolidate>
+      <dataName>Kredit atau Pembiayaan per Sektor Ekonomi</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01006000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>123</id>
+    </item>
+    <item>
+      <code>SI01007000</code>
+      <consolidate>1</consolidate>
+      <dataName>Kredit atau Pembiayaan per Kategori Portfolio</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01007000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>124</id>
+    </item>
+    <item>
+      <code>SI01008000</code>
+      <consolidate>1</consolidate>
+      <dataName>TRA (Transaksi Rekening Administratif)</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01008000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>125</id>
+    </item>
+    <item>
+      <code>SI01009000</code>
+      <consolidate>0</consolidate>
+      <dataName>Aset Kualitas Rendah</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01009000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0</value>
+        </row>
+      </detail>
+      <id>510</id>
+    </item>
+    <item>
+      <code>SI01010000</code>
+      <consolidate>1</consolidate>
+      <dataName>Transaksi Rekening Administratif (TRA) Kualitas rendah</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01010000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>127</id>
+    </item>
+    <item>
+      <code>SI01011000</code>
+      <consolidate>1</consolidate>
+      <dataName>Aktiva Produktif Bermasalah</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01011000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>128</id>
+    </item>
+    <item>
+      <code>SI01012000</code>
+      <consolidate>0</consolidate>
+      <dataName>TRA Bermasalah</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01012000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0</value>
+        </row>
+      </detail>
+      <id>525</id>
+    </item>
+    <item>
+      <code>SI01013000</code>
+      <consolidate>0</consolidate>
+      <dataName>Agunan yang Diambil Alih</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01013000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0</value>
+        </row>
+      </detail>
+      <id>511</id>
+    </item>
+    <item>
+      <code>SI01014000</code>
+      <consolidate>1</consolidate>
+      <dataName>Kredit atau Pembiayaan Kualitas Rendah</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01014000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>131</id>
+    </item>
+    <item>
+      <code>SI01015000</code>
+      <consolidate>1</consolidate>
+      <dataName>Kredit atau Pembiayaan Bermasalah</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01015000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>132</id>
+    </item>
+    <item>
+      <code>SI01016000</code>
+      <consolidate>0</consolidate>
+      <dataName>CKPN atas Kredit atau Pembiayaan</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01016000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0</value>
+        </row>
+      </detail>
+      <id>508</id>
+    </item>
+    <item>
+      <code>SI01017000</code>
+      <consolidate>1</consolidate>
+      <dataName>CKPN atas Kredit atau Pembiayaan Bermasalah</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01017000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>134</id>
+    </item>
+    <item>
+      <code>SI01018000</code>
+      <consolidate>2</consolidate>
+      <dataName>Proses penyediaan dana</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01018000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>2</value>
+        </row>
+      </detail>
+      <id>135</id>
+    </item>
+    <item>
+      <code>SI01019000</code>
+      <consolidate>2</consolidate>
+      <dataName>Tingkat kompetisi</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01019000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>2</value>
+        </row>
+      </detail>
+      <id>136</id>
+    </item>
+    <item>
+      <code>SI01020000</code>
+      <consolidate>0</consolidate>
+      <dataName>Strategi dan produk baru</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01020000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0</value>
+        </row>
+      </detail>
+      <id>526</id>
+    </item>
+    <item>
+      <code>SI01021000</code>
+      <consolidate>11</consolidate>
+      <dataName>Signifikansi penyediaan dana yang dilakukan secara tidak langsung (Penyediaan dana yang dilakukan oleh LJK secara tidak langsung, antara lain penyediaan dana bekerjasama dengan pihak ketiga atau pembelian kredit dari Bank atau lembaga keuangan lain)</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01021000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>11</value>
+        </row>
+      </detail>
+      <id>138</id>
+    </item>
+    <item>
+      <code>SI01022000</code>
+      <consolidate>1</consolidate>
+      <dataName>Nominal Kredit/Pembiayaan Valas</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01022000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>139</id>
+    </item>
+    <item>
+      <code>SI01023000</code>
+      <consolidate>0.545454545454545</consolidate>
+      <dataName>Rasio Utang Piutang Transaksi OTC (Transaksi Jual Efek Lainnya + Transaksi Jual Efek Perusahaan Efek lainnya + Gagal serah Perusahaan Efek + Transaksi Beli Efek lainnya + Transaksi Beli Efek Perusahaan Efek lainnya + Gagal Terima Perusahaan Efek) / Total Aset</dataName>
+      <fsiRule>
+        var codes = [
+    "SI01023001": 0,
+    "SI01023002": 0,
+    "SI01023003": 0,
+    "SI01023004": 0,
+    "SI01023005": 0,
+    "SI01023006": 0,
+    "SI01001000": 0
+];
+
+for (code : codes){
+    var item = companyValuesByCodeAndCompanyName(code.first, companyName);
+    codes[code.first] = item;
+}
+
+var result = 0.0;
+
+print(codes);
+
+if (codes["SI01001000"] != 0){
+    var ratio = (codes["SI01023001"] + codes["SI01023002"] + codes["SI01023003"] + codes["SI01023004"] + codes["SI01023005"] + codes["SI01023006"]) * 1.0 / codes["SI01001000"] * 1.0;
+    result = ratio;
+} else {
+    result = 0;
+}
+
+print(result);
+
+return result;</fsiRule>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01023000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0.545454545454545</value>
+        </row>
+      </detail>
+      <id>140</id>
+    </item>
+    <item>
+      <code>SI01023001</code>
+      <consolidate>0</consolidate>
+      <dataName>Transaksi Jual Efek Lainnya </dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>141</id>
+    </item>
+    <item>
+      <code>SI01023002</code>
+      <consolidate>0</consolidate>
+      <dataName>Transaksi Jual Efek Perusahaan Efek lainnya </dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>430</id>
+    </item>
+    <item>
+      <code>SI01023003</code>
+      <consolidate>0</consolidate>
+      <dataName>Gagal serah Perusahaan Efek</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>143</id>
+    </item>
+    <item>
+      <code>SI01023004</code>
+      <consolidate>0</consolidate>
+      <dataName>Transaksi Beli Efek lainnya</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>144</id>
+    </item>
+    <item>
+      <code>SI01023005</code>
+      <consolidate>0</consolidate>
+      <dataName>Transaksi Beli Efek Perusahaan Efek lainnya</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>145</id>
+    </item>
+    <item>
+      <code>SI01023006</code>
+      <consolidate>0</consolidate>
+      <dataName>Gagal Terima Perusahaan Efek</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>146</id>
+    </item>
+    <item>
+      <code>SI01024000</code>
+      <consolidate>0.5</consolidate>
+      <dataName>Rasio Piutang Marjin dan Reguler Efek Dalam Rekening Efek Nasabah (Efek Jaminan) / (Saldo Debit Rekening Efek Nasabah + Piutang NPR transaksi beli sejak tanggal penyelesaian)</dataName>
+      <fsiRule>
+        
+        var codes = [
+    "SI01024001": 0,
+    "SI01024002": 0,
+    "SI01024003": 0
+];
+
+for (code : codes) {
+    var item = companyValuesByCodeAndCompanyName(code.first, companyName);
+    codes[code.first] = item;
+}
+
+var result = 0.0;
+
+print(codes);
+
+var denominator = codes["SI01024002"] + codes["SI01024003"];
+
+if (denominator != 0) {
+    result = codes["SI01024001"] * 1.0 / denominator * 1.0;
+} else {
+    result = 0;
+}
+
+print(result);
+
+return result;
+        
+      </fsiRule>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01024000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0.5</value>
+        </row>
+      </detail>
+      <id>147</id>
+    </item>
+    <item>
+      <code>SI01024001</code>
+      <consolidate>0</consolidate>
+      <dataName>Piutang Marjin dan Reguler Efek Dalam Rekening Efek Nasabah (Efek Jaminan)</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>148</id>
+    </item>
+    <item>
+      <code>SI01024002</code>
+      <consolidate>0</consolidate>
+      <dataName>Saldo Debit Rekening Efek Nasabah</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>149</id>
+    </item>
+    <item>
+      <code>SI01024003</code>
+      <consolidate>0</consolidate>
+      <dataName>Piutang NPR transaksi beli sejak tanggal penyelesaian</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>150</id>
+    </item>
+    <item>
+      <code>SI01025000</code>
+      <consolidate>0.5</consolidate>
+      <dataName>Rasio Utang Repo Efek Repo atau Re-repo / (Utang Repo Surat Berharga Negara + Utang Repo Obligasi atau Sukuk Korporasi + Utang Repo Efek Bersifat Ekuitas)</dataName>
+      <fsiRule>
+        
+        
+        var codes = [
+    "SI01025001": 0,
+    "SI01025002": 0,
+    "SI01025003": 0,
+    "SI01025004": 0
+];
+
+for (code : codes) {
+    var item = companyValuesByCodeAndCompanyName(code.first, companyName);
+    codes[code.first] = item;
+}
+
+var result = 0.0;
+
+print(codes);
+
+var denominator = codes["SI01025002"] + codes["SI01025003"] + codes["SI01025004"];
+
+if (denominator != 0) {
+    result = codes["SI01025001"] * 1.0 / denominator * 1.0;
+} else {
+    result = 0;
+}
+
+print(result);
+
+return result;
+        
+      </fsiRule>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01025000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0.5</value>
+        </row>
+      </detail>
+      <id>151</id>
+    </item>
+    <item>
+      <code>SI01025001</code>
+      <consolidate>0</consolidate>
+      <dataName>Utang Repo Efek Repo atau Re-repo</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>152</id>
+    </item>
+    <item>
+      <code>SI01025002</code>
+      <consolidate>0</consolidate>
+      <dataName>Utang Repo Surat Berharga Negara</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>153</id>
+    </item>
+    <item>
+      <code>SI01025003</code>
+      <consolidate>0</consolidate>
+      <dataName>Utang Repo Obligasi atau Sukuk Korporasi</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>154</id>
+    </item>
+    <item>
+      <code>SI01025004</code>
+      <consolidate>0</consolidate>
+      <dataName>Utang Repo Efek Bersifat Ekuitas</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0</value>
+        </row>
+      </detail>
+      <id>507</id>
+    </item>
+    <item>
+      <code>SI01026000</code>
+      <consolidate>0.5</consolidate>
+      <dataName>Rasio Piutang Reverse repo Efek Reverse repo / (Piutang Reverse repo Surat Berharga Negara + Piutang Reverse repo Obligasi atau Sukuk Korporasi + Piutang Reverse repo Efek Bersifat Ekuitas)</dataName>
+      <fsiRule>
+        
+        var codes = [
+    "SI01026001": 0,
+    "SI01026002": 0,
+    "SI01026003": 0,
+    "SI01026004": 0
+];
+
+for (code : codes) {
+    var item = companyValuesByCodeAndCompanyName(code.first, companyName);
+    codes[code.first] = item;
+}
+
+var result = 0.0;
+
+print(codes);
+
+var denominator = codes["SI01026002"] + codes["SI01026003"] + codes["SI01026004"];
+
+if (denominator != 0) {
+    result = codes["SI01026001"] * 1.0 / denominator * 1.0;
+} else {
+    result = 0;
+}
+
+print(result);
+
+return result;
+        
+      </fsiRule>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01026000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0.5</value>
+        </row>
+      </detail>
+      <id>156</id>
+    </item>
+    <item>
+      <code>SI01026001</code>
+      <consolidate>0</consolidate>
+      <dataName>Rasio Piutang Reverse repo Efek Reverse repo</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>157</id>
+    </item>
+    <item>
+      <code>SI01026002</code>
+      <consolidate>0</consolidate>
+      <dataName>Piutang Reverse repo Surat Berharga Negara</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0</value>
+        </row>
+      </detail>
+      <id>509</id>
+    </item>
+    <item>
+      <code>SI01026003</code>
+      <consolidate>0</consolidate>
+      <dataName>Piutang Reverse repo Obligasi atau Sukuk Korporasi</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>159</id>
+    </item>
+    <item>
+      <code>SI01026004</code>
+      <consolidate>0</consolidate>
+      <dataName>Piutang Reverse repo Efek Bersifat Ekuitas</dataName>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description>test desc</description>
+          <value>1</value>
+        </row>
+      </detail>
+      <id>160</id>
+    </item>
+    <item>
+      <code>SI01027000</code>
+      <consolidate>0</consolidate>
+      <dataName>Tagihan Premi</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01027000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0</value>
+        </row>
+      </detail>
+      <id>512</id>
+    </item>
+    <item>
+      <code>SI01028000</code>
+      <consolidate>0</consolidate>
+      <dataName>Premi Bruto</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI01028000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail>
+        <row>
+          <companyName>PT. Bank Sinarmas</companyName>
+          <companyType>BANK</companyType>
+          <description/>
+          <value>0</value>
+        </row>
+      </detail>
+      <id>513</id>
+    </item>
+  </list>
+  <responseCode>00</responseCode>
+  <responseMessage>Success</responseMessage>
+</data>

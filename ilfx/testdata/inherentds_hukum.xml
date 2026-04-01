@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/inherent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/inherent ../xsd/InherentDataSource.xsd">
+  <riskName>Risiko Hukum</riskName>
+  <list>
+    <item>
+      <code/>
+      <consolidate>0</consolidate>
+      <dataName/>
+      <detail/>
+      <id>488</id>
+    </item>
+    <item>
+      <code>SI05001000</code>
+      <consolidate>0</consolidate>
+      <dataName>Nominal (potential Loss) gugatan yang diajukan atau estimasi kerugian yang mungkin dialami oleh LJK</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05001000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>304</id>
+    </item>
+    <item>
+      <code>SI05002000</code>
+      <consolidate>0</consolidate>
+      <dataName>Rata-rata Modal 1 semester pada periode pelaporan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05002000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>305</id>
+    </item>
+    <item>
+      <code>SI05003000</code>
+      <consolidate>0</consolidate>
+      <dataName>Nominal kerugian yang dialami oleh LJK (Actual Loss)</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05003000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>306</id>
+    </item>
+    <item>
+      <code>SI05004000</code>
+      <consolidate>0</consolidate>
+      <dataName>Dasar dari gugatan yang terjadi dan pihak yang tergugat/menggugat oleh LJK dalam Konglomerasi Keuangan dalam suatu gugatan yang diajukan serta tindakan dari manajemen atas suatu gugatan yang diajukan.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05004000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>307</id>
+    </item>
+    <item>
+      <code>SI05005000</code>
+      <consolidate>0</consolidate>
+      <dataName>Potensi terjadinya gugatan sejenis dari pihak yang berbeda</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05005000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>308</id>
+    </item>
+    <item>
+      <code>SI05006000</code>
+      <consolidate>0</consolidate>
+      <dataName>Jumlah kasus dalam periode penilaian</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05006000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>309</id>
+    </item>
+    <item>
+      <code>SI05007000</code>
+      <consolidate>0</consolidate>
+      <dataName>Tidak terpenuhinya syarat sahnya perjanjian</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05007000");
+var count_condition = 0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    for (val : values) {
+        total_count = total_count + 1;
+        if (val == 1) {
+            count_condition = count_condition + 1;
+        }
+    }
+}
+
+if (total_count == 0) { return 0.0; }
+return (count_condition * 100.0) / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>310</id>
+    </item>
+    <item>
+      <code>SI05008000</code>
+      <consolidate>0</consolidate>
+      <dataName>Terdapat kelemahan klausula perjanjian dan/atau tidak terpenuhinya persyaratan yang telah disepakati</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05008000");
+var count_condition = 0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    for (val : values) {
+        total_count = total_count + 1;
+        if (val == 1) {
+            count_condition = count_condition + 1;
+        }
+    }
+}
+
+if (total_count == 0) { return 0.0; }
+return (count_condition * 100.0) / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>311</id>
+    </item>
+    <item>
+      <code>SI05009000</code>
+      <consolidate>0</consolidate>
+      <dataName>Pemahaman para pihak terkait dengan perjanjian, terutama mengenai setiap jenis Risiko yang ada dalam suatu transaksi yang kompleks dan menggunakan istilah-istilah yang sulit dipahami atau tidak lazim bagi masyarakat umum.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05009000");
+var count_condition = 0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    for (val : values) {
+        total_count = total_count + 1;
+        if (val == 1) {
+            count_condition = count_condition + 1;
+        }
+    }
+}
+
+if (total_count == 0) { return 0.0; }
+return (count_condition * 100.0) / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>312</id>
+    </item>
+    <item>
+      <code>SI05010000</code>
+      <consolidate>0</consolidate>
+      <dataName>Tidak dapat dilaksanakannya suatu perjanjian baik untuk keseluruhan maupun sebagian.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05010000");
+var count_condition = 0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    for (val : values) {
+        total_count = total_count + 1;
+        if (val == 1) {
+            count_condition = count_condition + 1;
+        }
+    }
+}
+
+if (total_count == 0) { return 0.0; }
+return (count_condition * 100.0) / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>313</id>
+    </item>
+    <item>
+      <code>SI05011000</code>
+      <consolidate>0</consolidate>
+      <dataName>Keberadaan dokumen pendukung terkait perjanjian yang dilakukan oleh LJK dalam Konglomerasi Keuangan dengan pihak ketiga.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05011000");
+var count_condition = 0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    for (val : values) {
+        total_count = total_count + 1;
+        if (val == 1) {
+            count_condition = count_condition + 1;
+        }
+    }
+}
+
+if (total_count == 0) { return 0.0; }
+return (count_condition * 100.0) / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>314</id>
+    </item>
+    <item>
+      <code>SI05012000</code>
+      <consolidate>0</consolidate>
+      <dataName>Pengkinian dan review dari penggunaan standar perjanjian oleh LJK dalam Konglomerasi Keuangan dan/atau pihak independen        </dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05012000");
+var total_sum = 0.0;
+
+for (entry : items) {
+    total_sum = total_sum + sum(entry.second);
+}
+
+if (total_sum > 0) {
+    return 1.0;
+} else {
+    return 0.0;
+}
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>315</id>
+    </item>
+    <item>
+      <code>SI05013000</code>
+      <consolidate>0</consolidate>
+      <dataName>Penggunaan pilihan hukum Indonesia atas perjanjian yang diadakan oleh oleh LJK dalam Konglomerasi Keuangan dan juga penggunaan forum penyelesaian sengketa.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05013000");
+var total_sum = 0.0;
+
+for (entry : items) {
+    total_sum = total_sum + sum(entry.second);
+}
+
+if (total_sum > 0) {
+    return 1.0;
+} else {
+    return 0.0;
+}
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>299</id>
+    </item>
+    <item>
+      <code>SI05014000</code>
+      <consolidate>0</consolidate>
+      <dataName>Perubahan klausula polis yang tidak dilaporkan kepada Otoritas</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05014000");
+var count_condition = 0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    for (val : values) {
+        total_count = total_count + 1;
+        if (val == 1) {
+            count_condition = count_condition + 1;
+        }
+    }
+}
+
+if (total_count == 0) { return 0.0; }
+return (count_condition * 100.0) / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>316</id>
+    </item>
+    <item>
+      <code>SI05015000</code>
+      <consolidate>0</consolidate>
+      <dataName>Jumlah dari total produk LJK dalam Konglomerasi Keuangan yang belum diatur oleh peraturan perundang-undangan secara jelas dan produk tersebut cenderung memiliki tingkat kompleksitas yang tinggi, dibandingkan dengan modal yang dimiliki Konglomerasi Keuangan.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05015000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>317</id>
+    </item>
+    <item>
+      <code>SI05016000</code>
+      <consolidate>0</consolidate>
+      <dataName>Penggunaan best practice atas suatu standar perjanjian yang biasa digunakan oleh LJK anggota Konglomerasi Keuangan masih mengacu pada perjanjian yang belum terkini walaupun telah ada perubahan best practice atau peraturan perundang-undangan maupun hal lainnya.</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05016000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>318</id>
+    </item>
+    <item>
+      <code>SI05017000</code>
+      <consolidate>0</consolidate>
+      <dataName>Kemungkinan timbulnya gugatan yang serupa karena adanya standar perjanjian yang sama dan estimasi total kerugian yang mungkin timbul dibandingkan dengan modal Konglomerasi Keuangan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05017000");
+var count_condition = 0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    for (val : values) {
+        total_count = total_count + 1;
+        if (val == 1) {
+            count_condition = count_condition + 1;
+        }
+    }
+}
+
+if (total_count == 0) { return 0.0; }
+return (count_condition * 100.0) / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>319</id>
+    </item>
+    <item>
+      <code>SI05018000</code>
+      <consolidate>0</consolidate>
+      <dataName>Nilai nominal dari total produk LJK dalam Konglomerasi Keuangan yang belum diatur oleh peraturan perundang-undangan secara jelas dan produk tersebut cenderung memiliki tingkat kompleksitas yang tinggi, dibandingkan dengan modal yang dimiliki Konglomerasi Keuangan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05018000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>320</id>
+    </item>
+    <item>
+      <code>SI05019000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Modal LJK</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI05019000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>321</id>
+    </item>
+  </list>
+  <responseCode>00</responseCode>
+  <responseMessage>Success</responseMessage>
+</data>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:kpmr="http://example.com/kpmr"
+        targetNamespace="http://example.com/kpmr"
+        elementFormDefault="qualified">
+  
+  <!-- Root Element -->
+  <xs:element name="kpmr_risk_profile_tree">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="node" type="kpmr:NodeType" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Node Type (recursive structure) -->
+  <xs:complexType name="NodeType">
+    <xs:sequence>
+      <xs:element name="risiko_name" type="xs:string"/>
+      <xs:element name="profile_id" type="xs:string"/>
+      <xs:element name="assessment_factor" type="xs:string"/>
+      <xs:element name="derived_from" type="xs:string"/>
+      <xs:element name="threshold" type="xs:string"/>
+      <xs:element name="input_type" type="xs:string"/>
+      <xs:element name="source_reference" type="xs:string"/>
+      <xs:element name="calculation_logic" type="xs:string"/>
+      <xs:element name="risk_id" type="xs:integer"/>
+      <xs:element name="id" type="xs:integer"/>
+      <xs:element name="weight" type="xs:decimal" minOccurs="0"/>
+      <xs:element name="score_formula" minOccurs="0" type="xs:string" />
+
+      <xs:element name="rating_to_score" minOccurs="0" type="xs:string">
+      </xs:element>
+
+      <xs:element name="rating_rule" minOccurs="0" type="xs:string">
+       
+      </xs:element>
+
+      <xs:element name="score_rule" minOccurs="0" type="xs:string">
+       
+      </xs:element>
+
+      <xs:element name="value_rule" minOccurs="0" type="xs:string">
+       
+      </xs:element>
+
+      <xs:element name="computed_rating" type="xs:string" minOccurs="0"></xs:element>
+      <xs:element name="computed_score" type="xs:string" minOccurs="0"></xs:element>
+      <xs:element name="computed_value" type="xs:string" minOccurs="0"></xs:element>
+      <xs:element name="computed_weighted_score" type="xs:string" minOccurs="0"></xs:element>
+
+      <xs:element name="children" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="node" type="kpmr:NodeType" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

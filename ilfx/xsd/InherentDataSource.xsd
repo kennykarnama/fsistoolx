@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified"
+    xmlns:inherent="http://example.com/inherent"
+        targetNamespace="http://example.com/inherent"
+    >
+
+    <!-- Root element matching the top-level "data" object -->
+    <xs:element name="data" type="inherent:DataType"/>
+
+    <!-- Top-level data type -->
+    <xs:complexType name="DataType">
+        <xs:sequence>
+            <xs:element name="riskName" type="xs:string"/>
+
+            <!-- list: array of item -->
+            <xs:element name="list" type="inherent:ListType"/>
+
+            <xs:element name="responseCode" type="xs:string"/>
+            <xs:element name="responseMessage" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Wrapper for the array of items -->
+    <xs:complexType name="ListType">
+        <xs:sequence>
+            <xs:element name="item" type="inherent:ItemType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Each entry from "list" -->
+    <xs:complexType name="ItemType">
+        <xs:sequence>
+            <xs:element name="code" type="xs:string"/>
+            <xs:element name="consolidate" type="xs:decimal"/>
+            <xs:element name="dataName" type="xs:string"/>
+            <xs:element name="fsiRule" type="xs:string" minOccurs="0"/>
+            <xs:element name="consolidationRule" type="xs:string" minOccurs="0" />
+            
+
+            <!-- detail: array of rows -->
+            <xs:element name="detail" type="inherent:DetailType" minOccurs="0"/>
+
+            <xs:element name="id" type="xs:int"/>
+            <xs:element name="sourceId" type="xs:int" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Wrapper for detail array -->
+    <xs:complexType name="DetailType">
+        <xs:sequence>
+            <xs:element name="row" type="inherent:DetailRowType" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Each entry in "detail" array -->
+    <xs:complexType name="DetailRowType">
+        <xs:sequence>
+            <xs:element name="companyName" type="xs:string"/>
+            <xs:element name="companyType" type="xs:string" minOccurs="0"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="value" type="xs:decimal"/>
+            <xs:element name="eligible" type="xs:boolean"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

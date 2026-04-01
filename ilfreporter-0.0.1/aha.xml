@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<InherentRiskProfileConf xmlns="http://example.com/inherent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/inherent ./xsd/InherentRiskProfileConf.xsd">
+  <aggregationConfig>
+    <risikoName>Risiko Kredit</risikoName>
+    <score_rule>
+          
+              var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Kredit']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+
+              
+             return total * 1.0;
+          
+      </score_rule>
+    <rating_rule>
+            
+            var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Kredit']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+              
+              var x = total;
+
+              print(threshold);
+              
+              var r = ratingByThreshold(threshold, x);
+              
+              return r;
+            
+            
+       </rating_rule>
+    <rating_to_score>
+             
+             
+            5 : x&lt;=36,
+4:  36 &lt; x &lt;=52
+3:  52 &lt; x &lt;=68
+2:  68 &lt; x &lt;=84
+1:  84 &lt; x &lt;=100
+             
+       </rating_to_score>
+    <computed_weighted_score>4</computed_weighted_score>
+    <computed_rating>5</computed_rating>
+  </aggregationConfig>
+  <aggregationConfig>
+    <risikoName>Risiko Pasar</risikoName>
+    <score_rule>
+          
+              var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Pasar']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+
+              
+             return total * 1.0;
+          
+      </score_rule>
+    <rating_rule>
+            
+            var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Pasar']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+              
+              var x = total;
+              
+              var r = ratingByThreshold(threshold, x);
+              
+              return r;
+            
+            
+       </rating_rule>
+    <rating_to_score>
+         
+         5 : x&lt;=36,
+4:  36 &lt; x &lt;=52
+3:  52 &lt; x &lt;=68
+2:  68 &lt; x &lt;=84
+1:  84 &lt; x &lt;=100
+         
+   </rating_to_score>
+    <computed_weighted_score>2</computed_weighted_score>
+    <computed_rating>5</computed_rating>
+  </aggregationConfig>
+  <aggregationConfig>
+    <risikoName>Risiko Operasional</risikoName>
+    <score_rule>
+          
+              var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Operasional']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+
+              
+             return total * 1.0;
+          
+      </score_rule>
+    <rating_rule>
+            
+            var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Operasional']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+              
+              var x = total;
+              
+              var r = ratingByThreshold(threshold, x);
+              
+              return r;
+            
+            
+       </rating_rule>
+    <rating_to_score>
+               
+         5 : x&lt;=36,
+4:  36 &lt; x &lt;=52
+3:  52 &lt; x &lt;=68
+2:  68 &lt; x &lt;=84
+1:  84 &lt; x &lt;=100
+         
+         </rating_to_score>
+    <computed_weighted_score>4</computed_weighted_score>
+    <computed_rating>5</computed_rating>
+  </aggregationConfig>
+  <aggregationConfig>
+    <risikoName>Risiko Hukum</risikoName>
+    <score_rule>
+          
+              var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Hukum']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+
+              
+             return total * 1.0;
+          
+      </score_rule>
+    <rating_rule>
+            
+            var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Hukum']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+              
+              var x = total;
+              
+              var r = ratingByThreshold(threshold, x);
+              
+              return r;
+            
+            
+       </rating_rule>
+    <rating_to_score>
+               
+         5 : x&lt;=36,
+4:  36 &lt; x &lt;=52
+3:  52 &lt; x &lt;=68
+2:  68 &lt; x &lt;=84
+1:  84 &lt; x &lt;=100
+         
+         </rating_to_score>
+    <computed_weighted_score>3</computed_weighted_score>
+    <computed_rating>5</computed_rating>
+  </aggregationConfig>
+  <aggregationConfig>
+    <risikoName>Risiko Reputasi</risikoName>
+    <score_rule>
+          
+              var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Reputasi']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+
+              
+             return total * 1.0;
+          
+      </score_rule>
+    <rating_rule>
+            
+            var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Reputasi']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+              
+              var x = total;
+              
+              var r = ratingByThreshold(threshold, x);
+              
+              return r;
+            
+            
+       </rating_rule>
+    <rating_to_score>
+               
+         5 : x&lt;=36,
+4:  36 &lt; x &lt;=52
+3:  52 &lt; x &lt;=68
+2:  68 &lt; x &lt;=84
+1:  84 &lt; x &lt;=100
+         
+         </rating_to_score>
+    <computed_weighted_score>5</computed_weighted_score>
+    <computed_rating>5</computed_rating>
+  </aggregationConfig>
+  <aggregationConfig>
+    <risikoName>Risiko Stratejik</risikoName>
+    <score_rule>
+          
+              var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Stratejik']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+
+              
+             return total * 1.0;
+          
+      </score_rule>
+    <rating_rule>
+            
+            var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Stratejik']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+              
+              var x = total;
+              
+              var r = ratingByThreshold(threshold, x);
+              
+              return r;
+            
+            
+       </rating_rule>
+    <rating_to_score>
+               
+         5 : x&lt;=36,
+4:  36 &lt; x &lt;=52
+3:  52 &lt; x &lt;=68
+2:  68 &lt; x &lt;=84
+1:  84 &lt; x &lt;=100
+         
+         </rating_to_score>
+    <computed_weighted_score>4</computed_weighted_score>
+    <computed_rating>5</computed_rating>
+  </aggregationConfig>
+  <aggregationConfig>
+    <risikoName>Risiko Intragrup</risikoName>
+    <score_rule>
+          
+              var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Intragrup']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+
+              
+             return total * 1.0;
+          
+      </score_rule>
+    <rating_rule>
+            
+            var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Intragrup']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+              
+              var x = total;
+              
+              var r = ratingByThreshold(threshold, x);
+              
+              return r;
+            
+            
+       </rating_rule>
+    <rating_to_score>
+               
+         5 : x&lt;=36,
+4:  36 &lt; x &lt;=52
+3:  52 &lt; x &lt;=68
+2:  68 &lt; x &lt;=84
+1:  84 &lt; x &lt;=100
+         
+         </rating_to_score>
+    <computed_weighted_score>3</computed_weighted_score>
+    <computed_rating>5</computed_rating>
+  </aggregationConfig>
+  <aggregationConfig>
+    <risikoName>Risiko Kepatuhan</risikoName>
+    <score_rule>
+          
+              var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Kepatuhan']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+
+              
+             return total * 1.0;
+          
+      </score_rule>
+    <rating_rule>
+            
+            var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Kepatuhan']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+              
+              var x = total;
+              
+              var r = ratingByThreshold(threshold, x);
+              
+              return r;
+            
+            
+       </rating_rule>
+    <rating_to_score>
+               
+         5 : x&lt;=36,
+4:  36 &lt; x &lt;=52
+3:  52 &lt; x &lt;=68
+2:  68 &lt; x &lt;=84
+1:  84 &lt; x &lt;=100
+         
+         </rating_to_score>
+    <computed_weighted_score>3</computed_weighted_score>
+    <computed_rating>5</computed_rating>
+  </aggregationConfig>
+  <aggregationConfig>
+    <risikoName>Risiko Asuransi</risikoName>
+    <score_rule>
+          
+              var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Asuransi']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+
+              
+             return total * 1.0;
+          
+      </score_rule>
+    <rating_rule>
+            
+            var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Asuransi']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+              
+              var x = total;
+              
+              var r = ratingByThreshold(threshold, x);
+              
+              return r;
+            
+            
+       </rating_rule>
+    <rating_to_score>
+               
+         5 : x&lt;=36,
+4:  36 &lt; x &lt;=52
+3:  52 &lt; x &lt;=68
+2:  68 &lt; x &lt;=84
+1:  84 &lt; x &lt;=100
+         
+         </rating_to_score>
+    <computed_weighted_score>1</computed_weighted_score>
+    <computed_rating>5</computed_rating>
+  </aggregationConfig>
+  <aggregationConfig>
+    <risikoName>Risiko Investasi</risikoName>
+    <score_rule>
+          
+              var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Investasi']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+
+              
+             return total * 1.0;
+          
+      </score_rule>
+    <rating_rule>
+            
+            var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Investasi']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+              
+              var x = total;
+              
+              var r = ratingByThreshold(threshold, x);
+              
+              return r;
+            
+            
+       </rating_rule>
+    <rating_to_score>
+               
+         5 : x&lt;=36,
+4:  36 &lt; x &lt;=52
+3:  52 &lt; x &lt;=68
+2:  68 &lt; x &lt;=84
+1:  84 &lt; x &lt;=100
+         
+         </rating_to_score>
+    <computed_weighted_score>3</computed_weighted_score>
+    <computed_rating>5</computed_rating>
+  </aggregationConfig>
+  <aggregationConfig>
+    <risikoName>Risiko Imbal Hasil</risikoName>
+    <score_rule>
+          
+              var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Imbal Hasil']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+
+              
+             return total * 1.0;
+          
+      </score_rule>
+    <rating_rule>
+            
+            var nodes = retrieveNodesByXpath("/RiskProfileTree/RiskProfileNode[risiko_name='Risiko Imbal Hasil']");
+              var total = 0.0;
+
+              var converted = riskProfileNodeTypeAsChaiVar(nodes);
+
+              for (c : converted) {
+                total += c["Computed_Weighted_Score"] * 1.0;
+              }
+              
+              var x = total;
+              
+              var r = ratingByThreshold(threshold, x);
+              
+              return r;
+            
+            
+       </rating_rule>
+    <rating_to_score>
+               
+         5 : x&lt;=36,
+4:  36 &lt; x &lt;=52
+3:  52 &lt; x &lt;=68
+2:  68 &lt; x &lt;=84
+1:  84 &lt; x &lt;=100
+         
+         </rating_to_score>
+    <computed_weighted_score>3</computed_weighted_score>
+    <computed_rating>5</computed_rating>
+  </aggregationConfig>
+</InherentRiskProfileConf>

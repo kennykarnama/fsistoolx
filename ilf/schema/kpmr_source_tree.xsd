@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+  <!-- Root element -->
+  <xs:element name="KpmrSourceTree">
+    <xs:annotation>
+      <xs:documentation>
+        Root element containing the hierarchical KPMR source tree structure.
+        The tree represents the parent-child relationships between KPMR assessment factors
+        based on their code identifiers.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="KpmrSourceNode" type="KpmrSourceNodeType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <!-- Complex type for KPMR source node -->
+  <xs:complexType name="KpmrSourceNodeType">
+    <xs:annotation>
+      <xs:documentation>
+        Represents a single node in the KPMR source tree.
+        Each node contains metadata about an assessment factor and may have child nodes.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <!-- Node attributes -->
+      <xs:element name="code" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Unique identifier code for the assessment factor.
+            Format: SKxxxxxxxx (e.g., SK01001000, SK01001001)
+            Parent nodes typically end with 000, child nodes have non-zero endings.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="risk_id" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Identifier for the risk type associated with this assessment factor.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="assesment_factor" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Description of the assessment factor in Indonesian language.
+            Contains the detailed explanation of what this factor evaluates.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="pic" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Person In Charge (PIC) information in JSON format.
+            Example: {"value": "*", "from_col": "ALL"}
+            Example: {"value": "BANK,INSURANCE_COMPANY", "from_col": "COMPANY_TYPE"}
+            Example: {"value": "1,100", "from_col": "INDIVIDUAL"}
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Child nodes (recursive) -->
+      <xs:element name="KpmrSourceNode" type="KpmrSourceNodeType" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>
+            Child nodes that are hierarchically related to this node.
+            The parent-child relationship is determined by the code structure:
+            - Parent code ending with 000 (e.g., SK01001000)
+            - Child codes sharing the same prefix with different endings (e.g., SK01001001, SK01001002)
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  
+</xs:schema>

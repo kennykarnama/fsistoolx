@@ -1,0 +1,32 @@
+// Sample ChaiScript file
+print("Hello from ChaiScript!");
+
+// Define a function
+def add(x, y) {
+    return x + y;
+}
+
+// Use the function
+var result = add(10, 20);
+print("10 + 20 = " + to_string(result));
+
+// Define a more complex function
+def factorial(n) {
+    if (n <= 1) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+
+print("Factorial of 5 = " + to_string(factorial(5)));
+
+// Working with collections
+var numbers = [1, 2, 3, 4, 5];
+print("Numbers: " + to_string(numbers));
+
+// Map example
+var doubled = numbers.map(fun(x) { return x * 2; });
+print("Doubled: " + to_string(doubled));
+
+print("Script completed successfully!");

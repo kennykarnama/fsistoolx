@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/inherent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/inherent ../xsd/InherentDataSource.xsd">
+  <riskName>Risiko Investasi</riskName>
+  <list>
+    <item>
+      <code/>
+      <consolidate>0</consolidate>
+      <dataName/>
+      <detail/>
+      <id>486</id>
+    </item>
+    <item>
+      <code>SI11001000</code>
+      <consolidate>0</consolidate>
+      <dataName>Pembiayaan Berbasis Bagi Hasil</dataName>
+      <consolidationRule>
+        <![CDATA[
+        
+        var items = companyValuesByCode("SI11001000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>515</id>
+    </item>
+    <item>
+      <code>SI11002000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Pembiayaan</dataName>
+      <consolidationRule>
+        <![CDATA[
+        var items = companyValuesByCode("SI11002000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>516</id>
+    </item>
+    <item>
+      <code>SI11003000</code>
+      <consolidate>0</consolidate>
+      <dataName>Pembiayaan Berbasis Bagi Hasil per Sektor Ekonomi</dataName>
+      <consolidationRule>
+        <![CDATA[
+        var items = companyValuesByCode("SI11003000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>517</id>
+    </item>
+    <item>
+      <code>SI11004000</code>
+      <consolidate>0</consolidate>
+      <dataName>Pembiayaan Berbasis Bagi Hasil Kualitas Rendah</dataName>
+      <consolidationRule>
+        <![CDATA[
+        var items = companyValuesByCode("SI11004000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>518</id>
+    </item>
+    <item>
+      <code>SI11005000</code>
+      <consolidate>0</consolidate>
+      <dataName>Pembiayaan Berbasis Bagi Hasil Bermasalah</dataName>
+      <consolidationRule>
+        <![CDATA[
+        var items = companyValuesByCode("SI11005000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>519</id>
+    </item>
+    <item>
+      <code>SI11006000</code>
+      <consolidate>0</consolidate>
+      <dataName>Pembiayaan Berbasis Bagi Hasil Bermasalah per Sektor Ekonomi</dataName>
+      <consolidationRule>
+        <![CDATA[
+        var items = companyValuesByCode("SI11006000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>521</id>
+    </item>
+    <item>
+      <code>SI11007000</code>
+      <consolidate>0</consolidate>
+      <dataName>Potensi Kerugian (CKPN Mudharabah dan Musyarakah)</dataName>
+      <consolidationRule>
+        <![CDATA[
+        var items = companyValuesByCode("SI11007000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>522</id>
+    </item>
+    <item>
+      <code>SI11008000</code>
+      <consolidate>0</consolidate>
+      <dataName>Perubahan kondisi ekonomi, perubahan teknologi, ataupun regulasi yang mempengaruhi usia nasabah dan berdampak pada kemampuan nasabah untuk menghasilkan pendapatan.</dataName>
+      <consolidationRule>
+        <![CDATA[
+        var items = companyValuesByCode("SI11008000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>523</id>
+    </item>
+  </list>
+  <responseCode>00</responseCode>
+  <responseMessage>Success</responseMessage>
+</data>

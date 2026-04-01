@@ -1,0 +1,3329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RiskProfileTree xsi:noNamespaceSchemaLocation="../xsd/InherentRiskProfile.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RiskProfileNode>
+    <Profile_ID>RI0700100000</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <assessment_factor>Kesesuaian Strategi dengan Kondisi Lingkungan Bisnis</assessment_factor>
+    <weight>25.000000</weight>
+    <ID>1297</ID>
+    <Risk_ID>14</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0700100107</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>1.1.4.3 Pembiayaan - Gearing Ratio</assessment_factor>
+      <weight>1.140000</weight>
+      <ID>1305</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1. Gearing Ratio &lt; 10 Kali
+ 2. 10 ≤ Gearing Ratio &lt; 11 Kali
+ 3. 11 ≤ Gearing Ratio &lt; 12 Kali
+ 4. 12 ≤ Gearing Ratio &lt; 13 Kali
+ 5. Gearing Ratio ≥ 13 kali</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700100108</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>1.1.4.4 Modal Kerja Bersih Disesuaikan (MKBD) Sekuritas</assessment_factor>
+      <weight>1.140000</weight>
+      <ID>1306</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1. MKBD ≥ 450 Miliar
+ 2. 449 Miliar ≤ MKBD &lt; 350 Miliar
+ 3. 349 Miliar % ≤ MKBD &lt; 250 Miliar
+ 4. 249 Miliar ≤ MKBD &lt; 150 Miliar
+ 5. MKBD &lt; 149 Miliar</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700100109</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>1.1.4.5 Modal Kerja Bersih Disesuaikan (MKBD) Asset Management</assessment_factor>
+      <weight>1.150000</weight>
+      <ID>1307</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1. MKBD ≥ 250 Miliar
+ 2. 249 Miliar ≤ MKBD &lt; 200 Miliar
+ 3. 199 Miliar % ≤ MKBD &lt; 150 Miliar
+ 4. 149 Miliar ≤ MKBD &lt; 100 Miliar
+ 5. MKBD &lt; 99 Miliar</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700100200</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>1.2 Faktor eksternal, antara lain:</assessment_factor>
+      <weight>12.000000</weight>
+      <ID>1308</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold/>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700100101</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>1.1.1 Visi, misi, dan arah bisnis yang ingin dicapai oleh LJK</assessment_factor>
+      <weight>11.100000</weight>
+      <ID>1299</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1. Strategi LJK sudah sangat sesuai dengan Visi, Misi dan Arah Bisnis yang ingin dicapai LJK (konsisten dilaksanakan tepat waktu)
+ 2. Strategi LJK sudah sesuai dengan Visi, Misi dan Arah Bisnisi yang ingin dicapai LJK, (bertahap dilaksanakan)
+ 3. Strategi LJK Cukup sesuai dengan Visi, Misi dan Arah Bisnis yang ingin dicapai LJK, (dijalankan perlahan dan masih terdapat kekurangan)
+ 4. Strategi LJK kurang sesuai dengan Visi, Misi dan Arah Bisnis yang ingin dicapai LJK (terdapat beberapa yang dijalankan tidak sesuai visi dan misi LJK)
+ 5. Strategi LJK tidak sesuai dengan Visi, Misi dan Arah Bisnis yang ingin dicapai Bank (dijalankan sangat tidak sesuai dengan visi misi LJK)</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700100202</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>1.2.2 Tingkat persaingan usaha.</assessment_factor>
+      <weight>1.220000</weight>
+      <ID>1310</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1: Bidang Usaha yang dimiliki oleh Konglomerasi Keuangan Sinar Mas sangat variatif
+ 2: Bidang Usaha yang dimiliki oleh Konglomerasi Keuangan Sinar Mas variatif
+ 3: Bidang Usaha yang dimiliki oleh Konglomerasi Keuangan Sinar Mas cukup variatif
+ 4: Bidang Usaha yang dimiliki oleh Konglomerasi Keuangan Sinar Mas kurang variatif
+ 5: Bidang Usaha yang dimiliki oleh Konglomerasi Keuangan Sinar Mas tidak variatif</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700100100</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>1.1 Faktor internal, antara lain:</assessment_factor>
+      <weight>11.000000</weight>
+      <ID>1298</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold/>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700100201</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>1.2.1 Perkembangan teknologI
+
+(Dampak Perkembangan Teknologi yang diserap oleh LJK)</assessment_factor>
+      <weight>1.210000</weight>
+      <ID>1309</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1. Rata-rata (&gt;50%) LJK Memiliki Sistem Informasi Teknologi yang sangat terupdate sesuai perkembangan yang ada saat ini
+ 2.Rata-rata (&gt;50%) memiliki sistem informasi teknologi yang bertahap terkini/terupdate sesuai perkembangan yang ada saat ini
+ 3. Rata-rata (&gt;50%) LJK memiliki sistem informasi teknologi yang cukup terkini update sesuai perkembangan yang ada saat ini
+ 4. Rata-rata (&gt;50%) LJK memiliki sistem informasi teknologi yang kurang terkini/update sesuai perkembangan yang ada saat ini
+ 5. Rata-rata (&gt;50%) LJK memiliki sistem informasi teknologi yang ketingggalan jauh/tidak terupdate sesuai perkembangan yang ada saat ini</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700100102</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>1.1.2 Kultur organisasi, terutama jika penetapan tujuan stratejik mensyaratkan perubahan struktur organisasi dan penyesuaian proses bisnis;</assessment_factor>
+      <weight>11.200000</weight>
+      <ID>1300</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1. Rata-rata (&gt;50%) LJK terdapat perubahan struktur organisasi perseroan lebih dari 2 kali dalam 1 tahun terakhir.
+ 2. Rata-rata (&gt;50%) Terdapat perubahan struktur organisasi perseroan sebanyak 1 kali dalam 1 tahun terakhir.
+ 3. Rata-rata (&gt;50%) tidak terdapat perubahan struktur organisasi perseroan dalam 2 tahun terakhir atau Rata-rata (&gt;50%) terdapat perubahan struktur 4 kali dalam 1 tahun terakhir.
+ 4. Rata-rata (&gt;50%) tidak terdapat perubahan struktur organisasi perseroan selama lebih dari 3 tahun atau Rata-rata (&gt;50%) terdapat perubahan struktur lebih dari 5 kali dalam 1 tahun terakhir.
+ 5. Rata-rata (&gt;50%) tidak terdapat perubahan struktur organisasi perseroan selama lebih dari 4 tahun atau Rata-rata (&gt;50%) terdapat perubahan struktur lebih dari 6 kali dalam 1 tahun terakhir.</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700100103</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>1.1.3 Faktor kemampuan organisasi yang mencakup antara lain sumber daya manusia, infrastruktur, dan sistem informasi manajemen;</assessment_factor>
+      <weight>11.300000</weight>
+      <ID>1301</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1. Kemampuan organisasi LJK (SDM, Infrastruktur, teknologi) sangat memadai (rata-rata (&gt;50%) terdapat perkembangan baru dalam 1 semester terakhir).
+ 2. Kemampuan organisasi LJK (SDM, Infrastruktur, teknologi) memadai ( rata-rata LJK terdapat perkembangan baru dalam 1 tahun terakhir)
+ 3. Kemampuan organisasi LJK (SDM, Infrastruktur, teknologi) cukup memadai (rata-rata LJK baru terdapat perkembangan baru dalam periode 1,5 tahun terakhir) 
+ 4. Kemampuan organisasi bank (SDM, Infrastruktur, teknologi) kurang memadai (rata-rata tidak terdapat perkembangan baru dalam 2 tahun terakhir)
+ 5. Kemampuan organisasi bank (SDM, Infrastruktur, teknologi) tidak memadai (rata-rata tidak terdapat perkembangan baru lebih dari 2 tahun terakhir)</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700100104</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>1.1.4 Tingkat toleransi Risiko yaitu tingkat kemampuan keuangan LJK menyerap Risiko; dan</assessment_factor>
+      <weight>11.400000</weight>
+      <ID>1302</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold/>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700100105</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>1.1.4.1 Bank - Rasio Capital Adequancy Ratio (CAR)</assessment_factor>
+      <weight>1.140000</weight>
+      <ID>1303</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1. CAR ≥14 %
+ 2. 11% ≤ CAR &lt; 14%
+ 3. 10% ≤ CAR &lt; 11%
+ 4. 8% ≤ CAR &lt; 10%
+ 5. CAR &lt;8%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700100106</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>1.1.4.2 Asuransi - Risk Based Capital (RBC)</assessment_factor>
+      <weight>1.140000</weight>
+      <ID>1304</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1. RBC ≥ 120%
+ 2. 110% ≤ RBC &lt; 120%
+ 3. 100% ≤ RBC &lt; 110%
+ 4. 90% ≤ RBC &lt; 100%
+ 5. RBC ≤ 90%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0300400000</Profile_ID>
+    <risiko_name>Risiko Likuiditas</risiko_name>
+    <assessment_factor>Akses pada Sumber-Sumber Pendanaan</assessment_factor>
+    <weight>1.000000</weight>
+    <ID>1156</ID>
+    <Risk_ID>10</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0300400100</Profile_ID>
+      <risiko_name>Risiko Likuiditas</risiko_name>
+      <assessment_factor>4.1 Kemampuan Konglomerasi Keuangan memperoleh sumber-sumber pendanaan pada kondisi normal maupun krisis</assessment_factor>
+      <weight>20.000000</weight>
+      <ID>1157</ID>
+      <Risk_ID>10</Risk_ID>
+      <threshold>1 : Sangat Mampu
+ 2 : Mampu
+ 3 : Cukup Mampu
+ 4 : Kurang Mampu
+ 5 : Tidak Mampu</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0600400000</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <assessment_factor>Faktor Eksternal</assessment_factor>
+    <weight>30.000000</weight>
+    <ID>680</ID>
+    <Risk_ID>15</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0600400200</Profile_ID>
+      <risiko_name>Risiko Reputasi</risiko_name>
+      <assessment_factor>4.2 Jenis media dan ruang lingkup pemberitaan negatif
+
+(Jenis pemberitaan negatif media atau ruang lingkup)</assessment_factor>
+      <weight>42.000000</weight>
+      <ID>683</ID>
+      <Risk_ID>15</Risk_ID>
+      <threshold>1. Call Center dan Kantor Cabang
+ 2. Media Cetak Lokal dan Media Online atau sebanyak maksimal 1 - ≤ 20 (sepuluh)
+ 3. Media Cetak Lokal dan Media Online atau sebanyak maksimal 21 - ≤ 40 (dua puluh)
+ 4. Media Cetak Lokal dan Media Online atau sebanyak maksimal &gt;40 (dua puluh)
+ 5. Media Cetak dan Media Online Lokal dan Internasional</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0600400101</Profile_ID>
+      <risiko_name>Risiko Reputasi</risiko_name>
+      <assessment_factor>4.1.1 Frekuensi pemberitaan negatif.</assessment_factor>
+      <weight>41.100000</weight>
+      <ID>681</ID>
+      <Risk_ID>15</Risk_ID>
+      <threshold>1. 0 -10
+ 2. 11 - 20 
+ 3. 21 - 30
+ 4. 31- 40
+ 5. &gt;40
+</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0600400102</Profile_ID>
+      <risiko_name>Risiko Reputasi</risiko_name>
+      <assessment_factor>4.1.2 Materialitas (realisasi kerugian) pemberitaan negatif
+
+(Nominal realisasi kerugian atas pemberitaan negatif terhadap rata-rata total modal)</assessment_factor>
+      <weight>41.200000</weight>
+      <ID>682</ID>
+      <Risk_ID>15</Risk_ID>
+      <threshold>1. 0% (Rp 0)
+ 2. 0% &lt; Rasio ≤ 0.010% 
+ 3. 0.010% &lt; Rasio ≤ 0.020% 
+ 4. 0.020% &lt; Rasio ≤ 0.030%
+ 5. 0.030% &lt; Rasio ≤ 0.040%, atau ≥ Rp 2 Miliar</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI1100100000</Profile_ID>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <assessment_factor>Komposisi dan Tingkat Kosentrasi Pembiayaan Berbasis Bagi Hasil</assessment_factor>
+    <weight>35.000000</weight>
+    <ID>978</ID>
+    <Risk_ID>20</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI1100100200</Profile_ID>
+      <risiko_name>Risiko Investasi</risiko_name>
+      <assessment_factor>1.2 Pembiayaan Berbasis Bagi Hasil per Sektor Ekonomi /
+Total Pembiayaan</assessment_factor>
+      <weight>35.000000</weight>
+      <ID>980</ID>
+      <Risk_ID>20</Risk_ID>
+      <threshold>1: Value &lt;= 0.65&#13;
+2 : 0,65 &lt; Value &lt;= 0,7&#13;
+3 : 0,7 &lt; Value &lt;= 0,75&#13;
+4 : 0,75 &lt; Value &lt;= 0,8&#13;
+5 : Value &gt; 0,8</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI1100100100</Profile_ID>
+      <risiko_name>Risiko Investasi</risiko_name>
+      <assessment_factor>1.1 Total Pembiayaan Berbasis Bagi Hasil/
+Total Pembiayaan</assessment_factor>
+      <weight>50.000000</weight>
+      <ID>979</ID>
+      <Risk_ID>20</Risk_ID>
+      <threshold>1 : Value &lt;= 0,65
+2 : 0,65 &lt; Value &lt;= 0,7
+3 : 0,7 &lt; Value &lt;= 0,75
+4 : 0,75 &lt; Value &lt;= 0,8
+5 : Value &gt; 0,8</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0300300000</Profile_ID>
+    <risiko_name>Risiko Likuiditas</risiko_name>
+    <assessment_factor>Kerentanan pada Kebutuhan Pendanaan</assessment_factor>
+    <weight>1.000000</weight>
+    <ID>1153</ID>
+    <Risk_ID>10</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0300300200</Profile_ID>
+      <risiko_name>Risiko Likuiditas</risiko_name>
+      <assessment_factor>3.2 Menjaga minimum likuiditas (Current Ratio)</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1155</ID>
+      <Risk_ID>10</Risk_ID>
+      <threshold>1 : Ratio &gt; 100%
+ 2 : 90% &lt; Ratio ≤ 100%
+ 3 :  80% &lt; Ratio ≤ 90%
+ 4 : 70% &lt; Ratio ≤ 80%
+ 5 : Ratio ≤ 70%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0300300100</Profile_ID>
+      <risiko_name>Risiko Likuiditas</risiko_name>
+      <assessment_factor>3.1 Kerentanan Konglomerasi Keuangan pada kebutuhan pendanaan dan kemampuan Konglomerasi Keuangan untuk memenuhi kebutuhan pendanaan</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1154</ID>
+      <Risk_ID>10</Risk_ID>
+      <threshold>1 : Ratio &gt; 70%
+ 2 : 60% &lt; Ratio ≤ 70%
+ 3 :  50% &lt; Ratio ≤ 60%
+ 4 : 40% &lt; Ratio ≤ 50%
+ 5 : Ratio ≤ 40%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0600300000</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <assessment_factor>Kompleksitas Produk dan Kerjasama Bisnis LJK dalam Konglomerasi Keuangan</assessment_factor>
+    <weight>10.000000</weight>
+    <ID>677</ID>
+    <Risk_ID>15</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0600300200</Profile_ID>
+      <risiko_name>Risiko Reputasi</risiko_name>
+      <assessment_factor>3.2 Jumlah dan materialitas kerjasama LJK dalam Konglomerasi Keuangan dengan mitra bisnis, dalam hal terdapat potensi adanya kejadian yang mempengaruhi reputasi mitra bisnis.
+
+(Nominal realisasi kerugian atas pemberitaan negatif terhadap rata-rata total modal)</assessment_factor>
+      <weight>32.000000</weight>
+      <ID>679</ID>
+      <Risk_ID>15</Risk_ID>
+      <threshold>1. 0% (Rp 0)
+ 2. 0% &lt; Rasio ≤ 0.010% 
+ 3. 0.010% &lt; Rasio ≤ 0.020% 
+ 4. 0.020% &lt; Rasio ≤ 0.030%
+ 5. 0.030% &lt; Rasio ≤ 0.040%, atau ≥ Rp 2 Miliar
+</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0600300100</Profile_ID>
+      <risiko_name>Risiko Reputasi</risiko_name>
+      <assessment_factor>3.1 Jumlah nasabah yang menggunakan produk yang kompleks pada LJK dalam Konglomerasi Keuangan.
+
+(Jumlah Pemberitaan Negatif dari nasabah yang menggunakan produk yang kompleks)</assessment_factor>
+      <weight>31.000000</weight>
+      <ID>678</ID>
+      <Risk_ID>15</Risk_ID>
+      <threshold>1. 0 -10
+ 2. 11 - 20 
+ 3. 21 - 30
+ 4. 31- 40
+ 5. &gt;40</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0900300000</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <assessment_factor>Informasi lainnya</assessment_factor>
+    <weight>33.330000</weight>
+    <ID>739</ID>
+    <Risk_ID>16</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0900300400</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>3.4 Penyediaan jasa manajemen dan jasa lainnya seperti kegiatan back-office antar perusahaan dalam satu grup</assessment_factor>
+      <weight>34.000000</weight>
+      <ID>743</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1. Tidak Signifikan
+ 2. Kurang Signifikan
+ 3. Cukup Signifikan
+ 4. Signifikan
+ 5. Sangat Signifikan</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0900300300</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>3.3 Operasional transaksi dimana satu perusahaan bertindak dengan atau atas nama dari perusahaan lain dalam satu grup</assessment_factor>
+      <weight>33.000000</weight>
+      <ID>742</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1. Tidak Terdapat operasional transaksi dimana satu perusahaan bertindak dengan atau atas nama dari perusahaan lain dalam satu grup
+ 2. Terdapat operasional transaksi dimana satu perusahaan bertindak dengan atau atas nama dari perusahaan lain dalam satu grup namun nominal transaksi tidak signifikan
+ 3. Terdapat operasional transaksi dimana satu perusahaan bertindak dengan atau atas nama dari perusahaan lain dalam satu grup namun nominal transaksi cukup signifikan
+ 4. Terdapat operasional transaksi dimana satu perusahaan bertindak dengan atau atas nama dari perusahaan lain dalam satu grup namun nominal transaksi signifikan
+ 5. Terdapat operasional transaksi dimana satu perusahaan bertindak dengan atau atas nama dari perusahaan lain dalam satu grup namun nominal transaksi sangat signifikan</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0900300200</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>3.2 Dukungan intra-grup tidak mengikat secara hukum dan/atau tidak dapat dieksekusi</assessment_factor>
+      <weight>32.000000</weight>
+      <ID>741</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1. Dukungan intragrup mengikat secara hukum dan nominal yang sangat mendukung keberlangsungan bisnis
+ 2. Terdapat Dukungan Intragrup yang mengikat secara hukum dan nominal yang cukup mendukung keberlangsungan bisnis
+ 3. Terdapat Dukungan Intragrup yang mengikat secara hukum dan nominal yang kurang mendukung
+ 4. Terdapat dukungan Intragrup mengikat secara hukum 
+ 5. Tidak terdapat dukungan intragrup yang mengikat secara hukum</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0900300500</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>3.5 Pembelian atau penjualan aset (fixed asset) kepada perusahaan lain dalam satu grup</assessment_factor>
+      <weight>35.000000</weight>
+      <ID>744</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1. Tidak terdapat pembelian/penjualan aset 
+ 2. Pembelian atau penjualan aset diatas dan sama dengan harga pasar
+ 3. Pembelian atau penjualan aset sebesar 90% dari harga pasar
+ 4. Pembelian atau penjualan aset sebesar 80% dari harga pasar
+ 5. Pembelian atau penjualan aset sebesar 70% dari harga pasar</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0900300100</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>3.1 Terdapat sentralisasi manajemen terkait dengan likuiditas jangka pendek</assessment_factor>
+      <weight>31.000000</weight>
+      <ID>740</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1. Tidak terdapat sentralisasi manajemen terkait likuiditas jangka pendek
+ 2. Sentralisasi bersifat tidak Signifikan
+ 3. Sentralisasi bersifat kurang Signifikan
+ 4. Sentralisasi bersifat Signifikan
+ 5. Sentralisasi bersifat Sangat Signifikan</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0300200000</Profile_ID>
+    <risiko_name>Risiko Likuiditas</risiko_name>
+    <assessment_factor>Konsentrasi Aset dan Kewajiban</assessment_factor>
+    <weight>1.000000</weight>
+    <ID>1150</ID>
+    <Risk_ID>10</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0300200200</Profile_ID>
+      <risiko_name>Risiko Likuiditas</risiko_name>
+      <assessment_factor>2.2 Konsentrasi kewajiban&#13;
+Konsentrasi kewajiban pada penyedia dana besar yang cenderung sensitif terhadap peringkat kredit (credit sensitive) dan suku bunga (interest rate sensitive) yang dapat menimbulkan masalah pada posisi likuiditas LJK dalam Konglomerasi Keuangan apabila terjadi penarikan dana dalam jumlah besar</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1152</ID>
+      <Risk_ID>10</Risk_ID>
+      <threshold>1 :  Ratio ≤ 40%
+ 2 : 40% &lt; Ratio ≤ 50%
+ 3 : 50% &lt; Ratio ≤ 60%
+ 4 : 60% &lt;Ratio ≤ 70%
+ 5 : Ratio &gt; 70%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0300200100</Profile_ID>
+      <risiko_name>Risiko Likuiditas</risiko_name>
+      <assessment_factor>2.1 Konsentrasi aset Konsentrasi aset pada aset tertentu atau penyediaan dana pada sektor yang tidak dikuasai LJK dalam Konglomerasi Keuangan yang dapat mengganggu kondisi likuiditas apabila terjadi default</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1151</ID>
+      <Risk_ID>10</Risk_ID>
+      <threshold>1 : Ratio ≤ 40%
+ 2 : 40% &lt; Ratio ≤ 50%
+ 3 : 50% &lt; Ratio ≤ 60%
+ 4 : 60% &lt;Ratio ≤ 70%
+ 5 : Ratio &gt; 70%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0600200000</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <assessment_factor>Pelanggaran Etika Bisnis</assessment_factor>
+    <weight>20.000000</weight>
+    <ID>674</ID>
+    <Risk_ID>15</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0600200200</Profile_ID>
+      <risiko_name>Risiko Reputasi</risiko_name>
+      <assessment_factor>2.2 pelanggaran hal-hal yang telah disepakati dalam kerjasama bisnis dengan pemangku kepentingan lainnya.
+
+(Jumlah pemberitaan negatif terkait pelanggaran etika bisnis)</assessment_factor>
+      <weight>22.000000</weight>
+      <ID>676</ID>
+      <Risk_ID>15</Risk_ID>
+      <threshold>1. 0 -10
+ 2. 11 - 20 
+ 3. 21 - 30
+ 4. 31- 40
+ 5. &gt;40</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0600200100</Profile_ID>
+      <risiko_name>Risiko Reputasi</risiko_name>
+      <assessment_factor>2.1 transparansi informasi keuangan
+
+(Nominal Denda dari tidak dilakukannya penyampaian laporan tranparansi keuangan (publikasi)</assessment_factor>
+      <weight>21.000000</weight>
+      <ID>675</ID>
+      <Risk_ID>15</Risk_ID>
+      <threshold>1. Rp 0 (nol) - 20 Juta
+ 2. &gt; Rp 20 - Rp 40 Juta 
+ 3. &gt; Rp 40 Juta - Rp 80 Juta
+ 4. &gt; Rp 80 Juta - Rp 100 Juta
+ 5. &gt; Rp 100 Juta</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0900200000</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <assessment_factor>Dokumentasi dan Kewajaran Transaksi</assessment_factor>
+    <weight>33.330000</weight>
+    <ID>735</ID>
+    <Risk_ID>16</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0900200300</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>2.3 Dampak transaksi kepada kinerja keuangan LJK</assessment_factor>
+      <weight>23.000000</weight>
+      <ID>738</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1. Tidak Signifikan
+ 2. Kurang Signifikan
+ 3. Cukup Signifikan
+ 4. Signifikan
+ 5. Sangat Signifikan</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0900200200</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>2.2 Pemenuhan azas Arm’s Length (Azas Kewajaran Transaksi)</assessment_factor>
+      <weight>22.000000</weight>
+      <ID>737</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1. seluruhnya memenuhi prinsip arm’s length
+ 2. Terdapat beberapa klausula yang tidak memenuhi prinsip arm’s length namun pengaruhnya tidak signifikan
+ 3. Terdapat beberapa klausula yang tidak memenuhi prinsip arm’s length namun pengaruhnya kurang signifikan
+ 4. Terdapat beberapa klausula yang tidak memenuhi prinsip arm’s length yang pengaruhnya cukup signifikan
+ 5. Terdapat beberapa klausula yang tidak memenuhi prinsip arm’s length yang pengaruhnya signifikan</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0900200100</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>2.1 Dokumentasi perjanjian</assessment_factor>
+      <weight>21.000000</weight>
+      <ID>736</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1. Sangat Memadai
+ 2. Memadai
+ 3. Cukup Memadai
+ 4. Kurang Memadai
+ 5. Tidak Memadai</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0300100000</Profile_ID>
+    <risiko_name>Risiko Likuiditas</risiko_name>
+    <assessment_factor>Komposisi Aset, Kewajiban, dan Transaksi Rekening Administratif (TRA)</assessment_factor>
+    <weight>25.000000</weight>
+    <ID>1142</ID>
+    <Risk_ID>10</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0300100100</Profile_ID>
+      <risiko_name>Risiko Likuiditas</risiko_name>
+      <assessment_factor>1.1 Aset Likuid Primer dan Aset Likuid Sekunder/Total Aset</assessment_factor>
+      <weight>10.000000</weight>
+      <ID>1143</ID>
+      <Risk_ID>10</Risk_ID>
+      <threshold>1: Rasio &gt; 20%
+ 2: 15% &lt; Rasio ≤ 20%
+ 3: 10% &lt; Rasio ≤ 15%
+ 4: 5% &lt; Rasio ≤ 10%
+ 5: Rasio ≤ 5%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0300100400</Profile_ID>
+      <risiko_name>Risiko Likuiditas</risiko_name>
+      <assessment_factor>1.4 Aset Likuid Primer / Pendanaan Non Inti Jangka Pendek</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1146</ID>
+      <Risk_ID>10</Risk_ID>
+      <threshold>1: Rasio &gt; 17%
+ 2: 13% &lt; Rasio ≤ 17%
+ 3: 9% &lt; Rasio ≤ 13%
+ 4: 5% &lt; Rasio ≤ 9%
+ 5: Rasio ≤ 5%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0300100700</Profile_ID>
+      <risiko_name>Risiko Likuiditas</risiko_name>
+      <assessment_factor>1.7 Signifikansi TRA (kewajiban komitmen dan kontinjensi)</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1149</ID>
+      <Risk_ID>10</Risk_ID>
+      <threshold>1 :  Ratio ≤ 50%
+ 2 : 50% &lt; Ratio ≤ 60%
+ 3 : 60% &lt; Ratio ≤ 70%
+ 4 :  70% &lt;Ratio ≤ 80%
+ 5 : Ratio &gt; 80%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0300100300</Profile_ID>
+      <risiko_name>Risiko Likuiditas</risiko_name>
+      <assessment_factor>1.3 Aset Likuid Primer dan Aset Likuid Sekunder / Pendanaan Non Inti</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1145</ID>
+      <Risk_ID>10</Risk_ID>
+      <threshold>1: Rasio &gt; 20%
+ 2: 15% &lt; Rasio ≤ 20%
+ 3: 10% &lt; Rasio ≤ 15%
+ 4: 5% &lt; Rasio ≤ 10%
+ 5: Rasio ≤ 5%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0300100600</Profile_ID>
+      <risiko_name>Risiko Likuiditas</risiko_name>
+      <assessment_factor>1.6 (Rasio Pendanaan Non Inti - Aset Likuid) / (Total Aset Produktif - Aset Likuid)</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1148</ID>
+      <Risk_ID>10</Risk_ID>
+      <threshold>1 : Ratio ≤ 50%
+ 2 : 50% &lt; Ratio ≤ 65%
+ 3 :  65% &lt; Ratio ≤ 80%
+ 4 : 80% &lt;Ratio ≤ 95%
+ 5 : Ratio &gt; 95%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0300100200</Profile_ID>
+      <risiko_name>Risiko Likuiditas</risiko_name>
+      <assessment_factor>1.2 Aset Likuid Primer dan Aset Likuid Sekunder / Pendanaan Jangka Pendek</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1144</ID>
+      <Risk_ID>10</Risk_ID>
+      <threshold>1: Rasio &gt; 50%
+ 2: 40% &lt; Rasio ≤ 50%
+ 3: 30% &lt; Rasio ≤ 40%
+ 4: 20% &lt; Rasio ≤ 30%
+ 5: Rasio ≤ 20%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0300100500</Profile_ID>
+      <risiko_name>Risiko Likuiditas</risiko_name>
+      <assessment_factor>1.5 Pendanaan Non Inti / Total Pendanaan</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1147</ID>
+      <Risk_ID>10</Risk_ID>
+      <threshold>1 : Ratio ≤ 50%
+ 2 : 50% &lt; Ratio ≤ 65%
+ 3 : 65% &lt; Ratio ≤ 80%
+ 4 :  80% &lt;Ratio ≤ 95%
+ 5 : Ratio &gt; 95%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0600100000</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <assessment_factor>Pengaruh Reputasi Pemilik Konglomerasi Keuangan berikut Perusahaan-Perusahaan Lainnya yang Memiliki Hubungan Kepemilikan, Pengendalian dan/atau Kepengurusan</assessment_factor>
+    <weight>20.000000</weight>
+    <ID>671</ID>
+    <Risk_ID>15</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0600100100</Profile_ID>
+      <risiko_name>Risiko Reputasi</risiko_name>
+      <assessment_factor>1.1 Kredibilitas pemilik dan perusahaan terkait</assessment_factor>
+      <weight>11.000000</weight>
+      <ID>672</ID>
+      <Risk_ID>15</Risk_ID>
+      <threshold>1. Sangat Baik
+ 2. Baik
+ 3. Cukup Baik
+ 4. Kurang Baik
+ 5. Tidak Baik</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0600100200</Profile_ID>
+      <risiko_name>Risiko Reputasi</risiko_name>
+      <assessment_factor>1.2 Kejadian yang memengaruhi reputasi (reputational event) pada pemilik dan perusahaan terkait.
+
+(Jumlah pemberitaan negatif atas pemilik dan perusahaan terkait LJK)</assessment_factor>
+      <weight>12.000000</weight>
+      <ID>673</ID>
+      <Risk_ID>15</Risk_ID>
+      <threshold>1. 0 -10
+ 2. 11 - 20 
+ 3. 21 - 30
+ 4. 31- 40
+ 5. &gt;40</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0900100000</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <assessment_factor>Komposisi Transaksi Intra-Grup dalam Konglomerasi Keuangan (KK)</assessment_factor>
+    <weight>33.330000</weight>
+    <ID>726</ID>
+    <Risk_ID>16</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0900100100</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>1.1 Total transaksi Intragrup / Total Aset</assessment_factor>
+      <weight>11.000000</weight>
+      <ID>727</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1 : Rasio ≤ 20%
+ 2 : 20% &lt; Rasio ≤ 30%
+ 3 : 30% &lt; Rasio ≤ 40%
+ 4 : 40% &lt; Rasio ≤ 50%
+ 5 : Rasio &gt; 50%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0900100800</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>1.8 Eksposur yang timbul dari penempatan aset nasabah kepada perusahaan lain dalam satu grup</assessment_factor>
+      <weight>18.000000</weight>
+      <ID>734</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1. Tidak Signifikan
+ 2. Kurang Signifikan
+ 3. Cukup Signifikan
+ 4. Signifikan
+ 5. Sangat Signifikan</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0900100400</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>1.4 Total kewajiban LJK dalam KK dari transaksi intragrup / Total aset LJK tersebut</assessment_factor>
+      <weight>14.000000</weight>
+      <ID>730</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1. ≤ 10%
+ 2. &gt; 10%- ≤ 20%
+ 3. &gt; 20%- ≤ 30%
+ 4. &gt; 30%- ≤ 40%
+ 5. &gt; 40%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0900100700</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>1.7 Eksposur kepada pemegang saham pengendali (termasuk eksposur pinjaman dan off-balance sheet seperti jaminan dan komitmen)</assessment_factor>
+      <weight>17.000000</weight>
+      <ID>733</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1. ≤ 20%
+ 2. &gt; 20%- ≤ 40%
+ 3. &gt; 40%- ≤ 60%
+ 4. &gt; 60%- ≤ 80%
+ 5. &gt; 80%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0900100300</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>1.3 Total aset LJK dalam KK dari transaksi intragrup / Total aset LJK tersebut</assessment_factor>
+      <weight>13.000000</weight>
+      <ID>729</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1. Rasio ≤ 10%
+ 2. 10% &lt; Rasio ≤ 20%
+ 3. 20% &lt; Rasio ≤ 30%
+ 4. 30% &lt; Rasio ≤ 40%
+ 5. Rasio &gt; 40%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0900100600</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>1.6 Total biaya LJK dalam KK dari transaksi intragrup / Laba bersih LJK tersebut</assessment_factor>
+      <weight>16.000000</weight>
+      <ID>732</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1. Rasio ≤ 20%
+ 2. 20% &lt; Rasio ≤ 40%
+ 3. 40% &lt; Rasio ≤ 60%
+ 4. 60% &lt; Rasio ≤ 80%
+ 5. Rasio &gt; 80%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0900100200</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>1.2 Total transaksi intragrup termasuk transaksi intragrup Off Balance Sheet / Total Modal</assessment_factor>
+      <weight>12.000000</weight>
+      <ID>728</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1 : Rasio ≤ 70%
+ 2 : 70% &lt; Rasio ≤ 80%
+ 3 : 80% &lt; Rasio ≤ 90%
+ 4 : 90% &lt; Rasio ≤ 100%
+ 5 : Rasio &gt; 100%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0900100500</Profile_ID>
+      <risiko_name>Risiko Intragrup</risiko_name>
+      <assessment_factor>1.5 Total pendapatan LJK dalam KK dari transaksi intragrup / Laba bersih LJK tersebut</assessment_factor>
+      <weight>15.000000</weight>
+      <ID>731</ID>
+      <Risk_ID>16</Risk_ID>
+      <threshold>1. Rasio ≤ 20%
+ 2. 20% &lt; Rasio ≤ 40%
+ 3. 40% &lt; Rasio ≤ 60%
+ 4. 60% &lt; Rasio ≤ 80%
+ 5. Rasio &gt; 80%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI1000100000</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <assessment_factor>1. Risiko Teknikal
+2. Dominasi Risiko Asuransi terhadap Keseluruhan Lini Usaha
+3. Bauran Risiko Produk dan Jenis Manfaat
+4. Struktur Reasuransi</assessment_factor>
+    <weight>100.000000</weight>
+    <ID>1119</ID>
+    <Risk_ID>7</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI1000100100</Profile_ID>
+      <risiko_name>Risiko Asuransi</risiko_name>
+      <assessment_factor>1.1 Rasio Cadangan Teknis terhadap Premi Neto (Technical Reserve to Net Earned Premium Ratio) yaitu Cadangan Teknis Periode Berjalan / Premi Neto Periode Berjalan</assessment_factor>
+      <weight>25.000000</weight>
+      <ID>1120</ID>
+      <Risk_ID>7</Risk_ID>
+      <threshold>1: Value &gt; 1
+ 2: 80% &lt; Rasio ≤ 100%
+ 3: 60% &lt; Rasio ≤ 80%
+ 4: 50% &lt; Rasio ≤ 60%
+ 5: Rasio ≤ 50%</threshold>
+      <rating_to_score>1:0
+2:0
+3:0
+4:0
+5:0</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI1000100400</Profile_ID>
+      <risiko_name>Risiko Asuransi</risiko_name>
+      <assessment_factor>1.4 Rasio Pembatalan Polis (Lapse Ratio) yaitu Jumlah Polis yang Batal Selama Periode Berjalan / Jumlah Polis Baru pada Periode Sebelumnya</assessment_factor>
+      <weight>10.000000</weight>
+      <ID>1125</ID>
+      <Risk_ID>7</Risk_ID>
+      <threshold>1: Rasio ≤ 5%
+ 2: 5% &lt; Rasio ≤ 10%
+ 3: 10% &lt; Rasio ≤ 15%
+ 4: 15% &lt; Rasio ≤ 20%
+ 5: Rasio &gt; 20%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI1000100300</Profile_ID>
+      <risiko_name>Risiko Asuransi</risiko_name>
+      <assessment_factor>1.3 Rasio Premi Neto terhadap Modal Sendiri (Net Premium to Equity Ratio) yaitu Premi Neto Periode Berjalan / Modal Sendiri Periode Berjalan</assessment_factor>
+      <weight>13.000000</weight>
+      <ID>1124</ID>
+      <Risk_ID>7</Risk_ID>
+      <threshold>1: Rasio &gt; 200%
+ 2: 150% &lt; Rasio ≤ 200%
+ 3: 100% &lt; Rasio ≤ 150%
+ 4: 50% &lt; Rasio ≤ 100%
+ 5: Rasio ≤ 50%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI1000100200</Profile_ID>
+      <risiko_name>Risiko Asuransi</risiko_name>
+      <assessment_factor>1.2 Rasio Klaim terhadap Premi (Claim Ratio)</assessment_factor>
+      <weight>12.000000</weight>
+      <ID>1121</ID>
+      <Risk_ID>7</Risk_ID>
+      <threshold/>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI1000100201</Profile_ID>
+      <risiko_name>Risiko Asuransi</risiko_name>
+      <assessment_factor>1.2.1 Rasio klaim bruto terhadap premi bruto yaitu Klaim Bruto Periode Berjalan / Premi Bruto Periode Berjalan</assessment_factor>
+      <weight>12.100000</weight>
+      <ID>1122</ID>
+      <Risk_ID>7</Risk_ID>
+      <threshold>1: Rasio ≤ 50%
+ 2: 50% &lt; Rasio ≤ 80%
+ 3: 80% &lt; Rasio ≤ 110%
+ 4: 110% &lt; Rasio ≤ 140%
+ 5: Rasio &gt; 140%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI1000100202</Profile_ID>
+      <risiko_name>Risiko Asuransi</risiko_name>
+      <assessment_factor>1.2.2 Rasio klaim neto terhadap premi neto yaitu Klaim Neto Periode Berjalan / Premi Neto Periode Berjalan</assessment_factor>
+      <weight>12.200000</weight>
+      <ID>1123</ID>
+      <Risk_ID>7</Risk_ID>
+      <threshold>1: Rasio ≤ 70%
+ 2: 70% &lt; Rasio ≤ 100%
+ 3: 100% &lt; Rasio ≤ 130%
+ 4: 130% &lt; Rasio ≤ 160%
+ 5: Rasio &gt; 160%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0500300000</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <assessment_factor>Faktor Ketiadaan Peraturan Perundang-undangan</assessment_factor>
+    <weight>33.330000</weight>
+    <ID>870</ID>
+    <Risk_ID>12</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0500300100</Profile_ID>
+      <risiko_name>Risiko Hukum</risiko_name>
+      <assessment_factor>3.1 Jumlah dan nilai nominal dari total produk LJK dalam Konglomerasi Keuangan yang belum diatur oleh peraturan perundang-undangan secara jelas dan produk tersebut cenderung memiliki tingkat kompleksitas yang tinggi, dibandingkan dengan modal yang dimiliki Konglomerasi Keuangan.</assessment_factor>
+      <weight>31.000000</weight>
+      <ID>871</ID>
+      <Risk_ID>12</Risk_ID>
+      <threshold/>
+      <rating_to_score/>
+      <RiskProfileNode>
+        <Profile_ID>RI0500300101</Profile_ID>
+        <risiko_name>Risiko Hukum</risiko_name>
+        <assessment_factor>3.1.1 Nilai nominal dari total produk LJK dalam Konglomerasi Keuangan yang belum diatur oleh peraturan perundang-undangan secara jelas dan produk tersebut cenderung memiliki tingkat kompleksitas yang tinggi, dibandingkan dengan modal yang dimiliki Konglomerasi Keuangan
+
+(Nominal total produk LJK yang belum diatur oleh peraturan terhadap total modal KK)</assessment_factor>
+        <weight>1.000000</weight>
+        <ID>872</ID>
+        <Risk_ID>12</Risk_ID>
+        <threshold>1. Rasio ≤ 5%
+ 2. 5% &lt; Rasio ≤ 10%
+ 3. 10% &lt; Rasio ≤ 15%
+ 4. 15% &lt; Rasio ≤ 20%
+ 5. Rasio &gt; 20%</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+      <RiskProfileNode>
+        <Profile_ID>RI0500300102</Profile_ID>
+        <risiko_name>Risiko Hukum</risiko_name>
+        <assessment_factor>3.1.2 Jumlah total produk LJK dalam Konglomerasi Keuangan yang belum diatur oleh peraturan perundang-undangan secara jelas dan produk tersebut cenderung memiliki tingkat kompleksitas yang tinggi
+
+(Jumlah total produk LJK dalam Konglomerasi Keuangan yang belum diatur oleh peraturan perundang-undangan)</assessment_factor>
+        <weight>1.000000</weight>
+        <ID>873</ID>
+        <Risk_ID>12</Risk_ID>
+        <threshold>1. 0
+ 2. 1 - 2
+ 3. 3 - 4
+ 4. 5 - 6
+ 5. &gt;6</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0500300200</Profile_ID>
+      <risiko_name>Risiko Hukum</risiko_name>
+      <assessment_factor>3.2 Penggunaan best practice atas suatu standar perjanjian yang biasa digunakan oleh LJK anggota Konglomerasi Keuangan masih mengacu pada perjanjian yang belum terkini walaupun telah ada perubahan best practice atau peraturan perundang-undangan maupun hal lainnya.
+ 
+ (Penggunaan best practice atas suatu standar perjanjian)</assessment_factor>
+      <weight>31.200000</weight>
+      <ID>874</ID>
+      <Risk_ID>12</Risk_ID>
+      <threshold>1. Tidak signifikan.
+ 2. Tidak signifikan dan dapat segera diperbaiki.
+ 3. Cukup signifikan dan membutuhkan perhatian manajemen.
+ 4. Signifikan dan membutuhkan tindakan perbaikan segera.
+ 5. Sangat signifikan dan membutuhkan tindakan perbaikan segera.</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0800300000</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <assessment_factor>Pelanggaran terhadap Ketentuan atas Transaksi Keuangan yang Sama</assessment_factor>
+    <weight>50.000000</weight>
+    <ID>724</ID>
+    <Risk_ID>13</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0800300100</Profile_ID>
+      <risiko_name>Risiko Kepatuhan</risiko_name>
+      <assessment_factor>3.1 Frekuensi pelanggaran atas ketentuan pada transaksi keuangan yang sama karena tidak sesuai dengan standar yang berlaku umum
+
+(Terdapat pelanggaran (hasil pemeriksaan regulator) terkait transaksi keuangan tertentu (PSAK))</assessment_factor>
+      <weight>31.000000</weight>
+      <ID>725</ID>
+      <Risk_ID>13</Risk_ID>
+      <threshold>1. 0 (nol) / tidak ada
+ 2. ≤ 3
+ 3. 4 - 5
+ 4. 6 - 7
+ 5. &gt; 7</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI1200300000</Profile_ID>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <assessment_factor>Perilaku Nasabah Dana Pihak Ketiga</assessment_factor>
+    <weight>30.000000</weight>
+    <ID>768</ID>
+    <Risk_ID>19</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI1200300200</Profile_ID>
+      <risiko_name>Risiko Imbal Hasil</risiko_name>
+      <assessment_factor>3.2 Realisasi Bagi Hasil Deposito Bank sesuai dengan Jangka Waktu terhadap Bagi Hasil Deposito / Bunga dari Bank Syariah lainnya / Bank Konvensional
+
+(Korelasi Realisasi imbal hasil deposito per bucket terhadap Saldo DPK)</assessment_factor>
+      <weight>32.000000</weight>
+      <ID>770</ID>
+      <Risk_ID>19</Risk_ID>
+      <threshold>1 : tidak ada korelasi untuk semua bucket
+ 2 : terdapat 1 bucket berkorelasi tinggi
+ 3 : terdapat 2 bucket berkorelasi tinggi
+ 4 : terdapat 3 bucket berkorelasi tinggi
+ 5 : seluruh bucket berkorelasi tinggi</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI1200300100</Profile_ID>
+      <risiko_name>Risiko Imbal Hasil</risiko_name>
+      <assessment_factor>3.1 Korelasi antara Tingkat Imbalan Deposito Mudharabah dengan Tingkat Bunga Deposito
+
+(Korelasi selisih antara imbal hasil deposito 1 bulan BUS dengan bunga deposito 1 bulan konven terhadap Saldo DPK)</assessment_factor>
+      <weight>31.000000</weight>
+      <ID>769</ID>
+      <Risk_ID>19</Risk_ID>
+      <threshold>1 : 0 &lt;= Korelasi &lt; 0.2
+ 2 : 0.2 &lt;= Korelasi &lt; 0.4
+ 3 : 0.4 &lt;= Korelasi &lt; 0.6
+ 4 : 0.6 &lt;= Korelasi &lt; 0.8
+ 5 : 0.8 &lt;= Korelasi &lt;= 1</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI1200300300</Profile_ID>
+      <risiko_name>Risiko Imbal Hasil</risiko_name>
+      <assessment_factor>3.3 Realisasi Bagi Hasil Deposito Bank terhadap Instrumen Lainnya
+
+(Korelasi antara bagi hasil deposito  dengan yield Government Bond 1 Tahun  terhadap Saldo DPK)</assessment_factor>
+      <weight>33.000000</weight>
+      <ID>771</ID>
+      <Risk_ID>19</Risk_ID>
+      <threshold>1 : 0 &lt;= Korelasi &lt; 0.2
+ 2 : 0.2 &lt;= Korelasi &lt; 0.4
+ 3 : 0.4 &lt;= Korelasi &lt; 0.6
+ 4 : 0.6 &lt;= Korelasi &lt; 0.8
+ 5 : 0.8 &lt;= Korelasi &lt;= 1</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0200200000</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <assessment_factor>Strategi dan Kebijakan Bisnis:
+a. Karakteristik Trading
+b. Kompleksitas Instrumen/Produk
+c. Volume dan Karakteristik Risiko Suku Bunga pada Non-Trading Book</assessment_factor>
+    <weight>50.000000</weight>
+    <ID>638</ID>
+    <Risk_ID>9</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0200200200</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>2.2 Posisi pasar Konglomerasi Keuangan dalam industri keuangan</assessment_factor>
+      <weight>2.000000</weight>
+      <ID>640</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1: Sangat Dikenal di Industri masing-masing LJK
+ 2: Dikenal di Industri masing-masing LJK
+ 3: Cukup Dikenal di Industri masing-masing LJK
+ 4: Kurang Dikenal di Industri masing-masing LJK
+ 5: Tidak Dikenal di Industri masing-masing LJK</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200200900</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>2.9 Rasio pembiayaan dalam valas terhadap total pembiayaan</assessment_factor>
+      <weight>9.000000</weight>
+      <ID>647</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 5%
+ 2 : 5% &lt; Ratio ≤ 10%
+ 3 : 10% &lt; Ratio ≤ 15%
+ 4 : 15% &lt; Ratio ≤ 20%
+ 5 : Ratio &gt; 20%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200200500</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>2.5 Rasio piutang pembiayaan dengan suku bunga floating terhadap aset</assessment_factor>
+      <weight>5.000000</weight>
+      <ID>643</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 5%
+ 2 : 5% &lt; Ratio ≤ 10%
+ 3 : 10% &lt; Ratio ≤ 15%
+ 4 : 15% &lt; Ratio ≤ 20%
+ 5 : Ratio &gt; 20%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200201100</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>2.11 Rasio pinjaman dalam valas terhadap total pinjaman</assessment_factor>
+      <weight>11.000000</weight>
+      <ID>649</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 5%
+ 2 : 5% &lt; Ratio ≤ 10%
+ 3 : 10% &lt; Ratio ≤ 15%
+ 4 : 15% &lt; Ratio ≤ 20%
+ 5 : Ratio &gt; 20%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200200100</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>2.1 Karakteristik trading Konglomerasi Keuangan</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>639</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Aktivitas trading umumnya untuk memenuhi kebutuhan nasabah (customer accommodation).
+ 2 : Aktivitas trading umumnya untuk memenuhi kebutuhan nasabah (customer accommodation), dan terdapat aktivitas trading atas rekening sendiri (proprietary trading) namun tidak signifikan
+ 3 : Terdapat aktivitas trading atas rekening sendiri (proprietary trading) atau pembentukan pasar (market making) tetapi tidak signifikan.
+ 4 : Terdapat aktivitas trading atas rekening sendiri (proprietary trading) atau pembentukan pasar (market making) yang cukup signifikan.
+ 5 : Aktivitas trading didominasi transaksi atas rekening sendiri (proprietary trading) dan pembentukan pasar (market making).)</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200200800</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>2.8 Rasio Haircut Portofolio (Jumlah Haircut Penyesuaian Risiko Pasar / Jumlah Portofolio Efek)</assessment_factor>
+      <weight>8.000000</weight>
+      <ID>646</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1. Tidak Signifikan (0-20%) 
+ 2. Kurang Signifikan (21-40%) 
+ 3. Cukup Signifikan (41-60%) 
+ 4. Signifikan (61-80%) 
+ 5. Sangat Signifikan (81-100%)</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200200400</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>2.4 Karakteristik aktivitas bisnis yang berdampak pada Risiko suku bunga pada non trading dan karakteristik nasabah utama Konglomerasi Keuangan</assessment_factor>
+      <weight>4.000000</weight>
+      <ID>642</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>% Peningkatan Repricing Gap sampai dengan 1 Bulan
+ 1 : Rasio = 0
+ 2 : 0% &lt; Rasio≤ 25%
+ 3 : 25% &lt; Rasio ≤ 50%
+ 4 : 50% &lt; Rasio ≤ 75%
+ 5 : Rasio &gt; 75%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200201000</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>2.10 Rasio kewajiban dalam valas terhadap total kewajiban</assessment_factor>
+      <weight>10.000000</weight>
+      <ID>648</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 10%
+ 2 : 10% &lt; Ratio ≤ 20%
+ 3 : 20% &lt; Ratio ≤ 30%
+ 4 : 30% &lt; Ratio ≤ 40%
+ 5 : Ratio &gt; 40%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200200700</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>2.7 Rasio piutang pembiayaan dalam valas terhadap total aset</assessment_factor>
+      <weight>7.000000</weight>
+      <ID>645</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 1%
+ 2 : 1% &lt; Ratio ≤ 1,5%
+ 3 : 1,5% &lt; Ratio ≤ 2%
+ 4 : 2% &lt; Ratio ≤ 2,5%
+ 5 : Ratio &gt; 2,5%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200201300</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>2.13 Laju Pertumbuhan Investasi (Growth in Investment)</assessment_factor>
+      <weight>13.000000</weight>
+      <ID>651</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio &gt; 5%
+ 2 : - 5% &lt; Ratio ≤ 5%
+ 3 : -10% &lt; Ratio ≤ -5%
+ 4 : -15% &lt; Ratio ≤ -10%
+ 5 : Ratio &lt; -15%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200200300</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>2.3 Kompleksitas produk/instrumen yang memiliki Risiko pasar termasuk didalamnya besarnya dana kelolaan, jumlah dan jenis reksa dana yang dikelola</assessment_factor>
+      <weight>3.000000</weight>
+      <ID>641</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 40%
+ 2 : 40% &lt; Ratio ≤ 50%
+ 3 : 50% &lt; Ratio ≤ 60%
+ 4 : 60% &lt; Ratio ≤ 70%
+ 5 : Ratio &gt; 70%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200200600</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>2.6 Rasio piutang pembiayaan dengan suku bunga floating terhadap total piutang pembiayaan</assessment_factor>
+      <weight>6.000000</weight>
+      <ID>644</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 30%
+ 2 : 30% &lt; Ratio ≤ 40%
+ 3 : 40% &lt; Ratio ≤ 50%
+ 4 : 50% &lt; Ratio ≤ 60%
+ 5 : Ratio &gt; 60%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200201200</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>2.12 Gap antara aset dalam valas dibandingkan dengan kewajiban dalam valas</assessment_factor>
+      <weight>12.000000</weight>
+      <ID>650</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio &gt; 100%
+ 2 : 80% &lt; Ratio ≤ 100%
+ 3 : 60% &lt; Ratio ≤ 80%
+ 4 : 40% &lt; Ratio ≤ 60%
+ 5 : Ratio &lt; 40%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0500200000</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <assessment_factor>Faktor Kelemahan Perikatan</assessment_factor>
+    <weight>33.330000</weight>
+    <ID>861</ID>
+    <Risk_ID>12</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0500200200</Profile_ID>
+      <risiko_name>Risiko Hukum</risiko_name>
+      <assessment_factor>2.2 Terdapat kelemahan klausula perjanjian dan/atau tidak terpenuhinya persyaratan yang telah disepakati
+
+(Persentase Kelemahan Klausula perjanjian dan/atau tidak terpenuhinya persyaratan yang telah disepakati)</assessment_factor>
+      <weight>22.000000</weight>
+      <ID>863</ID>
+      <Risk_ID>12</Risk_ID>
+      <threshold>1. 100% LJK Tidak Terdapat Kelemahan
+ 2. 80% - &lt;100% LJK Tidak Terdapat Kelemahan
+ 3. 60% - &lt;80% LJK Tidak Terdapat Kelemahan
+ 4. 40% - &lt;60% LJK Tidak Terdapat Kelemahan
+ 5. &lt;40% LJK Tidak Terdapat Kelemahan</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0500200500</Profile_ID>
+      <risiko_name>Risiko Hukum</risiko_name>
+      <assessment_factor>2.5 Keberadaan dokumen pendukung terkait perjanjian yang dilakukan oleh LJK dalam Konglomerasi Keuangan dengan pihak ketiga.</assessment_factor>
+      <weight>25.000000</weight>
+      <ID>866</ID>
+      <Risk_ID>12</Risk_ID>
+      <threshold>1. 100% LJK Lengkap
+ 2. 80% - &lt;100% LJK Lengkap
+ 3. 60% - &lt;80% LJK Lengkap
+ 4. 40% - &lt;60% LJK Lengkap
+ 5. &lt;40% LJK Lengkap</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0500200100</Profile_ID>
+      <risiko_name>Risiko Hukum</risiko_name>
+      <assessment_factor>2.1 Tidak terpenuhinya syarat sahnya perjanjian
+
+(Persentase Terpenuhi Syarat Sah Perjanjian)</assessment_factor>
+      <weight>21.000000</weight>
+      <ID>862</ID>
+      <Risk_ID>12</Risk_ID>
+      <threshold>1. 100% LJK Terpenuhi
+ 2. 80% - &lt;100% LJK Terpenuhi
+ 3. 60% - &lt;80% LJK Terpenuhi
+ 4. 40% - &lt;60% LJK Terpenuhi
+ 5. &lt;40% LJK Terpenuhi</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0500200800</Profile_ID>
+      <risiko_name>Risiko Hukum</risiko_name>
+      <assessment_factor>2.8 Perubahan klausula polis yang tidak dilaporkan kepada Otoritas
+
+(LJK Melaporkan Perubahan Klausa Polis)</assessment_factor>
+      <weight>28.000000</weight>
+      <ID>869</ID>
+      <Risk_ID>12</Risk_ID>
+      <threshold>1. 100% LJK Melaporkan 
+ 2. 80% - &lt;100% LJK Melaporkan
+ 3. 60% - &lt;80%LJK Melaporkan
+ 4. 40% - 60% LJK Melaporkan
+ 5. &lt;40% LJK Melaporkan</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0500200400</Profile_ID>
+      <risiko_name>Risiko Hukum</risiko_name>
+      <assessment_factor>2.4 Tidak dapat dilaksanakannya suatu perjanjian baik untuk keseluruhan maupun sebagian
+(Pelaksanaan perjanjian)</assessment_factor>
+      <weight>24.000000</weight>
+      <ID>865</ID>
+      <Risk_ID>12</Risk_ID>
+      <threshold>1. 100% Perjanjian dapat dilaksanakan oleh seluruh LJK
+ 2. 80% - &lt;100% LJK dapat melaksanakan Perjanjian dengan Baik 
+ 3. 60% - &lt;80% LJK dapat melaksanakan Perjanjian dengan Baik 
+4. 40% - &lt;60% LJK dapat melaksanakan Perjanjian dengan Baik
+ 5. &lt;40% LJK dapat melaksanakan Perjanjian dengan Baik</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0500200700</Profile_ID>
+      <risiko_name>Risiko Hukum</risiko_name>
+      <assessment_factor>2.7 Penggunaan pilihan hukum Indonesia atas perjanjian yang diadakan oleh oleh LJK dalam Konglomerasi Keuangan dan juga penggunaan forum penyelesaian sengketa
+(Jenis penggunaan hukum Indonesia dalam penyelesaian sengketa)</assessment_factor>
+      <weight>27.000000</weight>
+      <ID>868</ID>
+      <Risk_ID>12</Risk_ID>
+      <threshold>1. Menggunakan Hukum Indonesia
+ 2. Menggunakan Hukum Negara Indonesia dan Hukum negara lain tempat LJK berasal 
+ 3. N/A
+ 4. N/A
+ 5. Tidak Menggunakan Hukum Indonesia dan Hukum negara lain tempat LJK berasal</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0500200300</Profile_ID>
+      <risiko_name>Risiko Hukum</risiko_name>
+      <assessment_factor>2.3 Pemahaman para pihak terkait dengan perjanjian, terutama mengenai setiap jenis Risiko yang ada dalam suatu transaksi yang kompleks dan menggunakan istilah-istilah yang sulit dipahami atau tidak lazim bagi masyarakat umum
+
+(Persentase Pemahaman para pihak terkait dengan perjanjian)</assessment_factor>
+      <weight>23.000000</weight>
+      <ID>864</ID>
+      <Risk_ID>12</Risk_ID>
+      <threshold>1. 100% LJK Paham (Signed)
+ 2. 80% - &lt;100% LJK Paham (Signed)
+ 3. 60% - &lt;80%LJK Paham (Signed)
+ 4. 40% - &lt;60% LJK Paham (Signed)
+ 5. &lt;40% LJK Paham (Signed)</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0500200600</Profile_ID>
+      <risiko_name>Risiko Hukum</risiko_name>
+      <assessment_factor>2.6 Pengkinian dan review dari penggunaan standar perjanjian oleh LJK dalam Konglomerasi Keuangan dan/atau pihak independen</assessment_factor>
+      <weight>26.000000</weight>
+      <ID>867</ID>
+      <Risk_ID>12</Risk_ID>
+      <threshold>1. Rata-Rata LJK Minimal 1 tahun sekali 
+2. Rata-Rata LJK 2 - 3 tahun sekali 
+3. Rata-Rata LJK4 - 5 tahun sekali 
+4. Rata-Rata LJK &gt; 5 tahun sekali 
+5. Tidak pernah dilakukan</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0800200000</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <assessment_factor>Frekuensi Pelanggaran yang Dilakukan atau Track Record Kepatuhan</assessment_factor>
+    <weight>25.000000</weight>
+    <ID>721</ID>
+    <Risk_ID>13</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0800200200</Profile_ID>
+      <risiko_name>Risiko Kepatuhan</risiko_name>
+      <assessment_factor>2.2 Signifikansi tindak lanjut LJK dalam Konglomerasi Keuangan atas temuan dalam 3 tahun terakhir</assessment_factor>
+      <weight>22.000000</weight>
+      <ID>723</ID>
+      <Risk_ID>13</Risk_ID>
+      <threshold>1. Tidak signifikan.
+ 2. Tidak signifikan dan dapat segera diperbaiki.
+ 3. Cukup signifikan dan membutuhkan perhatian manajemen.
+ 4. Signifikan dan membutuhkan tindakan perbaikan segera.
+ 5. Sangat signifikan dan membutuhkan tindakan perbaikan segera.</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0800200100</Profile_ID>
+      <risiko_name>Risiko Kepatuhan</risiko_name>
+      <assessment_factor>2.1 Frekuensi dan signifikansi pelanggaran yang sama yang ditemukan setiap tahunnya dalam 3 tahun terakhir
+
+(Jumlah Pelanggaran yang berulang terhadap Total Seluruh Pelanggaran)</assessment_factor>
+      <weight>21.000000</weight>
+      <ID>722</ID>
+      <Risk_ID>13</Risk_ID>
+      <threshold>1. 0 (nol) / Tidak ada
+ 2. 1 - 10
+ 3. 11 -20
+ 4. 21 - 30
+ 5. &gt; 30</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI1200200000</Profile_ID>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <assessment_factor>Strategi dan Kinerja Bank dalam Menghasilkan Laba/ Pendapatan</assessment_factor>
+    <weight>40.000000</weight>
+    <ID>764</ID>
+    <Risk_ID>19</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI1200200200</Profile_ID>
+      <risiko_name>Risiko Imbal Hasil</risiko_name>
+      <assessment_factor>2.2 Pembiayaan Bermasalah /
+Total Pembiayaan</assessment_factor>
+      <weight>22.000000</weight>
+      <ID>766</ID>
+      <Risk_ID>19</Risk_ID>
+      <threshold>1 : Rasio ≤ 1.00%
+ 2 : 1.00% &lt; Rasio ≤ 2.00%
+ 3 : 2.00% &lt; Rasio ≤ 4.50%
+ 4 : 4.50% &lt; Rasio ≤ 5.00%
+ 5 : Rasio &gt; 5.00%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI1200200100</Profile_ID>
+      <risiko_name>Risiko Imbal Hasil</risiko_name>
+      <assessment_factor>2.1 Pembiayaan Berbasis Utang Piutang/
+Pembiayaan Berbasis Bagi Hasil</assessment_factor>
+      <weight>21.000000</weight>
+      <ID>765</ID>
+      <Risk_ID>19</Risk_ID>
+      <threshold>1 : Rasio &gt; 60%
+ 2 : 50%&lt; Rasio ≤ 60%
+ 3 : 40% &lt; Rasio ≤ 50%
+ 4 : 30% &lt; Rasio ≤ 40%
+ 5 : Rasio ≤ 30%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI1200200300</Profile_ID>
+      <risiko_name>Risiko Imbal Hasil</risiko_name>
+      <assessment_factor>2.3 Laba Sebelum Pajak /
+Rata-rata Total Aset</assessment_factor>
+      <weight>23.000000</weight>
+      <ID>767</ID>
+      <Risk_ID>19</Risk_ID>
+      <threshold>1 : Rasio &gt;2%
+ 2 : 2% &lt; Rasio ≤ 1.5%
+ 3 : 1.5% &lt; Rasio ≤ 1%
+ 4 : 1% &lt; Rasio ≤ 0.5%
+ 5 : Rasio &lt;0.5%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0200100000</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <assessment_factor>Volume dan Komposisi Aset Trading, Derivatif, dan Fair Value Option (FVO)</assessment_factor>
+    <weight>50.000000</weight>
+    <ID>627</ID>
+    <Risk_ID>9</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0200100600</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>1.6 Posisi Devisa Neto / Total Modal</assessment_factor>
+      <weight>4.000000</weight>
+      <ID>633</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1: Rasio ≤ 5%
+ 2: 5% &lt; Rasio ≤ 10%
+ 3: 10% &lt; Rasio ≤ 15%
+ 4: 15% &lt; Rasio ≤ 20%
+ 5: Rasio &gt; 20%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200100200</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>1.2 Kewajiban Trading, Derivatif, dan FVO / Total Kewajiban</assessment_factor>
+      <weight>7.000000</weight>
+      <ID>629</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 2%
+ 2 : 2% &lt; Ratio ≤ 3%
+ 3 : 3% &lt; Ratio ≤ 4%
+ 4 : 4% &lt; Ratio ≤ 5%
+ 5 : Ratio &gt; 5%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200100900</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>1.9 Aset Keuangan dengan Sisa Jatuh Tempo Diatas Satu Tahun / Kewajiban Keuangan dengan Sisa Jatuh Tempo diatas Satu Tahun</assessment_factor>
+      <weight>25.000000</weight>
+      <ID>636</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≥ 150%
+ 2 : 150% &gt; Ratio ≥ 100%
+ 3 : 100% &gt; Ratio ≥ 50%
+ 4 : 50% &gt; Ratio ≥ 25%
+ 5 : Ratio &lt; 25%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200100500</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>1.5 Total Derivatif / Total Aset</assessment_factor>
+      <weight>5.000000</weight>
+      <ID>632</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 2%
+ 2 : 2% &lt; Ratio ≤ 3%
+ 3 : 3% &lt; Ratio ≤ 4%
+ 4 : 4% &lt; Ratio ≤ 5%
+ 5 : Ratio &gt; 5%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200100100</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>1.1 Aset Trading, Derivatif dan FVO / Total Aset</assessment_factor>
+      <weight>8.000000</weight>
+      <ID>628</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 40%
+ 2 : 40% &lt; Ratio ≤ 50%
+ 3 : 50% &lt; Ratio ≤ 60%
+ 4 : 60% &lt; Ratio ≤ 70%
+ 5 : Ratio &gt; 70%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200100800</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>1.8 Aset Keuangan dengan suku bunga tetap yang jatuh tempo di atas satu tahun / Total Aset</assessment_factor>
+      <weight>2.000000</weight>
+      <ID>635</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 20%
+ 2 : 20% &lt; Ratio ≤ 30%
+ 3 : 30% &lt; Ratio ≤ 40%
+ 4 : 40% &lt; Ratio ≤ 50%
+ 5 : Ratio &gt; 50%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200100400</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>1.4 Potensi Keuntungan/Kerugian dari Aset Trading, Derivatif, dan FVO / Pendapatan Operasional</assessment_factor>
+      <weight>6.000000</weight>
+      <ID>631</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 2%
+ 2 : 2% &lt; Ratio ≤ 3%
+ 3 : 3% &lt; Ratio ≤ 4%
+ 4 : 4% &lt; Ratio ≤ 5%
+ 5 : Ratio &gt; 5%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200101000</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>1.10 Unrealized Loss Surat Berharga (AFS) / Modal</assessment_factor>
+      <weight>20.000000</weight>
+      <ID>637</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 2%
+ 2 : 2% &lt; Ratio ≤ 3%
+ 3 : 3% &lt; Ratio ≤ 4%
+ 4 : 4% &lt; Ratio ≤ 5%
+ 5 : Ratio &gt; 5%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200100700</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>1.7 Ekuitas Kategori AFS / Total Modal</assessment_factor>
+      <weight>3.000000</weight>
+      <ID>634</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 2%
+ 2 : 2% &lt; Ratio ≤ 3%
+ 3 : 3% &lt; Ratio ≤ 4%
+ 4 : 4% &lt; Ratio ≤ 5%
+ 5 : Ratio &gt; 5%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0200100300</Profile_ID>
+      <risiko_name>Risiko Pasar</risiko_name>
+      <assessment_factor>1.3 Total Structured Product / Total Aset</assessment_factor>
+      <weight>7.000000</weight>
+      <ID>630</ID>
+      <Risk_ID>9</Risk_ID>
+      <threshold>1 : Ratio ≤ 2%
+ 2 : 2% &lt; Ratio ≤ 3%
+ 3 : 3% &lt; Ratio ≤ 4%
+ 4 : 4% &lt; Ratio ≤ 5%
+ 5 : Ratio &gt; 5%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0500100000</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <assessment_factor>Faktor Litigasi</assessment_factor>
+    <weight>33.330000</weight>
+    <ID>856</ID>
+    <Risk_ID>12</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0500100200</Profile_ID>
+      <risiko_name>Risiko Hukum</risiko_name>
+      <assessment_factor>1.2 Besarnya kerugian yang dialami oleh LJK dalam Konglomerasi Keuangan karena suatu putusan dari pengadilan yang telah memiliki kekuatan hukum tetap dibandingkan dengan modal Konglomerasi Keuangan
+
+(Total Realisasi Kerugian nominal gugatan seluruh LJK dari rata-rata modal KK)</assessment_factor>
+      <weight>12.000000</weight>
+      <ID>858</ID>
+      <Risk_ID>12</Risk_ID>
+      <threshold>1 : Value &lt;= 0 
+ 2. 0,0% &gt; Rasio ≤ 0,3% 
+ 3. 0,3% &gt; Rasio ≤ 0,5% 
+ 4. 0,5% &gt; Rasio ≤ 0,75% 
+ 5. Rasio &gt; 0,75%</threshold>
+      <rating_to_score>1:0
+2:0
+3:0
+4:0
+5:0</rating_to_score>
+      <RiskProfileNode>
+        <Profile_ID>RI0500100201</Profile_ID>
+        <risiko_name>Risiko Hukum</risiko_name>
+        <assessment_factor>1.3 Dasar dari gugatan yang terjadi dan pihak yang tergugat/menggugat oleh LJK dalam Konglomerasi Keuangan dalam suatu gugatan yang diajukan serta tindakan dari manajemen atas suatu gugatan yang diajukan.</assessment_factor>
+        <weight>1.000000</weight>
+        <ID>859</ID>
+        <Risk_ID>12</Risk_ID>
+        <threshold>1. Tidak terdapat proses litigasi, kerugian finansial dan reputasi
+ 2. Kurang Signifikan yaitu terdapat proses litigasi dan tidak terdapat / kerugian finansial serta reputasi
+ 3. Cukup Signifikan yaitu terdapat proses litigasi, kerugian finansial dan tidak berdampak pada reputasi
+ 4. Signifikan yaitu terdapat proses litigasi, kerugian finansial dan reputasi yang berdampak cukup besar
+ 5. Sangat Signifikan yaitu terdapat proses litigasi, kerugian finansial dan reputasi yang berdampak sangat besar</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+      <RiskProfileNode>
+        <Profile_ID>RI0500100202</Profile_ID>
+        <risiko_name>Risiko Hukum</risiko_name>
+        <assessment_factor>1.4 Kemungkinan timbulnya gugatan yang serupa karena adanya standar perjanjian yang sama dan estimasi total kerugian yang mungkin timbul dibandingkan dengan modal Konglomerasi Keuangan
+
+(Rasio nominal estimasi potensi kerugian terjadi karena adanya standar perjanjian yang sama terhadap rata-rata modal dalam periode penilaian)</assessment_factor>
+        <weight>1.000000</weight>
+        <ID>860</ID>
+        <Risk_ID>12</Risk_ID>
+        <threshold>1. Rasio ≤ 20%
+ 2. 20% &lt; Rasio ≤ 30%
+ 3. 30% &lt; Rasio ≤ 40%
+ 4. 40% &lt; Rasio ≤ 50%
+ 5. Rasio &gt; 50%</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0500100100</Profile_ID>
+      <risiko_name>Risiko Hukum</risiko_name>
+      <assessment_factor>1.1 Besarnya nominal gugatan yang diajukan atau estimasi kerugian yang mungkin dialami oleh LJK dalam Konglomerasi Keuangan akibat dari gugatan tersebut dibandingkan dengan modal Konglomerasi Keuangan
+
+(Total Estimasi Kerugian nominal gugatan seluruh LJK dari rata-rata modal KK)</assessment_factor>
+      <weight>11.000000</weight>
+      <ID>857</ID>
+      <Risk_ID>12</Risk_ID>
+      <threshold>1 : Value &lt;= 0,0025
+ 2. 0.5% &gt; Rasio ≤ 0.75% 
+ 3. 0.75% &gt; Rasio ≤ 1%
+ 4. 1% &gt; Rasio ≤ 1,25%
+ 5. Rasio &gt;1,25%</threshold>
+      <rating_to_score>1:92
+2:0
+3:0
+4:0
+5:0</rating_to_score>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0800100000</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <assessment_factor>Jenis dan Signifikansi Pelanggaran yang Dilakukan</assessment_factor>
+    <weight>10.000000</weight>
+    <ID>718</ID>
+    <Risk_ID>13</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0800100200</Profile_ID>
+      <risiko_name>Risiko Kepatuhan</risiko_name>
+      <assessment_factor>1.2 Jenis pelanggaran atau ketidakpatuhan yang dilakukan LJK dalam Konglomerasi Keuangan</assessment_factor>
+      <weight>12.000000</weight>
+      <ID>720</ID>
+      <Risk_ID>13</Risk_ID>
+      <threshold>1. Tidak ada pelanggaran atau ketidakpatuhan yang dilakukan LJK
+ 2. Jenis pelanggaran tidak signifikan (contoh antara lain sanksi denda kesalahan informasi pelaporan LBU, Pajak, Debitur dan Transaksi Keuangan Mencurigakan)
+ 3. Jenis pelanggaran cukup signifikan (perlu ada action plan dari LJK dan komitmen penyelesaian kepada OJK)
+ 4. Jenis pelanggaran signifikan (pelanggaran yang dilakukan dapat menurunkan penilaian Tingkat Kesehatan LJK)
+ 5. Jenis pelanggaran sangat signifikan (pelanggaran yang dilakukan dapat menurunkan penilaiani Tingkat Kesehatan LJK dan terdapat Fit and Proper Direksi).</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0800100100</Profile_ID>
+      <risiko_name>Risiko Kepatuhan</risiko_name>
+      <assessment_factor>1.1 Jumlah sanksi denda kewajiban membayar yang dikenakan oleh Otoritas kepada LJK dalam Konglomerasi Keuangan.
+
+(Total Nominal Sanksi denda terhadap rata-rata modal KK)
+</assessment_factor>
+      <weight>11.000000</weight>
+      <ID>719</ID>
+      <Risk_ID>13</Risk_ID>
+      <threshold>1: Rasio ≤ 0,1%
+ 2: 0,1% &lt; Rasio ≤ 0,2%
+ 3: 0,2% &lt; Rasio ≤ 0,3%
+ 4: 0,3% &lt; Rasio ≤ 0,4%
+ 5: Rasio &gt; 0,4%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0100400000</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <assessment_factor>Faktor Eksternal</assessment_factor>
+    <weight>12.000000</weight>
+    <ID>1089</ID>
+    <Risk_ID>8</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0100400600</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>4.6 Rasio Tagihan Premi Terhadap Premi Bruto (Premium Receivables to Gross Premium Ratio)</assessment_factor>
+      <weight>20.000000</weight>
+      <ID>1095</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,1
+2 : 0,1 &lt; Value &lt;= 0,15
+3 : 0,15 &lt; Value &lt;= 0,2
+4 : 0,2 &lt; Value &lt;= 0,25
+5 : Value &gt; 0,25</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100400200</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>4.2 Rasio Utang Piutang Transaksi OTC (Transaksi Jual Efek Lainnya + Transaksi Jual Efek Perusahaan Efek lainnya + Gagal serah Perusahaan Efek + Transaksi Beli Efek lainnya + Transaksi Beli Efek Perusahaan Efek lainnya + Gagal Terima Perusahaan Efek)
+
+(Utang piutang transaksi OTC/ Total Aset)</assessment_factor>
+      <weight>10.000000</weight>
+      <ID>1091</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,2
+2 : 0,2 &lt; Value &lt;= 0,4
+3 : 0,4 &lt; Value &lt;= 0,6
+4 : 0,6 &lt; Value &lt;= 0,8
+5 : 0,8 &lt; Value &lt;= 1</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100400500</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>4.5 Rasio Piutang Reverse repo
+
+Efek Reverse repo / (Piutang Reverse repo Surat Berharga Negara + Piutang Reverse repo Obligasi atau Sukuk Korporasi + Piutang Reverse repo Efek Bersifat Ekuitas)</assessment_factor>
+      <weight>20.000000</weight>
+      <ID>1094</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,02
+2 : 0,02 &lt; Value &lt;= 0,0225
+3 : 0,0225 &lt; Value &lt;= 0,025
+4 : 0,025 &lt; Value &lt;= 0,0275
+5 : Value &gt; 0,0275</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100400100</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>4.1 Perubahan kondisi ekonomi, perubahan teknologi, ataupun regulasi yang memengaruhi tingkat suku bunga, nilai tukar, siklus usaha debitur, dan berdampak pada kemampuan debitur untuk membayar kembali pinjamannya. (Total kredit valas/Total Kredit)</assessment_factor>
+      <weight>20.000000</weight>
+      <ID>1090</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,05
+2 : 0,05 &lt; Value &lt;= 0,075
+3 : 0,075 &lt; Value &lt;= 0,1
+4 : 0,1 &lt; Value &lt;= 0,125
+5 : Value &gt; 0,125</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100400400</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>4.4 Rasio Utang Repo
+
+Efek Repo atau Re-repo / (Utang Repo Surat Berharga Negara + Utang Repo Obligasi atau Sukuk Korporasi + Utang Repo Efek Bersifat Ekuitas)</assessment_factor>
+      <weight>20.000000</weight>
+      <ID>1093</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,02
+2 : 0,02 &lt; Value &lt;= 0,0225
+3 : 0,0225 &lt; Value &lt;= 0,025
+4 : 0,025 &lt; Value &lt;= 0,0275
+5 : Value &gt; 0,0275</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100400300</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>4.3 Rasio Piutang Marjin dan Reguler
+
+Efek Dalam Rekening Efek Nasabah (Efek Jaminan) / (Saldo Debit Rekening Efek Nasabah + Piutang NPR transaksi beli sejak tanggal penyelesaian)</assessment_factor>
+      <weight>10.000000</weight>
+      <ID>1092</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &gt; 0,8
+2 : 0,6 &lt; Value &lt;= 0,8
+3 : 0,4 &lt; Value &lt;= 0,6
+4 : 0,2 &lt; Value &lt;= 0,4
+5 : Value &lt;= 0,2</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI1200100000</Profile_ID>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <assessment_factor>Komposisi Dana Pihak Ketiga</assessment_factor>
+    <weight>30.000000</weight>
+    <ID>762</ID>
+    <Risk_ID>19</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI1200100100</Profile_ID>
+      <risiko_name>Risiko Imbal Hasil</risiko_name>
+      <assessment_factor>1.1 Non Core Deposit/
+Total Dana Pihak Ketiga</assessment_factor>
+      <weight>100.000000</weight>
+      <ID>763</ID>
+      <Risk_ID>19</Risk_ID>
+      <threshold>1 : Value &lt;= 50%
+2 : 50% &lt; Value &lt;= 60%
+3 : 60% &lt; Value &lt;= 65 %
+4 : 65% &lt; Value &lt;= 70%
+5 : Value &gt; 70%</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0400400000</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <assessment_factor>Fraud</assessment_factor>
+    <weight>1.000000</weight>
+    <ID>1262</ID>
+    <Risk_ID>11</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0400400201</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>4.2.1 Fraud internal
+Fraud internal merupakan tindakan penyalahgunaan yang disengaja oleh pegawai LJK dalam Konglomerasi Keuangan dan melanggar Undang-Undang yang menyebabkan kerugian/potensi kerugian bagi LJK tersebut. Bentuk-bentuk fraud internal antara lain, pencurian dan penggelapan uang.
+
+(Frekuensi terjadinya fraud internal)</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1264</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold>1. 0 - 20
+ 2. 21 - 40
+ 3. 41 - 60
+ 4. 61 - 80
+ 5. &gt; 80</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0400400202</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>4.2.2 Fraud eksternal
+Fraud eksternal merupakan tindakan pencurian yang disengaja oleh pihak ketiga dan melanggar Undang-Undang yang menyebabkan kerugian/potensi kerugian bagi LJK dalam Konglomerasi Keuangan, baik secara finansial maupun nonfinansial. Bentuk-bentuk fraud eksternal antara lain, penipuan dan pencurian.
+
+(Frekuensi terjadinya fraud Eksternal)</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1265</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold>1. 0 - 20
+ 2. 21 - 40
+ 3. 41 - 60
+ 4. 61 - 80
+ 5. &gt; 80</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0400400100</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>4.1 Kerugian yang ditimbulkan akibat fraud</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1263</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold>1. Rasio ≤ 0,5% 
+ 2. 0,5% &gt; Rasio ≤ 1% 
+ 3. 1% &gt; Rasio ≤ 1,5% 
+ 4. 1,5% &gt; Rasio ≤ 2% 
+ 5. Rasio &gt; 2%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0400300000</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <assessment_factor>Sistem Teknologi Informasi (TI) dan Infrastruktur Pendukung</assessment_factor>
+    <weight>15.000000</weight>
+    <ID>1255</ID>
+    <Risk_ID>11</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0400300101</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>3.1 Kompleksitas sistem TI
+(Jumlah Core System LJK)</assessment_factor>
+      <weight>20.000000</weight>
+      <ID>1256</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold>1: ≤ 20
+ 2: &gt; 20 - ≤ 40
+ 3: &gt; 40 - ≤ 60
+ 4: &gt; 60 - ≤ 80
+ 5: &gt; 80</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0400300102</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>3.2 Perubahan sistem TI
+Terdapat perubahan  pengembangan yang signifikan (major development &amp; changes) pada aplikasi kritikal
+(Jumlah perubahan &amp; pengembangan yang signifikan (major development &amp; changes) pada aplikasi kritikal)</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1257</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold>1. ≤ 20
+ 2. 21 - 40
+ 3. 41 - 60
+ 4. 61 - 80
+ 5. &gt;80</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0400300103</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>3.3 Kerentanan sistem TI terhadap ancaman dan serangan TI
+(Jumlah successful security breaches pada aplikasi kritikal)</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1258</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold>1. ≤ 5
+ 2. 6 - 10
+ 3. 11 - 15
+ 4. 16 - 20
+ 5. &gt; 20</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0400300104</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>3.4 Maturity sistem TI
+(Secara rata-rata dari aplikasi kritikal)</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1259</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold>1. Incidents dan problems 100% diselesaikan sesuai SLA dan/ atau 100% backup berhasil dilakukan
+ 2. Incidents dan problems 90% diselesaikan sesuai SLA dan/atau terdapat ≤ 5% backup yang gagal / tidak lengkap
+ 3. Incidents dan problems 80% diselesaikan sesuai SLA dan/atau terdapat 6% - 10% backup yang gagal / tidak lengkap
+ 4. Incidents dan problems 70% diselesaikan sesuai SLA dan/atau terdapat 11% - 15% backup yang gagal / tidak lengkap
+ 5. Incidents dan problems &lt;70% diselesaikan sesuai SLA dan/atau terdapat &gt;15% backup yang gagal / tidak lengkap
+ 
+ *IT maturity is measured through:
+ - availability of data, 
+ - operational excellence (problem / incident management) --&gt; problem log, incident log</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0400300105</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>3.5 Kegagalan sistem TI
+(Jumlah kegagalan sistem kritikal)</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1260</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold>1. 0 (nol)
+ 2. ≤ 10
+ 3. 10 - 20 
+ 4. 20 - 30
+ 5. &gt;30</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0400300106</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>3.6 Keandalan infrastruktur pendukung</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1261</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold>1: Rata-rata Sudah memiliki Data Recovery Center (DRC), Kebijakan atau SOP Bussiness Continuity Managemet (BCM), secara berkala melakukan simulasi tindak rencana darurat (misal: simulasi terjadi kebakaran, banjir, gempa bumi dan lain-lain)
+ 2: Rata-rata LJK Sudah memiliki Data Recovery Center (DRC), Kebijakan atau SOP Bussiness Continuity Managemet (BCM)
+ 3: Rata-rata LJK Sudah memiliki Kebijakan atau SOP Bussiness Continuity Managemet (BCM)
+ 4: Rata-rata LJK On Progress penyusunan Kebijakan atau SOP Bussiness Continuity Managemet (BCM) oleh PIC khusus yang manangani BCM
+ 5: Belum memiliki Data Recovery Center (DRC), Kebijakan atau SOP Bussiness Continuity Managemet (BCM), secara berkala melakukan simulasi tindak rencana darurat (misal: simulasi terjadi kebakaran, banjir, gempa bumi dan lain-lain)</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0100300000</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <assessment_factor>Strategi Penyediaan Dana dan Sumber Timbulnya Penyediaan Dana</assessment_factor>
+    <weight>18.000000</weight>
+    <ID>1082</ID>
+    <Risk_ID>8</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0100300200</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>3.2 Strategi dan produk baru</assessment_factor>
+      <weight>30.000000</weight>
+      <ID>1087</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 3
+2 : 3 &lt; Value &lt;= 5
+3 : 5 &lt; Value &lt;= 7
+4 : 7 &lt; Value &lt;= 9
+5 : Value &gt; 9</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100300100</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>3.1 Proses penyediaan dana, tingkat kompetisi, dan tingkat pertumbuhan aset</assessment_factor>
+      <weight>40.000000</weight>
+      <ID>1083</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold/>
+      <rating_to_score>1:
+2:
+3:
+4:
+5:</rating_to_score>
+      <RiskProfileNode>
+        <Profile_ID>RI0100300101</Profile_ID>
+        <risiko_name>Risiko Kredit</risiko_name>
+        <assessment_factor>3.1.1 Proses penyediaan dana</assessment_factor>
+        <weight>33.330000</weight>
+        <ID>1084</ID>
+        <Risk_ID>8</Risk_ID>
+        <threshold>1 : Value = 1
+2 : Value = 2
+3 : Value = 3
+4 : Value = 4
+5 : Value = 5</threshold>
+        <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+      </RiskProfileNode>
+      <RiskProfileNode>
+        <Profile_ID>RI0100300102</Profile_ID>
+        <risiko_name>Risiko Kredit</risiko_name>
+        <assessment_factor>3.1.2 Tingkat kompetisi</assessment_factor>
+        <weight>33.330000</weight>
+        <ID>1085</ID>
+        <Risk_ID>8</Risk_ID>
+        <threshold>1 : Value = 1
+2 : Value = 2
+3 : Value = 3
+4 : Value = 4
+5 : Value = 5</threshold>
+        <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+      </RiskProfileNode>
+      <RiskProfileNode>
+        <Profile_ID>RI0100300103</Profile_ID>
+        <risiko_name>Risiko Kredit</risiko_name>
+        <assessment_factor>3.1.3 Tingkat pertumbuhan aset</assessment_factor>
+        <weight>33.330000</weight>
+        <ID>1086</ID>
+        <Risk_ID>8</Risk_ID>
+        <threshold>1 : 0,03 &lt; Value &lt;= 0,05
+2 : 0,02 &lt; Value &lt;= 0,03
+3 : 0,01 &lt; Value &lt;= 0,02
+4 : 0 &lt; Value &lt;= 0,01
+5 : Value &lt;= 0</threshold>
+        <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+      </RiskProfileNode>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100300300</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>3.3 Signifikansi penyediaan dana yang dilakukan secara tidak langsung (Penyediaan dana yang dilakukan oleh LJK secara tidak langsung, antara lain penyediaan dana bekerjasama dengan pihak ketiga atau pembelian kredit dari Bank atau lembaga keuangan lain)</assessment_factor>
+      <weight>30.000000</weight>
+      <ID>1088</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,25
+2 : 0,25 &lt; Value &lt;= 0,35
+3 : 0,35 &lt; Value &lt;= 0,45
+4 : 0,45 &lt; Value &lt;= 0,55
+5 : Value &gt; 0,55</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0700300000</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <assessment_factor>Posisi Bisnis LJK dalam Konglomerasi Keuangan</assessment_factor>
+    <weight>30.000000</weight>
+    <ID>1313</ID>
+    <Risk_ID>14</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0700300402</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>3.4.2 Cakupan wilayah operasional</assessment_factor>
+      <weight>34.200000</weight>
+      <ID>1324</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold/>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700300200</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>3.2 Kompetitor dan keunggulan kompetitif</assessment_factor>
+      <weight>32.000000</weight>
+      <ID>1320</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>Penilaiannya mengikuti penilaian rata-rata market share per masing-masing bidang usaha (parameter 3.1). Misal point 3.1 peringkat 2, point 3.2 ini peringkat 2 juga.
+ 
+ 1 : Masing-Masing LJK memiliki keunggulan kompetitif yang stabil dan rata-rata LJK tidak terdapat ancaman dari kompetitor
+ 2 : Masing-Masing LJK memiliki keunggulan kompetitif dan rata-rata LJK memiliki ancaman kompetitor tergolong minor. 
+ 3 : Masing-Masing LJK memiliki keunggulan kompetitif yang moderat dan rata-rata LJK terdapat ancaman dari kompetitor. 
+ 4 : rata-rata LJK kurang memiliki keunggulan kompetitif, atau rata-rata LJK terdapat ancaman signifikan dari kompetitor.
+ 5 : rata-rata LJK tidak memiliki keunggulan kompetitif dan rata-rata LJK terdapat ancaman sangat signifikan dari kompetitor. 
+ 
+ Threshold tidak mengalami perubahan</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700300500</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>3.5 Kondisi ekonomi makro dan dampaknya pada kondisi Konglomerasi Keuangan
+
+(Korelasi antara GDP dengan Total Aset Konglomerasi Keuangan Sinar Mas selama 1 tahun terakhir ('C'))</assessment_factor>
+      <weight>35.000000</weight>
+      <ID>1325</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1. 0 ≤ C &lt; 0,2
+ 2. 0,2 ≤ C &lt; 0.4
+ 3. 0,4 ≤ C &lt; 0,6
+ 4. 0,6 ≤ C 0,8
+ 5. 0,8 ≤ C ≤ 1
+ 
+ Untuk minus akan diabsolutkan (menjadi tidak minus)</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700300100</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>3.1 Pasar di mana LJK dalam Konglomerasi Keuangan melaksanakan kegiatan usaha:</assessment_factor>
+      <weight>31.000000</weight>
+      <ID>1314</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold/>
+      <rating_to_score/>
+      <RiskProfileNode>
+        <Profile_ID>RI0700300102</Profile_ID>
+        <risiko_name>Risiko Stratejik</risiko_name>
+        <assessment_factor>3.1.2 Market Share Total Aset KK (Pembiayaan) terhadap Aset Industri Jasa IKNB (Pembiayaan)
+
+(Total aset perusahaan pembiayaan terhadap total aset industri pembiayaan)
+</assessment_factor>
+        <weight>31.200000</weight>
+        <ID>1316</ID>
+        <Risk_ID>14</Risk_ID>
+        <threshold>1 : Rasio ≥ 2%
+ 2 : 1% ≤ Rasio &lt; 2%
+ 3 : 0.5% ≤ Rasio &lt; 1%
+ 4 : 0.25% ≤ Rasio &lt; 0.5%
+ 5 : Rasio &lt; 0.25%</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+      <RiskProfileNode>
+        <Profile_ID>RI0700300101</Profile_ID>
+        <risiko_name>Risiko Stratejik</risiko_name>
+        <assessment_factor>3.1.1 Market Share Total Aset Bank terhadap Aset Industri Jasa Perbankan</assessment_factor>
+        <weight>31.100000</weight>
+        <ID>1315</ID>
+        <Risk_ID>14</Risk_ID>
+        <threshold>1 : Market Share aset ≥2%
+ 2 : 1% ≤ Market Share aset &lt; 2%
+ 3 : 0.5% ≤ Market Share aset &lt; 1%
+ 4 : 0.25% ≤ Market Share aset &lt; 0.5%
+ 5 : Market Share aset &lt; 0.25%</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+      <RiskProfileNode>
+        <Profile_ID>RI0700300103</Profile_ID>
+        <risiko_name>Risiko Stratejik</risiko_name>
+        <assessment_factor>3.1.3 Market Share Total Aset KK (Asuransi/Reasuransi) terhadap Aset Industri Jasa IKNB (Asuransi)
+
+(Total aset perusahaan asuransi dan reasuransi terhadap total aset industri asuransi dan reasuransi)
+</assessment_factor>
+        <weight>31.300000</weight>
+        <ID>1317</ID>
+        <Risk_ID>14</Risk_ID>
+        <threshold>1 : Rasio ≥ 2%
+ 2 : 1% ≤ Rasio &lt; 2%
+ 3 : 0.5% ≤ Rasio &lt; 1%
+ 4 : 0.25% ≤ Rasio &lt; 0.5%
+ 5 : Rasio &lt; 0.25%</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+      <RiskProfileNode>
+        <Profile_ID>RI0700300104</Profile_ID>
+        <risiko_name>Risiko Stratejik</risiko_name>
+        <assessment_factor>3.1.4 Peringkat MKBD Sekuritas</assessment_factor>
+        <weight>31.400000</weight>
+        <ID>1318</ID>
+        <Risk_ID>14</Risk_ID>
+        <threshold>1. 1-10
+ 2. 11 - 20 
+ 3. 20 - 30
+ 4. 30 - 40
+ 5. &gt; 40</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+      <RiskProfileNode>
+        <Profile_ID>RI0700300105</Profile_ID>
+        <risiko_name>Risiko Stratejik</risiko_name>
+        <assessment_factor>3.1.5 Peringkat Asset Under Management (AUM) Aset Management</assessment_factor>
+        <weight>31.500000</weight>
+        <ID>1319</ID>
+        <Risk_ID>14</Risk_ID>
+        <threshold>1. 1-10
+ 2. 11 - 20 
+ 3. 20 - 30
+ 4. 30 - 40
+ 5. &gt; 40</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700300401</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>3.4.1 Diversifikasi kegiatan usaha</assessment_factor>
+      <weight>34.100000</weight>
+      <ID>1323</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1 : Kegiatan usaha yang dimiliki rata-rata LJK sangat terdiversifikasi 
+ 2 : Kegiatan usaha yang dimiliki rata-rata LJK terdiversifikasi
+ 3 : Kegiatan usaha yang dimiliki rata-rata LJK cukup terdiversifikasi
+ 4 : Kegiatan usaha yang dimiliki rata-rata LJK kurang terdiversifikasi
+ 5 : Kegiatan usaha yang dimiliki rata-rata LJK tidak terdiversifikasi
+ 
+ Masing-masing LJK menjelaskan produk2nya apakah terdiversifikasi atau tidak (jenis produk dijelaskan semuanya). Cth : asuransi jiwa hanya kesehatan, terdiversifikasi jika salah satunya ada unit link</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700300400</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>3.4 Diversifikasi kegiatan usaha dan cakupan wilayah operasional dan</assessment_factor>
+      <weight>34.000000</weight>
+      <ID>1322</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold/>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0700300300</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>3.3 Efisiensi dalam melaksanakan kegiatan usaha
+
+(Rata-Rata Rasio Efisensi LJK)</assessment_factor>
+      <weight>33.000000</weight>
+      <ID>1321</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1 : BOPO ≤ 90%
+ 2 : 90% &lt; BOPO ≤ 105% 
+ 3 : 105% &lt; BOPO ≤ 120%
+ 4 : 120% &lt; BOPO ≤ 135%
+ 5 : BOPO &gt; 135%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI1100300000</Profile_ID>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <assessment_factor>Faktor Eksternal</assessment_factor>
+    <weight>15.000000</weight>
+    <ID>986</ID>
+    <Risk_ID>20</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI1100300100</Profile_ID>
+      <risiko_name>Risiko Investasi</risiko_name>
+      <assessment_factor>3.1 Perubahan kondisi ekonomi, perubahan teknologi, ataupun regulasi yang mempengaruhi usIa nasabah dan berdampak pada kemampuan nasabah untuk menghasilkan pendapatan.</assessment_factor>
+      <weight>100.000000</weight>
+      <ID>987</ID>
+      <Risk_ID>20</Risk_ID>
+      <threshold>1 : 0 &lt;= Value &lt; 0,2
+2 : 0,2 &lt;= Value &lt; 0,4
+3 : 0,4 &lt;= Value &lt; 0,6
+4 : 0,6 &lt;= Value &lt; 0,8
+5 : 0,8 &lt;= Value &lt;= 1</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0100200000</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <assessment_factor>Kualitas Penyediaan Dana dan Kecukupan Pencadangan</assessment_factor>
+    <weight>42.000000</weight>
+    <ID>1074</ID>
+    <Risk_ID>8</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0100200300</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>2.3 Agunan yang Diambil Alih / Total Aset</assessment_factor>
+      <weight>15.000000</weight>
+      <ID>1077</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,01
+2 : 0,01 &lt; Value &lt;= 0,015
+3 : 0,015 &lt; Value &lt;= 0,02
+4 : 0,02 &lt; Value &lt;= 0,025
+5 : Value &gt; 0,025</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100200600</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>2.6 Kredit atau Pembiayaan Bermasalah dikurangi CKPNnya / Total Kredit atau Pembiayaan dikurangi CKPNnya</assessment_factor>
+      <weight>10.000000</weight>
+      <ID>1080</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,02
+2 : 0,02 &lt; Value &lt;= 0,025
+3 : 0,025 &lt; Value &lt;= 0,03
+4 : 0,03 &lt; Value &lt;= 0,035
+5 : Value &gt; 0,035</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100200200</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>2.2 Aktiva Produktif dan TRA Bermasalah / Total Aset dan TRA</assessment_factor>
+      <weight>15.000000</weight>
+      <ID>1076</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,01
+2 : 0,01 &lt; Value &lt;= 0,015
+3 : 0,015 &lt; Value &lt;= 0,02
+4 : 0,02 &lt;  Value &lt;= 0,025
+5 : Value &gt; 0,025</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100200500</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>2.5 Kredit atau Pembiayaan Bermasalah / Total Kredit atau Pembiayaan</assessment_factor>
+      <weight>20.000000</weight>
+      <ID>1079</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,04
+2 : 0,04 &lt; Value &lt;= 0,06
+3 : 0,06 &lt; Value &lt;= 0,08
+4 : 0,08 &lt; Value &lt;= 0,1
+5 : Value &gt; 0,1</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100200100</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>2.1 Aset dan Transaksi Rekening Administratif (TRA) Kualitas rendah / Total Aset dan TRA</assessment_factor>
+      <weight>15.000000</weight>
+      <ID>1075</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,03
+2 : 0,03 &lt; Value &lt;= 0,06
+3 : 0,06 &lt; Value &lt;= 0,09
+4 : 0,09 &lt; Value &lt;= 0,12
+5 : Value &gt; 0,12</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100200400</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>2.4 Kredit atau Pembiayaan Kualitas Rendah / Total Kredit atau Pembiayaan</assessment_factor>
+      <weight>15.000000</weight>
+      <ID>1078</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,19
+2 : 0,19 &lt; Value &lt;= 0,21
+3 : 0,21 &lt; Value &lt;= 0,23
+4 : 0,23 &lt; Value &lt;= 0,25
+5 : Value &gt; 0,25</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100200700</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>2.7 CKPN atas Kredit atau Pembiayaan / Total Kredit atau Pembiayaan</assessment_factor>
+      <weight>10.000000</weight>
+      <ID>1081</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,05
+2 : 0,05 &lt; Value &lt;= 0,1
+3 : 0,1 &lt; Value &lt;= 0,15
+4 : 0,15 &lt; Value &lt;= 0,2
+5 : Value &gt; 0,2</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0400200000</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <assessment_factor>Sumber Daya Manusia (SDM)</assessment_factor>
+    <weight>1.000000</weight>
+    <ID>1248</ID>
+    <Risk_ID>11</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0400200300</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>2.3 SDM tidak memiliki sertifikasi keahlian
+(Pejabat Eksekutif (Direktur) LJK yang tidak memiliki sertifikasi keahlian terhadap Total Direksi)</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1253</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold>1. Rasio ≤ 10%
+ 2. 10% &lt; Rasio ≤ 20%
+ 3. 20% &lt; Rasio ≤ 30%
+ 4. 30% &lt; Rasio ≤ 40%
+ 5. Rasio &gt; 40%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0400200200</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>2.2 Kegagalan karena faktor manusia (human error)
+Total realisasi kerugian terhadap rata-rata modal Konglomerasi Keuangan</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1252</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold>1. Rasio ≤ 0,5% 
+ 2. 0,5% &gt; Rasio ≤ ≤ 1% 
+ 3. 1% &gt; Rasio ≤ 1,5% 
+ 4. 1,5% &gt; Rasio ≤ 2% 
+ 5. Rasio &gt; 2%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0400200100</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>2.1 Penerapan manajemen SDM</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1249</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold/>
+      <rating_to_score/>
+      <RiskProfileNode>
+        <Profile_ID>RI0400200101</Profile_ID>
+        <risiko_name>Risiko Operasional</risiko_name>
+        <assessment_factor>2.1.1 Realisasi Biaya Training
+(Persentase rata-rata realisasi Biaya Training terhadap Biaya Tenaga Kerja)</assessment_factor>
+        <weight>1.000000</weight>
+        <ID>1250</ID>
+        <Risk_ID>11</Risk_ID>
+        <threshold>1. Ratio &gt; 4%
+ 2. 3 % &lt; Ratio ≤ 4 %
+ 3. 2 % &lt; Ratio ≤ 3 %
+ 4. 1 % &lt; Ratio ≤ 2 %
+ 5. Ratio ≤ 1%</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+      <RiskProfileNode>
+        <Profile_ID>RI0400200102</Profile_ID>
+        <risiko_name>Risiko Operasional</risiko_name>
+        <assessment_factor>2.1.2 Turn Over Karyawan (Regretted)
+(Persentasi turnover karyawan [regretted])</assessment_factor>
+        <weight>1.000000</weight>
+        <ID>1251</ID>
+        <Risk_ID>11</Risk_ID>
+        <threshold>1. Rasio ≤ 10%
+ 2. 10% &gt; Rasio ≤ 20%
+ 3. 20% &gt; Rasio ≤ 30%
+ 4. 30% &gt; Rasio ≤ 40%
+ 5. Rasio &gt; 40%</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0400200400</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>2.4 Turn over pegawai yang memiliki izin Wakil Pedagang Efek
+(Rata-Rata % Turn over pegawai yang memiliki izin Wakil Pedagang Efek)</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1254</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold>1. Rasio ≤ 10%
+ 2. 10% &gt; Rasio ≤ 20%
+ 3. 20% &gt; Rasio ≤ 30%
+ 4. 30% &gt; Rasio ≤ 40%
+ 5. Rasio &gt; 40%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0700400000</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <assessment_factor>Pencapaian Rencana Bisnis LJK dalam Konglomerasi Keuangan</assessment_factor>
+    <weight>20.000000</weight>
+    <ID>1326</ID>
+    <Risk_ID>14</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0700400100</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>4.1 Gap antara realisasi dan rencana bisnis LJK dalam Konglomerasi Keuangan
+
+(% realisasi vs rencana bisnis LJK dalam Konglomerasi Keuangan.
+Total Aset, Total Ekuitas, Laba, Kredit/Pembiayaan (Bank  Pembiayaan), Premi Asuransi, NPL/NPF, CAR, RBC dan Gearing Ratio)</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1327</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1 : Pencapaian RBB ≥ 80%
+ 2 : 80% &gt; Pencapaian RBB ≥ 70% 
+ 3 : 70% &gt; Pencapaian RBB ≥ 50%
+ 4 : 50% &gt; Pencapaian RBB ≥ 30%
+ 5 : Pencapaian RBB &lt; 30%</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0600500000</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <assessment_factor>Frekuensi dan Materialitas Keluhan Nasabah</assessment_factor>
+    <weight>20.000000</weight>
+    <ID>684</ID>
+    <Risk_ID>15</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0600500200</Profile_ID>
+      <risiko_name>Risiko Reputasi</risiko_name>
+      <assessment_factor>5.2 Materialitas keluhan nasabah
+
+(Nominal realisasi kerugian atas pemberitaan negatif terhadap rata-rata total modal)</assessment_factor>
+      <weight>52.000000</weight>
+      <ID>686</ID>
+      <Risk_ID>15</Risk_ID>
+      <threshold>1. 0% (Rp 0)
+ 2. 0% &lt; Rasio ≤ 0.010% 
+ 3. 0.010% &lt; Rasio ≤ 0.020% 
+ 4. 0.020% &lt; Rasio ≤ 0.030%
+ 5. 0.030% &lt; Rasio ≤ 0.040%, atau ≥ Rp 2 Miliar</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0600500100</Profile_ID>
+      <risiko_name>Risiko Reputasi</risiko_name>
+      <assessment_factor>5.1 Frekuensi keluhan nasabah terhadap jasa dan produk yang disediakan oleh LJK dalam Konglomerasi Keuangan
+
+(Signifinaksi pemberitaan negatif/ Terdapat pemberitaan negatif yang berasal dari keluhan nasabah terhadap  jasa dan produk yang disediakan oleh LJK dalam Konglomerasi Keuangan)</assessment_factor>
+      <weight>51.000000</weight>
+      <ID>685</ID>
+      <Risk_ID>15</Risk_ID>
+      <threshold>1. Tidak Signifikan apabila seluruh keluhan nasabah diselesaikan sesuai SLA dan tidak terdapat proses gugatan hukum.
+ 2. Kurang Signifikan apabila seluruh keluhan nasabah diselesaikan sesuai SLA dan terdapat proses gugatan hukum 
+ 3. Cukup Signifikana pabila seluruh keluhan nasabah diselesaikan sesuai SLA dan terdapat proses gugatan hukum yang menimbulkan kerugian mengacu pada parameter risiko hukum 1.2 (peringkat 2)
+ 4. Signifikan apabila seluruh keluhan nasabah diselesaikan tidak sesuai SLA dan terdapat proses gugatan hukum yang menimbulkan kerugian mengacu pada parameter risiko hukum 1.2 (peringkat 3)
+ 5. Sangat Signifikan apabila seluruh keluhan nasabah diselesaikan tidak sesuai SLA dan terdapat proses gugatan hukum yang menimbulkan kerugian mengacu pada parameter risiko hukum 1.2 (peringkat 4)</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI1100200000</Profile_ID>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <assessment_factor>Kualitas Pembiayaan Berbasis Bagi Hasil</assessment_factor>
+    <weight>50.000000</weight>
+    <ID>981</ID>
+    <Risk_ID>20</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI1100200300</Profile_ID>
+      <risiko_name>Risiko Investasi</risiko_name>
+      <assessment_factor>2.3 Pembiayaan Berbasis Bagi Hasil Bermasalah per Sektor Ekonomi/
+Pembiayaan Berbasis Bagi Hasil per Sektor Ekonomi</assessment_factor>
+      <weight>20.000000</weight>
+      <ID>984</ID>
+      <Risk_ID>20</Risk_ID>
+      <threshold>1 : Value &lt;= 0,015
+2 : 0,015 &lt; Value &lt;= 0,02
+3 : 0,02 &lt; Value &lt;= 0,025
+4 : 0,025 &lt; Value &lt;= 0,03
+5 : Value &gt; 0,03</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI1100200200</Profile_ID>
+      <risiko_name>Risiko Investasi</risiko_name>
+      <assessment_factor>2.2 Pembiayaan Berbasis Bagi Hasil Bermasalah /
+Total Pembiayaan</assessment_factor>
+      <weight>30.000000</weight>
+      <ID>983</ID>
+      <Risk_ID>20</Risk_ID>
+      <threshold>1 : Value &lt;= 0,01
+2 : 0,01 &lt; Value &lt;= 0,02
+3 : 0,02 &lt; Value &lt;= 0,03
+4 : 0,03 &lt; Value &lt;= 0,05
+5 : Value &gt; 0,05</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI1100200100</Profile_ID>
+      <risiko_name>Risiko Investasi</risiko_name>
+      <assessment_factor>2.1 Pembiayaan Berbasis Bagi Hasil Kualitas Rendah/
+Total Pembiayaan</assessment_factor>
+      <weight>20.000000</weight>
+      <ID>982</ID>
+      <Risk_ID>20</Risk_ID>
+      <threshold>1 : Value &lt;= 0,09
+2 : 0,09 &lt; Value &lt;= 0,11
+3 : 0,11 &lt; Value &lt;= 0,13
+4 : 0,13 &lt; Value &lt;= 0,15
+5 : Value &gt; 0,15</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI1100200400</Profile_ID>
+      <risiko_name>Risiko Investasi</risiko_name>
+      <assessment_factor>2.4 Potensi Kerugian (CKPN Mudharabah dan Musyarakah)/
+Total Pembiayaan Berbasis Bagi Hasil</assessment_factor>
+      <weight>30.000000</weight>
+      <ID>985</ID>
+      <Risk_ID>20</Risk_ID>
+      <threshold>1 : Value &lt;= 0,15
+2 : 0,15 &lt; Value &lt;= 0,2
+3 : 0,2 &lt; Value &lt;= 0,25
+4 : 0,25 &lt; Value &lt;= 0,3
+5 : Value &gt; 0,3</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0100100000</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <assessment_factor>Komposisi Portofolio Aset dan Tingkat Konsentrasi</assessment_factor>
+    <weight>28.000000</weight>
+    <ID>1069</ID>
+    <Risk_ID>8</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <rating_rule>
+      <![CDATA[ 
+      // compute score
+      var codes2 = [
+         "RI0100100100",
+         "RI0100100200",
+         "RI0100100300",
+         "RI0100100400"
+      ];
+
+      var sxb2 = 0.0;
+
+      for (c : codes2){
+       var v = computedWeightedScoreByCode(c);
+       sxb2 += v * 1.0;   
+      }
+
+      print("hahah");
+      print(sxb2);
+      var r = ratingByThreshold(threshold, sxb2);
+
+      return r;
+      
+      ]]>
+    </rating_rule>
+    <score_rule>
+    <![CDATA[ 
+        
+      var codes = [
+         "RI0100100100",
+         "RI0100100200",
+         "RI0100100300",
+         "RI0100100400"
+      ];
+
+      var sxb = 0.0;
+
+      for (c : codes){
+       var v = computedWeightedScoreByCode(c);
+       sxb += v * 1.0;   
+      }
+
+      return sxb;
+    ]]>
+    </score_rule>
+    <RiskProfileNode>
+      <Profile_ID>RI0100100300</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>1.3 Kredit atau Pembiayaan per Sektor Ekonomi / Total Kredit atau Pembiayaan</assessment_factor>
+      <weight>28.000000</weight>
+      <ID>1072</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,4
+2 : 0,4 &lt; Value &lt;= 0,5
+3 : 0,5 &lt; Value &lt;= 0,6
+4 : 0,6 &lt; Value &lt;= 0,7
+5 : Value &gt; 0,7</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100100200</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>1.2 Kredit atau Pembiayaan kepada Debitur Inti / Total Kredit atau Pembiayaan</assessment_factor>
+      <weight>42.000000</weight>
+      <ID>1071</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,4
+2 : 0,4 &lt; Value &lt;= 0,5
+3 : 0,5 &lt; Value &lt;= 0,6
+4 : 0,6 &lt; Value &lt;= 0,7
+5 : Value &gt; 0,7</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100100100</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>1.1 Aset per Akun Neraca / Total Aset</assessment_factor>
+      <weight>12.000000</weight>
+      <ID>1070</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : 0.3 &lt; x &lt;= 0.4
+2 : 0.4 &lt; x &lt;= 0.5
+3 : 0.5 &lt; x &lt;= 0.6
+4 : 0.6 &lt; x &lt;= 0.7
+5 : x &gt; 0.7</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+   <rating_rule>
+    <![CDATA[ 
+       var x = ratingByThreshold(threshold, value);
+
+       return x;
+    ]]>
+   </rating_rule>
+   <score_rule>
+    <![CDATA[ 
+        var score = scoreByRating(rating_to_score, rating);
+        return score;
+    ]]>
+   </score_rule>
+    <value_rule>
+        <![CDATA[
+          var s1 = findConsolidateByCode("SI01003000");
+          var s2 = findConsolidateByCode("SI01001000");
+
+          if(s2 == 0){
+              return 0;
+          } else {
+              return s1 / s2;
+          }
+
+        ]]>
+    </value_rule>
+    
+    
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0100100400</Profile_ID>
+      <risiko_name>Risiko Kredit</risiko_name>
+      <assessment_factor>1.4 Kredit atau Pembiayaan per Kategori Portfolio / Total Kredit atau Pembiayaan</assessment_factor>
+      <weight>18.000000</weight>
+      <ID>1073</ID>
+      <Risk_ID>8</Risk_ID>
+      <threshold>1 : Value &lt;= 0,4
+2 : 0,4 &lt; Value &lt;= 0,5
+3 : 0,5 &lt; Value &lt;= 0,6
+4 : 0,6 &lt; Value &lt;= 0,7
+5 : Value &gt; 0,7</threshold>
+      <rating_to_score>1:92
+2:76
+3:60
+4:44
+5:28</rating_to_score>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0400100000</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <assessment_factor>Karakteristik dan Kompleksitas Bisnis</assessment_factor>
+    <weight>25.000000</weight>
+    <ID>1239</ID>
+    <Risk_ID>11</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0400100300</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>1.3 Corporate action dan pengembangan bisnis baru</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1244</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold/>
+      <rating_to_score/>
+      <RiskProfileNode>
+        <Profile_ID>RI0400100301</Profile_ID>
+        <risiko_name>Risiko Operasional</risiko_name>
+        <assessment_factor>1.3.1 Corporate action
+(Jumlah corporate action yang terjadi dalam periode penilaian)</assessment_factor>
+        <weight>1.000000</weight>
+        <ID>1245</ID>
+        <Risk_ID>11</Risk_ID>
+        <threshold>1. ≤ 3
+ 2. &gt; 3 – 6
+ 3. &gt; 6 – 9
+ 4. &gt; 9 – 12
+ 5. &gt; 12</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+      <RiskProfileNode>
+        <Profile_ID>RI0400100302</Profile_ID>
+        <risiko_name>Risiko Operasional</risiko_name>
+        <assessment_factor>1.3.2 Pengembangan bisnis baru
+(Jumlah pengembangan bisnis baru yang terjadi dalam periode penilaian)</assessment_factor>
+        <weight>1.000000</weight>
+        <ID>1246</ID>
+        <Risk_ID>11</Risk_ID>
+        <threshold>1. ≤ 3
+ 2. &gt; 3 – 6
+ 3. &gt; 6 – 9
+ 4. &gt; 9 – 12
+ 5. &gt; 12</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0400100200</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>1.2 Kompleksitas proses bisnis dan keragaman produk/jasa
+(Jumlah produk / aktivitas baru yang diluncurkan selama periode penilaian)</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1243</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold>1. ≤ 20
+ 2. &gt; 20 - 40
+ 3. &gt; 40 - 60
+ 4. &gt; 60 - 80
+ 5. &gt; 80</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0400100100</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>1.1 Skala usaha dan struktur organisasi</assessment_factor>
+      <weight>50.000000</weight>
+      <ID>1240</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold/>
+      <rating_to_score/>
+      <RiskProfileNode>
+        <Profile_ID>RI0400100101</Profile_ID>
+        <risiko_name>Risiko Operasional</risiko_name>
+        <assessment_factor>1.1.1 Skala usaha 
+(total jumlah kantor LJK)</assessment_factor>
+        <weight>1.000000</weight>
+        <ID>1241</ID>
+        <Risk_ID>11</Risk_ID>
+        <threshold>1. ≤ 600
+ 2. &gt;600 - ≤ 800
+ 3. &gt;800 - ≤ 1.000
+ 4. &gt;1.000 - ≤ 1.200
+ 5. &gt;1.200</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+      <RiskProfileNode>
+        <Profile_ID>RI0400100102</Profile_ID>
+        <risiko_name>Risiko Operasional</risiko_name>
+        <assessment_factor>1.1.2 Struktur organisasi
+(Struktur Organisasi Rata-Rata LJK Konglomerasi Keuangan Sinar Mas)</assessment_factor>
+        <weight>1.000000</weight>
+        <ID>1242</ID>
+        <Risk_ID>11</Risk_ID>
+        <threshold>1. Tidak kompleks
+ 2. Kurang kompleks
+ 3. Cukup kompleks
+ 4. Kompleks
+ 5. Sangat kompleks</threshold>
+        <rating_to_score/>
+      </RiskProfileNode>
+    </RiskProfileNode>
+    <RiskProfileNode>
+      <Profile_ID>RI0400100400</Profile_ID>
+      <risiko_name>Risiko Operasional</risiko_name>
+      <assessment_factor>1.4 Keterlibatan pihak ketiga (outsourcing) pada aktivitas operasional tertentu sehingga tidak sepenuhnya berada dalam pengendalian LJK dalam Konglomerasi Keuangan.
+Penggunaan jasa pihak ketiga berpotensi mengganggu operasional LJK dalam Konglomerasi Keuangan seperti kegagalan pihak ketiga dalam memberikan jasa sesuai yang disepakati, pelanggaran terhadap pengamanan data atau informasi atau perlakuan salah kepada nasabah
+
+(Kepatuhan dalam penggunaan karyawan outsourcing berada pada fungsi / jabatan sesuai dengan ketentuan regulator)</assessment_factor>
+      <weight>1.000000</weight>
+      <ID>1247</ID>
+      <Risk_ID>11</Risk_ID>
+      <threshold>1. Sesuai
+ 2. Terdapat penyimpangan sebanyak 1 fungsi / jabatan
+ 3. Terdapat penyimpangan sebanyak 2 fungsi / jabatan
+ 4. Terdapat penyimpangan sebanyak 3 fungsi / jabatan
+ 5. Terdapat penyimpangan sebanyak 4 fungsi / jabatan</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RI0700200000</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <assessment_factor>Strategi Bisnis LJK dalam Konglomerasi Keuangan</assessment_factor>
+    <weight>25.000000</weight>
+    <ID>1311</ID>
+    <Risk_ID>14</Risk_ID>
+    <threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</threshold>
+    <rating_to_score/>
+    <RiskProfileNode>
+      <Profile_ID>RI0700200100</Profile_ID>
+      <risiko_name>Risiko Stratejik</risiko_name>
+      <assessment_factor>2.1 Penilaian strategi bisnis: 
+
+Strategi berisiko rendah adalah strategi di mana LJK dalam Konglomerasi Keuangan melakukan kegiatan usaha pada pangsa pasar dan nasabah yang telah dikenal sebelumnya atau menyediakan produk yang bersifat tradisional sehingga tingkat pertumbuhan usaha cenderung stabil dan dapat diprediksi.
+
+Strategi berisiko tinggi adalah strategi di mana LJK dalam Konglomerasi Keuangan berencana masuk dalam area bisnis baru, baik pangsa pasar, produk atau jasa, atau nabasah baru.</assessment_factor>
+      <weight>21.000000</weight>
+      <ID>1312</ID>
+      <Risk_ID>14</Risk_ID>
+      <threshold>1 : Strategi LJK berisiko rendah/low 
+ (pangsa pasar dan nasabah yang telah dikenal LJK serta LJK memiliki produk tradisional)
+ 2 : Strategi LJK berisiko low to moderate 
+ (LJK berencana masuk dalam area bisnis baru, baik pangsa pasar, produk atau jasa, atau nasabah baru. LJK juga sudah melakukan analisa bisnis dengan baik, sesuai dengan RBB dan sudah memperoleh izin OJK).
+ 3 : Strategi LJK tergolong moderate 
+  (LJK berencana masuk dalam area bisnis baru, baik pangsa pasar, produk atau jasa, atau nasabah baru namun terdapat kelemahan dalam analisa bisnis meskipun sudah sesuai RBB dan sudah mendapat izin OJK)
+ 4 : Strategi LJK tergolong berisiko moderate to high 
+ (LJK berencana masuk dalam area bisnis baru, baik pangsa pasar, produk atau jasa, atau nasabah baru namun Bank tidak melakukan analisa bisnis, dan realisasi tidak sesuai dengan RBB).
+ 5 : Strategi LJK tergolong berisiko tinggi 
+ (LJK berencana masuk dalam area bisnis baru, baik pangsa pasar, produk atau jasa, atau nasabah baru namun Bank tidak melakukan analisa bisnis, tidak sesuai RBB, belum memperoleh izin OJK dan terkena sanksi/denda).</threshold>
+      <rating_to_score/>
+    </RiskProfileNode>
+  </RiskProfileNode>
+</RiskProfileTree>

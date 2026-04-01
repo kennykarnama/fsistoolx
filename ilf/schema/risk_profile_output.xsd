@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           elementFormDefault="qualified" 
+           attributeFormDefault="unqualified">
+
+  <!-- Root element -->
+  <xs:element name="RiskProfiles">
+    <xs:annotation>
+      <xs:documentation>
+        Root element containing all risk profile evaluation results.
+        Generated from ILF evaluation server output.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="RiskProfile" type="RiskProfileType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- RiskProfile complex type -->
+  <xs:complexType name="RiskProfileType">
+    <xs:annotation>
+      <xs:documentation>
+        Represents a single risk profile with its evaluation results.
+        Contains both configuration data and calculated evaluation metrics.
+        Elements can appear in any order.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:all>
+      <!-- Basic Information -->
+      <xs:element name="risiko_name" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Name of the risk category (e.g., "Risiko Kredit")</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="Profile_ID" type="ProfileIDType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Unique identifier for the risk profile (e.g., "RI0100100000"). Can be empty.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="Faktor_Penilaian" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Assessment factor description</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="Derived_Source" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Source of the data (e.g., "Risk Profile", "data source")</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Threshold and Logic -->
+      <xs:element name="Threshold" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Threshold ranges for rating determination</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="ThresholdFunction" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>CDATA section containing C code for threshold function</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="Input_System" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Input system identifier (e.g., "system")</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="Sandi_Acuan" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Reference code/identifier</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="Logic_Risk_Profile" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Description of risk profile calculation logic</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="Logic_Risk_Profile_Fx" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>CDATA section containing C code for risk profile calculation</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Weighting and Sample Data -->
+      <xs:element name="Sample_Bobot" type="OptionalDecimalType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Weight/bobot value for weighted calculations (e.g., 0.28). Can be empty.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="Sample_Hasil_Perhitungan" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Sample calculation result description</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="Sample_Score" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Sample score value</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Evaluation Results -->
+      <xs:element name="riskProfileEvaluationResult" type="EvaluationResultType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Result of Logic_Risk_Profile_Fx evaluation (score)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="thresholdRating" type="RatingType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Rating (1-5) from ThresholdFunction based on score</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="finalScore" type="ScoreType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Final score mapped from rating via rating_to_score.xml</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="scoreXweight" type="WeightedScoreType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Weighted score (finalScore × Sample_Bobot)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Additional metadata fields -->
+      <xs:element name="Kriteria" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Criteria description</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="Parameter" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Parameter information</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="Bobot" type="OptionalDecimalType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Weight value. Can be empty.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:all>
+  </xs:complexType>
+
+  <!-- Evaluation Result Type -->
+  <xs:complexType name="EvaluationResultType">
+    <xs:annotation>
+      <xs:documentation>Container for evaluation result value</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="value" type="xs:double">
+        <xs:annotation>
+          <xs:documentation>Numeric evaluation result (e.g., 36.200000)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Rating Type -->
+  <xs:complexType name="RatingType">
+    <xs:annotation>
+      <xs:documentation>Container for rating value (1-5 scale)</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="value" type="RatingValueType">
+        <xs:annotation>
+          <xs:documentation>Rating value between 1.0 and 5.0</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Score Type -->
+  <xs:complexType name="ScoreType">
+    <xs:annotation>
+      <xs:documentation>Container for final score value</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="value" type="xs:decimal">
+        <xs:annotation>
+          <xs:documentation>Final score value (e.g., 44.00)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Weighted Score Type -->
+  <xs:complexType name="WeightedScoreType">
+    <xs:annotation>
+      <xs:documentation>Container for weighted score value</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="value" type="xs:double">
+        <xs:annotation>
+          <xs:documentation>Weighted score value (score × weight, e.g., 12.320000)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Simple Types -->
+  
+  <!-- Profile ID Pattern -->
+  <xs:simpleType name="ProfileIDType">
+    <xs:annotation>
+      <xs:documentation>
+        Profile ID follows pattern: RI followed by 10 digits
+        Example: RI0100100000
+        Hierarchical structure where parent ends in 0000
+        Can also be empty string
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="(RI[0-9]{10})?"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Rating Value (1.0 to 5.0) -->
+  <xs:simpleType name="RatingValueType">
+    <xs:annotation>
+      <xs:documentation>
+        Rating scale from 1 to 5, where:
+        5 = Lowest risk (Score ≤ 36)
+        4 = Low risk (36 &lt; Score ≤ 52)
+        3 = Medium risk (52 &lt; Score ≤ 68)
+        2 = High risk (68 &lt; Score ≤ 84)
+        1 = Highest risk (84 &lt; Score ≤ 100)
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:double">
+      <xs:minInclusive value="1.0"/>
+      <xs:maxInclusive value="5.0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Optional Decimal Type (can be empty or a decimal) -->
+  <xs:simpleType name="OptionalDecimalType">
+    <xs:annotation>
+      <xs:documentation>
+        Decimal value that can also be empty
+      </xs:documentation>
+    </xs:annotation>
+    <xs:union memberTypes="xs:decimal EmptyStringType"/>
+  </xs:simpleType>
+
+  <!-- Empty String Type -->
+  <xs:simpleType name="EmptyStringType">
+    <xs:restriction base="xs:string">
+      <xs:length value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

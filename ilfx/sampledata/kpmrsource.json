@@ -1,0 +1,309 @@
+{
+    "data": {
+        "riskName": "Risiko Kredit",
+        "list": [
+            {
+                "id": "27",
+                "code": "SK01004000",
+                "risk_id": "8",
+                "assesment_factor": "Sistem Pengendalian",
+                "children": [
+                    {
+                        "id": "10",
+                        "code": "SK01004002",
+                        "risk_id": "8",
+                        "assesment_factor": "Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko kredit oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": "21",
+                        "code": "SK01004003",
+                        "risk_id": "8",
+                        "assesment_factor": "Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko kredit",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": "18",
+                        "code": "SK01004001",
+                        "risk_id": "8",
+                        "assesment_factor": "Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko kredit",
+                        "children": null,
+                        "value": 3,
+                        "remark": "ahaa",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "ahaa",
+                                "rating": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": "11",
+                        "code": "SK01004004",
+                        "risk_id": "8",
+                        "assesment_factor": "Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko kredit",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    }
+                ],
+                "value": 0,
+                "remark": "",
+                "detail": []
+            },
+            {
+                "id": "39",
+                "code": "SK01003000",
+                "risk_id": "8",
+                "assesment_factor": "Proses Manajemen Risiko, SIM dan SDM",
+                "children": [
+                    {
+                        "id": "6",
+                        "code": "SK01003002",
+                        "risk_id": "8",
+                        "assesment_factor": "Proses penyediaan dana oleh LJK dalam Konglomerasi Keuangan mulai dari proses analisis hingga penanganan aset bermasalah",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "code": "SK01003005",
+                        "risk_id": "8",
+                        "assesment_factor": "Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko kredit",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "code": "SK01003003",
+                        "risk_id": "8",
+                        "assesment_factor": "Sistem pemeringkatan Risiko kredit diterapkan secara konsisten, dan dipahami dengan baik oleh seluruh LJK dalam Konglomerasi Keuangan",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "code": "SK01003001",
+                        "risk_id": "8",
+                        "assesment_factor": "Proses manajemen Risiko kredit oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko kredit",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "code": "SK01003004",
+                        "risk_id": "8",
+                        "assesment_factor": "Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko kredit sehingga menghasilkan pelaporan Risiko kredit Konglomerasi Keuangan secara keseluruhan yang komprehensif dan terintegrasi",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    }
+                ],
+                "value": 0,
+                "remark": "",
+                "detail": []
+            },
+            {
+                "id": "25",
+                "code": "SK01002000",
+                "risk_id": "8",
+                "assesment_factor": "Kerangka Manajemen Risiko",
+                "children": [
+                    {
+                        "id": "3",
+                        "code": "SK01002002",
+                        "risk_id": "8",
+                        "assesment_factor": "Strategi perkreditan atau pembiayaan dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko kredit",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "code": "SK01002003",
+                        "risk_id": "8",
+                        "assesment_factor": "Terdapat kebijakan, prosedur, dan limit Risiko kredit untuk seluruh area manajemen Risiko kredit yang diterapkan dan dipahami",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "code": "SK01002001",
+                        "risk_id": "8",
+                        "assesment_factor": "Fungsi Manajemen Risiko kredit pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    }
+                ],
+                "value": 0,
+                "remark": "",
+                "detail": []
+            },
+            {
+                "id": "29",
+                "code": "SK01001000",
+                "risk_id": "8",
+                "assesment_factor": "Tata Kelola (Risk Governance)",
+                "children": [
+                    {
+                        "id": "12",
+                        "code": "SK01001001",
+                        "risk_id": "8",
+                        "assesment_factor": "Penetapan tingkat Risiko kredit yang akan diambil oleh LJK dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis LJK secara keseluruhan",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": "1",
+                        "code": "SK01001004",
+                        "risk_id": "8",
+                        "assesment_factor": "Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko kredit",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": "14",
+                        "code": "SK01001002",
+                        "risk_id": "8",
+                        "assesment_factor": "Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko kredit",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": "16",
+                        "code": "SK01001003",
+                        "risk_id": "8",
+                        "assesment_factor": "Budaya Risiko kredit dan internalisasi budaya Risiko pada LJK dalam Konglomerasi Keuangan",
+                        "children": null,
+                        "value": 0,
+                        "remark": "",
+                        "detail": [
+                            {
+                                "companyName": "PT. Bank Sinarmas",
+                                "value": "",
+                                "rating": 0
+                            }
+                        ]
+                    }
+                ],
+                "value": 0,
+                "remark": "",
+                "detail": []
+            }
+        ]
+    },
+    "responseCode": "00",
+    "responseMessage": "Success"
+}

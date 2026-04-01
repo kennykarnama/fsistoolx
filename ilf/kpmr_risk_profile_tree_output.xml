@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RiskProfileTree>
+  <RiskProfileNode>
+    <Profile_ID>RK01001001</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Penetapan tingkat Risiko kredit yang akan diambil oleh LJK dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis LJK secara keseluruhan</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>2</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01001002</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko kredit</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>3</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01001003</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Budaya Risiko kredit dan internalisasi budaya Risiko pada LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>4</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01001004</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko kredit</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>5</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01002001</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko kredit pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>7</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01002002</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Strategi perkreditan atau pembiayaan dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko kredit</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>8</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01002003</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko kredit untuk seluruh area manajemen Risiko kredit Kyang diterapkan dan dipahami</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>9</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01003001</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Proses manajemen Risiko kredit oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko kredit</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>11</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01003002</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Proses penyediaan dana oleh LJK dalam Konglomerasi Keuangan mulai dari proses analisis hingga penanganan aset bermasalah</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>12</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01003003</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Sistem pemeringkatan Risiko kredit diterapkan secara konsisten, dan dipahami dengan baik oleh seluruh LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>13</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01003004</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko kredit sehingga menghasilkan pelaporan Risiko kredit Konglomerasi Keuangan secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>14</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01003005</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko kredit</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>15</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01004001</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko kredit</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>17</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01004002</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko kredit oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>18</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01004003</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko kredit</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>19</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK01004004</Profile_ID>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko kredit</Faktor_Penilaian>
+    <risk_id>8</risk_id>
+    <id>20</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK02001001</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Faktor_Penilaian>Penetapan tingkat Risiko Pasar yang akan diambil oleh LJK dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis LJK secara keseluruhan</Faktor_Penilaian>
+    <risk_id>9</risk_id>
+    <id>24</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK02001002</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko Pasar</Faktor_Penilaian>
+    <risk_id>9</risk_id>
+    <id>25</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK02001003</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Faktor_Penilaian>Budaya Risiko Pasar dan internalisasi budaya Risiko pada LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <risk_id>9</risk_id>
+    <id>26</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK02001004</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko Pasar</Faktor_Penilaian>
+    <risk_id>9</risk_id>
+    <id>27</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK02002001</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko Pasar pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <risk_id>9</risk_id>
+    <id>29</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK02002002</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Faktor_Penilaian>Strategi pengelolaan Risiko pasar Konglomerasi Keuangan termasuk strategi trading dan pengelolaan posisi non-trading book.</Faktor_Penilaian>
+    <risk_id>9</risk_id>
+    <id>30</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK02002003</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko Pasar untuk seluruh area manajemen Risiko Pasar yang diterapkan dan dipahami</Faktor_Penilaian>
+    <risk_id>9</risk_id>
+    <id>31</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK02003001</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Faktor_Penilaian>Proses manajemen Risiko Pasar oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko Pasar</Faktor_Penilaian>
+    <risk_id>9</risk_id>
+    <id>33</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK02003002</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko Pasar sehingga menghasilkan pelaporan Risiko Pasar Konglomerasi Keuangan secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <risk_id>9</risk_id>
+    <id>34</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK02003003</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko Pasar</Faktor_Penilaian>
+    <risk_id>9</risk_id>
+    <id>35</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK02004001</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko Pasar</Faktor_Penilaian>
+    <risk_id>9</risk_id>
+    <id>37</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK02004002</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko Pasar oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</Faktor_Penilaian>
+    <risk_id>9</risk_id>
+    <id>38</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK02004003</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko Pasar</Faktor_Penilaian>
+    <risk_id>9</risk_id>
+    <id>39</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK02004004</Profile_ID>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko Pasar</Faktor_Penilaian>
+    <risk_id>9</risk_id>
+    <id>40</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04001001</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Penetapan tingkat Risiko operasional yang akan diambil oleh LJK dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis LJK secara keseluruhan</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>44</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04001002</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko operasional</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>45</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04001003</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Budaya Risiko operasional dan internalisasi budaya Risiko pada seluruh LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>46</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04001004</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko operasional</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>47</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04002001</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko operasional pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>49</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04002002</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Strategi Risiko operasional dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko operasional</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>50</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04002003</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko operasional untuk seluruh area manajemen Risiko operasional yang diterapkan dan dipahami</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>51</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04003001</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Proses manajemen Risiko operasional oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko operasional</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>53</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04003002</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Keandalan Business Continuity Management Konglomerasi Keuangan.</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>54</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04003003</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko operasional sehingga menghasilkan pelaporan Risiko operasional secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>55</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04003004</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko operasional</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>56</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04004001</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko operasional</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>58</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04004002</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko operasional oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>59</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04004003</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko operasional</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>60</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK04004004</Profile_ID>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko operasional</Faktor_Penilaian>
+    <risk_id>11</risk_id>
+    <id>61</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05001001</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Penetapan tingkat Risiko hukum yang akan diambil oleh LJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis secara keseluruhan</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>65</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05001002</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko hukum</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>66</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05001003</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Budaya Risiko hukum dan internalisasi budaya Risiko pada seluruh LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>67</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05001004</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko hukum</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>68</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05002001</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko hukum pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>70</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05002002</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Strategi Risiko hukum dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko hukum</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>71</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05002003</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko hukum untuk seluruh area manajemen Risiko hukum yang diterapkan dan dipahami</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>72</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05003001</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Proses manajemen Risiko hukum oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko hukum</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>74</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05003002</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Assessment terkait pencadangan atas kemungkinan kerugian terhadap kasus hukum LJK dalam Konglomerasi Keuangan yang sedang berjalan</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>75</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05003003</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko hukum sehingga menghasilkan pelaporan Risiko hukum secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>76</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05003004</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko hukum</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>77</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05004001</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko hukum</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>79</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05004002</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko hukum oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>80</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05004003</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko hukum</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>81</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK05004004</Profile_ID>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko hukum</Faktor_Penilaian>
+    <risk_id>12</risk_id>
+    <id>82</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK06001001</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Faktor_Penilaian>Penetapan tingkat Risiko reputasi yang akan diambil oleh PUJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis secara keseluruhan</Faktor_Penilaian>
+    <risk_id>15</risk_id>
+    <id>86</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK06001002</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi PUJK mengenai manajemen Risiko reputasi</Faktor_Penilaian>
+    <risk_id>15</risk_id>
+    <id>87</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK06001003</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Faktor_Penilaian>Budaya Risiko reputasi dan internalisasi budaya Risiko pada seluruh PUJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <risk_id>15</risk_id>
+    <id>88</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK06001004</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi PUJK secara keseluruhan untuk Risiko reputasi</Faktor_Penilaian>
+    <risk_id>15</risk_id>
+    <id>89</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK06002001</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko reputasi pada PUJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <risk_id>15</risk_id>
+    <id>91</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK06002002</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Faktor_Penilaian>Strategi Risiko reputasi dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko reputasi Konglomerasi Keuangan</Faktor_Penilaian>
+    <risk_id>15</risk_id>
+    <id>92</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK06002003</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko reputasi untuk seluruh area manajemen Risiko reputasi yang diterapkan dan dipahami</Faktor_Penilaian>
+    <risk_id>15</risk_id>
+    <id>93</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK06003001</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Faktor_Penilaian>Proses manajemen Risiko reputasi oleh PUJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko reputasi</Faktor_Penilaian>
+    <risk_id>15</risk_id>
+    <id>95</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK06003002</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko reputasi sehingga menghasilkan pelaporan Risiko reputasi secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <risk_id>15</risk_id>
+    <id>96</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK06003003</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada PUJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko reputasi</Faktor_Penilaian>
+    <risk_id>15</risk_id>
+    <id>97</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK06004001</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko reputasi</Faktor_Penilaian>
+    <risk_id>15</risk_id>
+    <id>99</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK06004002</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko reputasi oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi PUJK</Faktor_Penilaian>
+    <risk_id>15</risk_id>
+    <id>100</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK06004003</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko reputasi</Faktor_Penilaian>
+    <risk_id>15</risk_id>
+    <id>101</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK06004004</Profile_ID>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko reputasi</Faktor_Penilaian>
+    <risk_id>15</risk_id>
+    <id>102</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK07001001</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Faktor_Penilaian>Penetapan tingkat Risiko stratejik yang akan diambil oleh LJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis secara keseluruhan</Faktor_Penilaian>
+    <risk_id>14</risk_id>
+    <id>106</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK07001002</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko stratejik</Faktor_Penilaian>
+    <risk_id>14</risk_id>
+    <id>107</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK07001003</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Faktor_Penilaian>Budaya Risiko stratejik dan internalisasi budaya Risiko pada seluruh LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <risk_id>14</risk_id>
+    <id>108</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK07001004</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko stratejik</Faktor_Penilaian>
+    <risk_id>14</risk_id>
+    <id>109</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK07002001</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko stratejik pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <risk_id>14</risk_id>
+    <id>111</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK07002002</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Faktor_Penilaian>Strategi Risiko stratejik dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko stratejik</Faktor_Penilaian>
+    <risk_id>14</risk_id>
+    <id>112</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK07002003</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko stratejik untuk seluruh area manajemen Risiko stratejik yang diterapkan dan dipahami</Faktor_Penilaian>
+    <risk_id>14</risk_id>
+    <id>113</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK07003001</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Faktor_Penilaian>Proses manajemen Risiko stratejik oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko stratejik</Faktor_Penilaian>
+    <risk_id>14</risk_id>
+    <id>115</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK07003002</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko stratejik sehingga menghasilkan pelaporan Risiko stratejik secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <risk_id>14</risk_id>
+    <id>116</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK07003003</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko stratejik</Faktor_Penilaian>
+    <risk_id>14</risk_id>
+    <id>117</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK07004001</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko stratejik</Faktor_Penilaian>
+    <risk_id>14</risk_id>
+    <id>119</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK07004002</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko stratejik oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</Faktor_Penilaian>
+    <risk_id>14</risk_id>
+    <id>120</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK07004003</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko</Faktor_Penilaian>
+    <risk_id>14</risk_id>
+    <id>121</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK07004004</Profile_ID>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko stratejik</Faktor_Penilaian>
+    <risk_id>14</risk_id>
+    <id>122</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK08001001</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Faktor_Penilaian>Penetapan tingkat Risiko kepatuhan yang akan diambil oleh LJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis secara keseluruhan</Faktor_Penilaian>
+    <risk_id>13</risk_id>
+    <id>126</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK08001002</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko kepatuhan Konglomerasi Keuangan.</Faktor_Penilaian>
+    <risk_id>13</risk_id>
+    <id>127</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK08001003</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Faktor_Penilaian>Budaya Risiko kepatuhan dan internalisasi budaya Risiko pada seluruh LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <risk_id>13</risk_id>
+    <id>128</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK08001004</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko kepatuhan</Faktor_Penilaian>
+    <risk_id>13</risk_id>
+    <id>129</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK08002001</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko kepatuhan pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <risk_id>13</risk_id>
+    <id>131</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK08002002</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Faktor_Penilaian>Strategi Risiko kepatuhan dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko kepatuhan</Faktor_Penilaian>
+    <risk_id>13</risk_id>
+    <id>132</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK08002003</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko kepatuhan untuk seluruh area manajemen Risiko kepatuhan yang diterapkan dan dipahami</Faktor_Penilaian>
+    <risk_id>13</risk_id>
+    <id>133</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK08003001</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Faktor_Penilaian>Proses manajemen Risiko kepatuhan oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko kepatuhan</Faktor_Penilaian>
+    <risk_id>13</risk_id>
+    <id>135</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK08003002</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko kepatuhan sehingga menghasilkan pelaporan Risiko kepatuhan secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <risk_id>13</risk_id>
+    <id>136</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK08003003</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko kepatuhan</Faktor_Penilaian>
+    <risk_id>13</risk_id>
+    <id>137</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK08004001</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko kepatuhan</Faktor_Penilaian>
+    <risk_id>13</risk_id>
+    <id>139</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK08004002</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko kepatuhan oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</Faktor_Penilaian>
+    <risk_id>13</risk_id>
+    <id>140</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK08004003</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko kepatuhan</Faktor_Penilaian>
+    <risk_id>13</risk_id>
+    <id>141</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK08004004</Profile_ID>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko kepatuhan</Faktor_Penilaian>
+    <risk_id>13</risk_id>
+    <id>142</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK09001001</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Faktor_Penilaian>Penetapan tingkat Risiko transaksi intra-grup yang akan diambil oleh LJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis Konglomerasi Keuangan secara keseluruhan</Faktor_Penilaian>
+    <risk_id>16</risk_id>
+    <id>146</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK09001002</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko transaksi intra-grup</Faktor_Penilaian>
+    <risk_id>16</risk_id>
+    <id>147</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK09001003</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Faktor_Penilaian>Budaya Risiko transaksi intra-grup dan internalisasi budaya Risiko pada seluruh LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <risk_id>16</risk_id>
+    <id>148</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK09001004</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko transaksi intra-grup</Faktor_Penilaian>
+    <risk_id>16</risk_id>
+    <id>149</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK09002001</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko transaksi intra-grup pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <risk_id>16</risk_id>
+    <id>151</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK09002002</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Faktor_Penilaian>Strategi Risiko transaksi intra-grup dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko transaksi intra-grup</Faktor_Penilaian>
+    <risk_id>16</risk_id>
+    <id>152</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK09002003</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko transaksi intra-grup untuk seluruh area manajemen Risiko transaksi intra-grup yang diterapkan dan dipahami</Faktor_Penilaian>
+    <risk_id>16</risk_id>
+    <id>153</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK09003001</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Faktor_Penilaian>Proses manajemen Risiko transaksi intra-grup oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko transaksi intra-grup</Faktor_Penilaian>
+    <risk_id>16</risk_id>
+    <id>155</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK09003002</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko transaksi intra-grup sehingga menghasilkan pelaporan Risiko transaksi intra-grup secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <risk_id>16</risk_id>
+    <id>156</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK09003003</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko transaksi intra-grup</Faktor_Penilaian>
+    <risk_id>16</risk_id>
+    <id>157</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK09004001</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko transaksi intra-grup</Faktor_Penilaian>
+    <risk_id>16</risk_id>
+    <id>159</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK09004002</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko transaksi intra-grup oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</Faktor_Penilaian>
+    <risk_id>16</risk_id>
+    <id>160</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK09004003</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko transaksi intra-grup</Faktor_Penilaian>
+    <risk_id>16</risk_id>
+    <id>161</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK09004004</Profile_ID>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko transaksi intra-grup</Faktor_Penilaian>
+    <risk_id>16</risk_id>
+    <id>162</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10001001</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Penetapan tingkat Risiko asuransi yang akan diambil oleh PUJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis secara keseluruhan</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>166</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10001002</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi PUJK mengenai manajemen Risiko asuransi Konglomerasi Keuangan</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>167</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10001003</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Budaya Risiko asuransi dan internalisasi budaya Risiko pada seluruh PUJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>168</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10001004</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi PUJK secara keseluruhan untuk Risiko asuransi</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>169</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10002001</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko asuransi pada PUJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>171</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10002002</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Delegasi kewenangan pada PUJK yang memiliki eksposur Risiko asuransi</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>172</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10002003</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Strategi Risiko asuransi  dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko asuransi</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>173</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10002004</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko asuransi Konglomerasi Keuangan untuk seluruh area manajemen Risiko asuransi Konglomerasi Keuangan yang diterapkan dan dipahami</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>174</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10003001</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Proses manajemen Risiko asuransi oleh PUJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko asuransi</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>176</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10003002</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko asuransi sehingga menghasilkan pelaporan Risiko asuransi secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>177</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10003003</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada PUJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko asuransi</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>178</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10004001</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko asuransi</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>180</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10004002</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko asuransi oleh SKAIT baik dari sisi metodologi,frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi PUJK</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>181</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10004003</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko asuransi</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>182</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK10004004</Profile_ID>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko asuransi</Faktor_Penilaian>
+    <risk_id>7</risk_id>
+    <id>183</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK11001001</Profile_ID>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Faktor_Penilaian>Perumusan tingkat risiko yang akan diambil (risk appetite) dan toleransi risiko (risk tolerance)</Faktor_Penilaian>
+    <risk_id>20</risk_id>
+    <id>187</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK11001002</Profile_ID>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Faktor_Penilaian>Kecukupan pengawasan aktif oleh Dewan Komisaris dan Direksi termasuk pelaksanaan kewenangan dan tanggung jawab Dewan Komisaris dan Direksi.</Faktor_Penilaian>
+    <risk_id>20</risk_id>
+    <id>188</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK11002001</Profile_ID>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Faktor_Penilaian>Strategi Manajemen Risiko yang searah dengan tingkat risiko yang akan diambil dan toleransi risiko</Faktor_Penilaian>
+    <risk_id>20</risk_id>
+    <id>190</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK11002002</Profile_ID>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Faktor_Penilaian>Kecukupan perangkat organisasi dalam mendukung terlaksananya manajemen risiko secara efektif termasuk kejelasan wewenang dan tanggung jawab</Faktor_Penilaian>
+    <risk_id>20</risk_id>
+    <id>191</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK11002003</Profile_ID>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Faktor_Penilaian>Kecukupan kebijakan, prosedur dan penetapan limit</Faktor_Penilaian>
+    <risk_id>20</risk_id>
+    <id>192</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK11003001</Profile_ID>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Faktor_Penilaian>Proses identifikasi, pengukuran, pemantauan, dan pengendalian risiko Identfikasi</Faktor_Penilaian>
+    <risk_id>20</risk_id>
+    <id>194</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK11003002</Profile_ID>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Faktor_Penilaian>Kecukupan sistem informasi Manajemen Risiko</Faktor_Penilaian>
+    <risk_id>20</risk_id>
+    <id>195</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK11003003</Profile_ID>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Faktor_Penilaian>Kecukupan kuantitas dan kualitas sumber daya manusia dalam mendukung efektivitas proses Manajemen Risiko</Faktor_Penilaian>
+    <risk_id>20</risk_id>
+    <id>196</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK11004001</Profile_ID>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Faktor_Penilaian>Kecukupan Sistem Pengendalian Intern</Faktor_Penilaian>
+    <risk_id>20</risk_id>
+    <id>198</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK11004002</Profile_ID>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Faktor_Penilaian>Kecukupan kaji ulang oleh pihak independen dalam Bank, baik oleh Satuan Kerja Manajemen Risiko (SKMR) maupun oleh Satuan Kerja Audit Intern (SKAI)</Faktor_Penilaian>
+    <risk_id>20</risk_id>
+    <id>199</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK12001001</Profile_ID>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Faktor_Penilaian>Perumusan tingkat risiko yang akan diambil (risk appetite) dan toleransi risiko (risk tolerance)</Faktor_Penilaian>
+    <risk_id>19</risk_id>
+    <id>203</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK12001002</Profile_ID>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Faktor_Penilaian>Kecukupan pengawasan aktif oleh Dewan Komisaris dan Direksi termasuk pelaksanaan kewenangan dan tanggung jawab Dewan Komisaris dan Direksi.</Faktor_Penilaian>
+    <risk_id>19</risk_id>
+    <id>204</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK12002001</Profile_ID>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Faktor_Penilaian>Strategi manajemen risiko yang searah dengan tingkat risiko yang akan diambil dan toleransi risiko</Faktor_Penilaian>
+    <risk_id>19</risk_id>
+    <id>206</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK12002002</Profile_ID>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Faktor_Penilaian>Kecukupan perangkat organisasi dalam mendukung terlaksananya manajemen risiko secara efektif termasuk kejelasan wewenang dan tanggung jawab</Faktor_Penilaian>
+    <risk_id>19</risk_id>
+    <id>207</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK12002003</Profile_ID>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Faktor_Penilaian>Kecukupan kebijakan, prosedur dan penetapan limit</Faktor_Penilaian>
+    <risk_id>19</risk_id>
+    <id>208</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK12003001</Profile_ID>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Faktor_Penilaian>Proses identifikasi, pengukuran, pemantauan, dan pengendalian risiko</Faktor_Penilaian>
+    <risk_id>19</risk_id>
+    <id>210</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK12003002</Profile_ID>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Faktor_Penilaian>Kecukupan sistem informasi Manajemen Risiko</Faktor_Penilaian>
+    <risk_id>19</risk_id>
+    <id>211</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK12003003</Profile_ID>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Faktor_Penilaian>Kecukupan kuantitas dan kualitas sumber daya manusia dalam mendukung efektivitas proses Manajemen Risiko</Faktor_Penilaian>
+    <risk_id>19</risk_id>
+    <id>212</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK12004001</Profile_ID>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Faktor_Penilaian>Kecukupan Sistem Pengendalian Internal</Faktor_Penilaian>
+    <risk_id>19</risk_id>
+    <id>214</id>
+  </RiskProfileNode>
+  <RiskProfileNode>
+    <Profile_ID>RK12004002</Profile_ID>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Faktor_Penilaian>Kecukupan kaji ulang oleh pihak independen dalam Bank, baik oleh Satuan Kerja Manajemen Risiko (SKMR) maupun oleh Satuan Kerja Audit Intern (SKAI)</Faktor_Penilaian>
+    <risk_id>19</risk_id>
+    <id>215</id>
+  </RiskProfileNode>
+</RiskProfileTree>

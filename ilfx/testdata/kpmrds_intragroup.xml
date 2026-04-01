@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/kpmr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/kpmr ../xsd/KPMRDataSource.xsd">
+  <riskName>Risiko Intragrup</riskName>
+  <list>
+    <id>188</id>
+    <code>SK09001000</code>
+    <risk_id>16</risk_id>
+    <assesment_factor>Tata Kelola (Risk Governance)</assesment_factor>
+    <children>
+      <item>
+        <id>191</id>
+        <code>SK09001003</code>
+        <risk_id>16</risk_id>
+        <assesment_factor>Budaya Risiko transaksi intra-grup dan internalisasi budaya Risiko pada seluruh LJK dalam Konglomerasi Keuangan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK09001000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>254</id>
+        <code>SK09001001</code>
+        <risk_id>16</risk_id>
+        <assesment_factor>Penetapan tingkat Risiko transaksi intra-grup yang akan diambil oleh LJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis Konglomerasi Keuangan secara keseluruhan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK09001001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>192</id>
+        <code>SK09001004</code>
+        <risk_id>16</risk_id>
+        <assesment_factor>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko transaksi intra-grup</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK09001004");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>190</id>
+        <code>SK09001002</code>
+        <risk_id>16</risk_id>
+        <assesment_factor>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko transaksi intra-grup</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK09001002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>200</id>
+    <code>SK09004000</code>
+    <risk_id>16</risk_id>
+    <assesment_factor>Sistem Pengendalian</assesment_factor>
+    <children>
+      <item>
+        <id>204</id>
+        <code>SK09004004</code>
+        <risk_id>16</risk_id>
+        <assesment_factor>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko transaksi intra-grup</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK09004000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>202</id>
+        <code>SK09004002</code>
+        <risk_id>16</risk_id>
+        <assesment_factor>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko transaksi intra-grup oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK09004002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>203</id>
+        <code>SK09004003</code>
+        <risk_id>16</risk_id>
+        <assesment_factor>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko transaksi intra-grup</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK09004003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>201</id>
+        <code>SK09004001</code>
+        <risk_id>16</risk_id>
+        <assesment_factor>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko transaksi intra-grup</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK09004001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>164</id>
+    <code>SK09003000</code>
+    <risk_id>16</risk_id>
+    <assesment_factor>Proses Manajemen Risiko, SIM dan SDM</assesment_factor>
+    <children>
+      <item>
+        <id>197</id>
+        <code>SK09003001</code>
+        <risk_id>16</risk_id>
+        <assesment_factor>Proses manajemen Risiko transaksi intra-grup oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko transaksi intra-grup</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK09003000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>198</id>
+        <code>SK09003002</code>
+        <risk_id>16</risk_id>
+        <assesment_factor>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko transaksi intra-grup sehingga menghasilkan pelaporan Risiko transaksi intra-grup secara keseluruhan yang komprehensif dan terintegrasi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK09003002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>199</id>
+        <code>SK09003003</code>
+        <risk_id>16</risk_id>
+        <assesment_factor>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko transaksi intra-grup</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK09003003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>193</id>
+    <code>SK09002000</code>
+    <risk_id>16</risk_id>
+    <assesment_factor>Kerangka Manajemen Risiko</assesment_factor>
+    <children>
+      <item>
+        <id>196</id>
+        <code>SK09002003</code>
+        <risk_id>16</risk_id>
+        <assesment_factor>Terdapat kebijakan, prosedur, dan limit Risiko transaksi intra-grup untuk seluruh area manajemen Risiko transaksi intra-grup yang diterapkan dan dipahami</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK09002000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>194</id>
+        <code>SK09002001</code>
+        <risk_id>16</risk_id>
+        <assesment_factor>Fungsi Manajemen Risiko transaksi intra-grup pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK09002001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>195</id>
+        <code>SK09002002</code>
+        <risk_id>16</risk_id>
+        <assesment_factor>Strategi Risiko transaksi intra-grup dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko transaksi intra-grup</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK09002002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+</data>

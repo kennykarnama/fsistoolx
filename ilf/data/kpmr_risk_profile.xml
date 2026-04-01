@@ -1,0 +1,3783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kpmr_risk_profile_edge [
+  <!ELEMENT kpmr_risk_profile_edge (DATA_RECORD*)>
+  <!ELEMENT DATA_RECORD (risiko_name?,Profile_ID?,Faktor_Penilaian?,derived_from_data_source_Risk_Profile?,Threshold?,input_system?,sandi_acuan_from_Data_Source_result_in_Rating?,Logic_Risk_Profile?,risk_id?,id?)+>
+  <!ELEMENT risiko_name (#PCDATA)>
+  <!ELEMENT Profile_ID (#PCDATA)>
+  <!ELEMENT Faktor_Penilaian (#PCDATA)>
+  <!ELEMENT derived_from_data_source_Risk_Profile (#PCDATA)>
+  <!ELEMENT Threshold (#PCDATA)>
+  <!ELEMENT input_system (#PCDATA)>
+  <!ELEMENT sandi_acuan_from_Data_Source_result_in_Rating (#PCDATA)>
+  <!ELEMENT Logic_Risk_Profile (#PCDATA)>
+  <!ELEMENT risk_id (#PCDATA)>
+  <!ELEMENT id (#PCDATA)>
+]>
+<kpmr_risk_profile_edge>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Tata Kelola (Risk Governance)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>1</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01001001</Profile_ID>
+    <Faktor_Penilaian>Penetapan tingkat Risiko kredit yang akan diambil oleh LJK dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis LJK secara keseluruhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01001001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>2</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01001002</Profile_ID>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko kredit</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01001002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>3</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01001003</Profile_ID>
+    <Faktor_Penilaian>Budaya Risiko kredit dan internalisasi budaya Risiko pada LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01001003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>4</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01001004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko kredit</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01001004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>5</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Kerangka Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>6</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01002001</Profile_ID>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko kredit pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01002001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>7</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01002002</Profile_ID>
+    <Faktor_Penilaian>Strategi perkreditan atau pembiayaan dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko kredit</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01002002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>8</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01002003</Profile_ID>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko kredit untuk seluruh area manajemen Risiko kredit Kyang diterapkan dan dipahami</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01002003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>9</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Proses Manajemen Risiko, SIM dan SDM</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>10</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01003001</Profile_ID>
+    <Faktor_Penilaian>Proses manajemen Risiko kredit oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko kredit</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01003001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>11</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01003002</Profile_ID>
+    <Faktor_Penilaian>Proses penyediaan dana oleh LJK dalam Konglomerasi Keuangan mulai dari proses analisis hingga penanganan aset bermasalah</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01003002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>12</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01003003</Profile_ID>
+    <Faktor_Penilaian>Sistem pemeringkatan Risiko kredit diterapkan secara konsisten, dan dipahami dengan baik oleh seluruh LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01003003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>13</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01003004</Profile_ID>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko kredit sehingga menghasilkan pelaporan Risiko kredit Konglomerasi Keuangan secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01003004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>14</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01003005</Profile_ID>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko kredit</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01003005</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>15</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Sistem Pengendalian</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>16</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01004001</Profile_ID>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko kredit</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01004001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>17</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01004002</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko kredit oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01004002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>18</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01004003</Profile_ID>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko kredit</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01004003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>19</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID>RK01004004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko kredit</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK01004004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>20</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Total Score and Rating</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score &lt;= 40
+4:  40 &lt; Score &lt;= 55
+3:  55 &lt; Score &lt;= 70
+2:  70 &lt; Score &lt;= 85
+1:  85 &lt; Score &lt;= 100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Total SxB from the risk profile with color Gray
+Rating : Score vs Threshold</Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>21</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kredit</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian></Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile></derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system></input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile></Logic_Risk_Profile>
+    <risk_id>8</risk_id>
+    <id>22</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Tata Kelola (Risk Governance)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>23</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID>RK02001001</Profile_ID>
+    <Faktor_Penilaian>Penetapan tingkat Risiko Pasar yang akan diambil oleh LJK dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis LJK secara keseluruhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK02001001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>24</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID>RK02001002</Profile_ID>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko Pasar</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK02001002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>25</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID>RK02001003</Profile_ID>
+    <Faktor_Penilaian>Budaya Risiko Pasar dan internalisasi budaya Risiko pada LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK02001003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>26</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID>RK02001004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko Pasar</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK02001004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>27</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Kerangka Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>28</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID>RK02002001</Profile_ID>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko Pasar pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK02002001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>29</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID>RK02002002</Profile_ID>
+    <Faktor_Penilaian>Strategi pengelolaan Risiko pasar Konglomerasi Keuangan termasuk strategi trading dan pengelolaan posisi non-trading book.</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK02002002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>30</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID>RK02002003</Profile_ID>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko Pasar untuk seluruh area manajemen Risiko Pasar yang diterapkan dan dipahami</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK02002003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>31</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Proses Manajemen Risiko, SIM dan SDM</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>32</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID>RK02003001</Profile_ID>
+    <Faktor_Penilaian>Proses manajemen Risiko Pasar oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko Pasar</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK02003001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>33</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID>RK02003002</Profile_ID>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko Pasar sehingga menghasilkan pelaporan Risiko Pasar Konglomerasi Keuangan secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK02003002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>34</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID>RK02003003</Profile_ID>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko Pasar</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK02003003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>35</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Sistem Pengendalian</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>36</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID>RK02004001</Profile_ID>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko Pasar</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK02004001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>37</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID>RK02004002</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko Pasar oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK02004002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>38</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID>RK02004003</Profile_ID>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko Pasar</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK02004003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>39</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID>RK02004004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko Pasar</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK02004004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>40</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Total Score and Rating</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score &lt;= 40
+4:  40 &lt; Score &lt;= 55
+3:  55 &lt; Score &lt;= 70
+2:  70 &lt; Score &lt;= 85
+1:  85 &lt; Score &lt;= 100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Total SxB from the risk profile with color Gray
+Rating : Score vs Threshold</Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>41</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Pasar</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian></Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile></derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system></input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile></Logic_Risk_Profile>
+    <risk_id>9</risk_id>
+    <id>42</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Tata Kelola (Risk Governance)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>43</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04001001</Profile_ID>
+    <Faktor_Penilaian>Penetapan tingkat Risiko operasional yang akan diambil oleh LJK dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis LJK secara keseluruhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04001001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>44</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04001002</Profile_ID>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko operasional</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04001002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>45</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04001003</Profile_ID>
+    <Faktor_Penilaian>Budaya Risiko operasional dan internalisasi budaya Risiko pada seluruh LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04001003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>46</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04001004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko operasional</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04001004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>47</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Kerangka Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>48</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04002001</Profile_ID>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko operasional pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04002001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>49</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04002002</Profile_ID>
+    <Faktor_Penilaian>Strategi Risiko operasional dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko operasional</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04002002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>50</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04002003</Profile_ID>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko operasional untuk seluruh area manajemen Risiko operasional yang diterapkan dan dipahami</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04002003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>51</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Proses Manajemen Risiko, SIM dan SDM</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>52</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04003001</Profile_ID>
+    <Faktor_Penilaian>Proses manajemen Risiko operasional oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko operasional</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04003001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>53</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04003002</Profile_ID>
+    <Faktor_Penilaian>Keandalan Business Continuity Management Konglomerasi Keuangan.</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04003002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>54</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04003003</Profile_ID>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko operasional sehingga menghasilkan pelaporan Risiko operasional secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04003003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>55</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04003004</Profile_ID>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko operasional</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04003004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>56</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Sistem Pengendalian</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>57</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04004001</Profile_ID>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko operasional</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04004001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>58</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04004002</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko operasional oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04004002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>59</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04004003</Profile_ID>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko operasional</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04004003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>60</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID>RK04004004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko operasional</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK04004004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>61</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Total Score and Rating</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score &lt;= 40
+4:  40 &lt; Score &lt;= 55
+3:  55 &lt; Score &lt;= 70
+2:  70 &lt; Score &lt;= 85
+1:  85 &lt; Score &lt;= 100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Total SxB from the risk profile with color Gray
+Rating : Score vs Threshold</Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>62</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Operasional</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian></Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile></derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system></input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile></Logic_Risk_Profile>
+    <risk_id>11</risk_id>
+    <id>63</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Tata Kelola (Risk Governance)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>64</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05001001</Profile_ID>
+    <Faktor_Penilaian>Penetapan tingkat Risiko hukum yang akan diambil oleh LJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis secara keseluruhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05001001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>65</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05001002</Profile_ID>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko hukum</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05001002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>66</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05001003</Profile_ID>
+    <Faktor_Penilaian>Budaya Risiko hukum dan internalisasi budaya Risiko pada seluruh LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05001003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>67</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05001004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko hukum</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05001004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>68</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Kerangka Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>69</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05002001</Profile_ID>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko hukum pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05002001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>70</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05002002</Profile_ID>
+    <Faktor_Penilaian>Strategi Risiko hukum dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko hukum</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05002002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>71</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05002003</Profile_ID>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko hukum untuk seluruh area manajemen Risiko hukum yang diterapkan dan dipahami</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05002003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>72</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Proses Manajemen Risiko, SIM dan SDM</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>73</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05003001</Profile_ID>
+    <Faktor_Penilaian>Proses manajemen Risiko hukum oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko hukum</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05003001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>74</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05003002</Profile_ID>
+    <Faktor_Penilaian>Assessment terkait pencadangan atas kemungkinan kerugian terhadap kasus hukum LJK dalam Konglomerasi Keuangan yang sedang berjalan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05003002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>75</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05003003</Profile_ID>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko hukum sehingga menghasilkan pelaporan Risiko hukum secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05003003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>76</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05003004</Profile_ID>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko hukum</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05003004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>77</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Sistem Pengendalian</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>78</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05004001</Profile_ID>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko hukum</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05004001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>79</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05004002</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko hukum oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05004002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>80</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05004003</Profile_ID>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko hukum</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05004003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>81</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID>RK05004004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko hukum</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK05004004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>82</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Total Score and Rating</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score &lt;= 40
+4:  40 &lt; Score &lt;= 55
+3:  55 &lt; Score &lt;= 70
+2:  70 &lt; Score &lt;= 85
+1:  85 &lt; Score &lt;= 100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Total SxB from the risk profile with color Gray
+Rating : Score vs Threshold</Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>83</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Hukum</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian></Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile></derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system></input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile></Logic_Risk_Profile>
+    <risk_id>12</risk_id>
+    <id>84</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Tata Kelola (Risk Governance)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>85</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID>RK06001001</Profile_ID>
+    <Faktor_Penilaian>Penetapan tingkat Risiko reputasi yang akan diambil oleh PUJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis secara keseluruhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK06001001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>86</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID>RK06001002</Profile_ID>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi PUJK mengenai manajemen Risiko reputasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK06001002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>87</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID>RK06001003</Profile_ID>
+    <Faktor_Penilaian>Budaya Risiko reputasi dan internalisasi budaya Risiko pada seluruh PUJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK06001003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>88</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID>RK06001004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi PUJK secara keseluruhan untuk Risiko reputasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK06001004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>89</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Kerangka Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>90</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID>RK06002001</Profile_ID>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko reputasi pada PUJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK06002001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>91</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID>RK06002002</Profile_ID>
+    <Faktor_Penilaian>Strategi Risiko reputasi dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko reputasi Konglomerasi Keuangan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK06002002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>92</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID>RK06002003</Profile_ID>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko reputasi untuk seluruh area manajemen Risiko reputasi yang diterapkan dan dipahami</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK06002003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>93</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Proses Manajemen Risiko, SIM dan SDM</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>94</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID>RK06003001</Profile_ID>
+    <Faktor_Penilaian>Proses manajemen Risiko reputasi oleh PUJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko reputasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK06003001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>95</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID>RK06003002</Profile_ID>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko reputasi sehingga menghasilkan pelaporan Risiko reputasi secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK06003002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>96</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID>RK06003003</Profile_ID>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada PUJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko reputasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK06003003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>97</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Sistem Pengendalian</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>98</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID>RK06004001</Profile_ID>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko reputasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK06004001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>99</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID>RK06004002</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko reputasi oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi PUJK</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK06004002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>100</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID>RK06004003</Profile_ID>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko reputasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK06004003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>101</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID>RK06004004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko reputasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK06004004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>102</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Total Score and Rating</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score &lt;= 40
+4:  40 &lt; Score &lt;= 55
+3:  55 &lt; Score &lt;= 70
+2:  70 &lt; Score &lt;= 85
+1:  85 &lt; Score &lt;= 100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Total SxB from the risk profile with color Gray
+Rating : Score vs Threshold</Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>103</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Reputasi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian></Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile></derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system></input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile></Logic_Risk_Profile>
+    <risk_id>15</risk_id>
+    <id>104</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Tata Kelola (Risk Governance)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>105</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID>RK07001001</Profile_ID>
+    <Faktor_Penilaian>Penetapan tingkat Risiko stratejik yang akan diambil oleh LJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis secara keseluruhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK07001001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>106</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID>RK07001002</Profile_ID>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko stratejik</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK07001002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>107</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID>RK07001003</Profile_ID>
+    <Faktor_Penilaian>Budaya Risiko stratejik dan internalisasi budaya Risiko pada seluruh LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK07001003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>108</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID>RK07001004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko stratejik</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK07001004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>109</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Kerangka Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>110</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID>RK07002001</Profile_ID>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko stratejik pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK07002001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>111</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID>RK07002002</Profile_ID>
+    <Faktor_Penilaian>Strategi Risiko stratejik dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko stratejik</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK07002002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>112</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID>RK07002003</Profile_ID>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko stratejik untuk seluruh area manajemen Risiko stratejik yang diterapkan dan dipahami</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK07002003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>113</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Proses Manajemen Risiko, SIM dan SDM</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>114</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID>RK07003001</Profile_ID>
+    <Faktor_Penilaian>Proses manajemen Risiko stratejik oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko stratejik</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK07003001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>115</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID>RK07003002</Profile_ID>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko stratejik sehingga menghasilkan pelaporan Risiko stratejik secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK07003002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>116</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID>RK07003003</Profile_ID>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko stratejik</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK07003003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>117</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Sistem Pengendalian</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>118</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID>RK07004001</Profile_ID>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko stratejik</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK07004001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>119</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID>RK07004002</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko stratejik oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK07004002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>120</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID>RK07004003</Profile_ID>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK07004003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>121</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID>RK07004004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko stratejik</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK07004004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>122</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Total Score and Rating</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score &lt;= 40
+4:  40 &lt; Score &lt;= 55
+3:  55 &lt; Score &lt;= 70
+2:  70 &lt; Score &lt;= 85
+1:  85 &lt; Score &lt;= 100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Total SxB from the risk profile with color Gray
+Rating : Score vs Threshold</Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>123</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Stratejik</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian></Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile></derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system></input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile></Logic_Risk_Profile>
+    <risk_id>14</risk_id>
+    <id>124</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Tata Kelola (Risk Governance)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>125</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID>RK08001001</Profile_ID>
+    <Faktor_Penilaian>Penetapan tingkat Risiko kepatuhan yang akan diambil oleh LJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis secara keseluruhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK08001001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>126</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID>RK08001002</Profile_ID>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko kepatuhan Konglomerasi Keuangan.</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK08001002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>127</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID>RK08001003</Profile_ID>
+    <Faktor_Penilaian>Budaya Risiko kepatuhan dan internalisasi budaya Risiko pada seluruh LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK08001003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>128</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID>RK08001004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko kepatuhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK08001004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>129</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Kerangka Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>130</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID>RK08002001</Profile_ID>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko kepatuhan pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK08002001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>131</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID>RK08002002</Profile_ID>
+    <Faktor_Penilaian>Strategi Risiko kepatuhan dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko kepatuhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK08002002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>132</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID>RK08002003</Profile_ID>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko kepatuhan untuk seluruh area manajemen Risiko kepatuhan yang diterapkan dan dipahami</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK08002003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>133</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Proses Manajemen Risiko, SIM dan SDM</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>134</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID>RK08003001</Profile_ID>
+    <Faktor_Penilaian>Proses manajemen Risiko kepatuhan oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko kepatuhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK08003001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>135</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID>RK08003002</Profile_ID>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko kepatuhan sehingga menghasilkan pelaporan Risiko kepatuhan secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK08003002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>136</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID>RK08003003</Profile_ID>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko kepatuhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK08003003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>137</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Sistem Pengendalian</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>138</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID>RK08004001</Profile_ID>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko kepatuhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK08004001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>139</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID>RK08004002</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko kepatuhan oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK08004002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>140</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID>RK08004003</Profile_ID>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko kepatuhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK08004003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>141</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID>RK08004004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko kepatuhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK08004004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>142</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Total Score and Rating</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score &lt;= 40
+4:  40 &lt; Score &lt;= 55
+3:  55 &lt; Score &lt;= 70
+2:  70 &lt; Score &lt;= 85
+1:  85 &lt; Score &lt;= 100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Total SxB from the risk profile with color Gray
+Rating : Score vs Threshold</Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>143</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Kepatuhan</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian></Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile></derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system></input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile></Logic_Risk_Profile>
+    <risk_id>13</risk_id>
+    <id>144</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Tata Kelola (Risk Governance)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>145</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID>RK09001001</Profile_ID>
+    <Faktor_Penilaian>Penetapan tingkat Risiko transaksi intra-grup yang akan diambil oleh LJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis Konglomerasi Keuangan secara keseluruhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK09001001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>146</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID>RK09001002</Profile_ID>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko transaksi intra-grup</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK09001002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>147</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID>RK09001003</Profile_ID>
+    <Faktor_Penilaian>Budaya Risiko transaksi intra-grup dan internalisasi budaya Risiko pada seluruh LJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK09001003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>148</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID>RK09001004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko transaksi intra-grup</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK09001004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>149</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Kerangka Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>150</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID>RK09002001</Profile_ID>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko transaksi intra-grup pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK09002001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>151</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID>RK09002002</Profile_ID>
+    <Faktor_Penilaian>Strategi Risiko transaksi intra-grup dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko transaksi intra-grup</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK09002002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>152</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID>RK09002003</Profile_ID>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko transaksi intra-grup untuk seluruh area manajemen Risiko transaksi intra-grup yang diterapkan dan dipahami</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK09002003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>153</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Proses Manajemen Risiko, SIM dan SDM</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>154</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID>RK09003001</Profile_ID>
+    <Faktor_Penilaian>Proses manajemen Risiko transaksi intra-grup oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko transaksi intra-grup</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK09003001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>155</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID>RK09003002</Profile_ID>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko transaksi intra-grup sehingga menghasilkan pelaporan Risiko transaksi intra-grup secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK09003002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>156</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID>RK09003003</Profile_ID>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko transaksi intra-grup</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK09003003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>157</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Sistem Pengendalian</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>158</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID>RK09004001</Profile_ID>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko transaksi intra-grup</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK09004001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>159</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID>RK09004002</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko transaksi intra-grup oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK09004002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>160</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID>RK09004003</Profile_ID>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko transaksi intra-grup</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK09004003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>161</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID>RK09004004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko transaksi intra-grup</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK09004004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>162</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Total Score and Rating</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score &lt;= 40
+4:  40 &lt; Score &lt;= 55
+3:  55 &lt; Score &lt;= 70
+2:  70 &lt; Score &lt;= 85
+1:  85 &lt; Score &lt;= 100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Total SxB from the risk profile with color Gray
+Rating : Score vs Threshold</Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>163</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Intragrup</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian></Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile></derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system></input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile></Logic_Risk_Profile>
+    <risk_id>16</risk_id>
+    <id>164</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Tata Kelola (Risk Governance)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>165</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10001001</Profile_ID>
+    <Faktor_Penilaian>Penetapan tingkat Risiko asuransi yang akan diambil oleh PUJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis secara keseluruhan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10001001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>166</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10001002</Profile_ID>
+    <Faktor_Penilaian>Awareness dan pemahaman Dewan Komisaris dan Direksi PUJK mengenai manajemen Risiko asuransi Konglomerasi Keuangan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10001002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>167</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10001003</Profile_ID>
+    <Faktor_Penilaian>Budaya Risiko asuransi dan internalisasi budaya Risiko pada seluruh PUJK dalam Konglomerasi Keuangan</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10001003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>168</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10001004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tugas Dewan Komisaris dan Direksi PUJK secara keseluruhan untuk Risiko asuransi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10001004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>169</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Kerangka Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>170</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10002001</Profile_ID>
+    <Faktor_Penilaian>Fungsi Manajemen Risiko asuransi pada PUJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10002001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>171</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10002002</Profile_ID>
+    <Faktor_Penilaian>Delegasi kewenangan pada PUJK yang memiliki eksposur Risiko asuransi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10002002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>172</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10002003</Profile_ID>
+    <Faktor_Penilaian>Strategi Risiko asuransi  dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko asuransi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10002003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>173</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10002004</Profile_ID>
+    <Faktor_Penilaian>Terdapat kebijakan, prosedur, dan limit Risiko asuransi Konglomerasi Keuangan untuk seluruh area manajemen Risiko asuransi Konglomerasi Keuangan yang diterapkan dan dipahami</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10002004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>174</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Proses Manajemen Risiko, SIM dan SDM</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>175</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10003001</Profile_ID>
+    <Faktor_Penilaian>Proses manajemen Risiko asuransi oleh PUJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko asuransi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10003001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>176</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10003002</Profile_ID>
+    <Faktor_Penilaian>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko asuransi sehingga menghasilkan pelaporan Risiko asuransi secara keseluruhan yang komprehensif dan terintegrasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10003002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>177</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10003003</Profile_ID>
+    <Faktor_Penilaian>Pemenuhan sumber daya manusia pada PUJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko asuransi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10003003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>178</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Sistem Pengendalian</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>179</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10004001</Profile_ID>
+    <Faktor_Penilaian>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko asuransi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10004001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>180</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10004002</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko asuransi oleh SKAIT baik dari sisi metodologi,frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi PUJK</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10004002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>181</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10004003</Profile_ID>
+    <Faktor_Penilaian>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko asuransi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10004003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>182</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID>RK10004004</Profile_ID>
+    <Faktor_Penilaian>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko asuransi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK10004004</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>183</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Total Score and Rating</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score &lt;= 40
+4:  40 &lt; Score &lt;= 55
+3:  55 &lt; Score &lt;= 70
+2:  70 &lt; Score &lt;= 85
+1:  85 &lt; Score &lt;= 100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Total SxB from the risk profile with color Gray
+Rating : Score vs Threshold</Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>184</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Asuransi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian></Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile></derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system></input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile></Logic_Risk_Profile>
+    <risk_id>7</risk_id>
+    <id>185</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Tata Kelola (Risk Governance)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>186</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID>RK11001001</Profile_ID>
+    <Faktor_Penilaian>Perumusan tingkat risiko yang akan diambil (risk appetite) dan toleransi risiko (risk tolerance)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK11001001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>187</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID>RK11001002</Profile_ID>
+    <Faktor_Penilaian>Kecukupan pengawasan aktif oleh Dewan Komisaris dan Direksi termasuk pelaksanaan kewenangan dan tanggung jawab Dewan Komisaris dan Direksi.</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK11001002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>188</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Kerangka Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>189</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID>RK11002001</Profile_ID>
+    <Faktor_Penilaian>Strategi Manajemen Risiko yang searah dengan tingkat risiko yang akan diambil dan toleransi risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK11002001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>190</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID>RK11002002</Profile_ID>
+    <Faktor_Penilaian>Kecukupan perangkat organisasi dalam mendukung terlaksananya manajemen risiko secara efektif termasuk kejelasan wewenang dan tanggung jawab</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK11002002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>191</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID>RK11002003</Profile_ID>
+    <Faktor_Penilaian>Kecukupan kebijakan, prosedur dan penetapan limit</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK11002003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>192</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Proses Manajemen Risiko, SIM dan SDM</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>193</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID>RK11003001</Profile_ID>
+    <Faktor_Penilaian>Proses identifikasi, pengukuran, pemantauan, dan pengendalian risiko Identfikasi</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK11003001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>194</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID>RK11003002</Profile_ID>
+    <Faktor_Penilaian>Kecukupan sistem informasi Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK11003002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>195</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID>RK11003003</Profile_ID>
+    <Faktor_Penilaian>Kecukupan kuantitas dan kualitas sumber daya manusia dalam mendukung efektivitas proses Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK11003003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>196</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Sistem Pengendalian</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>197</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID>RK11004001</Profile_ID>
+    <Faktor_Penilaian>Kecukupan Sistem Pengendalian Intern</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK11004001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>198</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID>RK11004002</Profile_ID>
+    <Faktor_Penilaian>Kecukupan kaji ulang oleh pihak independen dalam Bank, baik oleh Satuan Kerja Manajemen Risiko (SKMR) maupun oleh Satuan Kerja Audit Intern (SKAI)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK11004002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>199</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Total Score and Rating</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score &lt;= 40
+4:  40 &lt; Score &lt;= 55
+3:  55 &lt; Score &lt;= 70
+2:  70 &lt; Score &lt;= 85
+1:  85 &lt; Score &lt;= 100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Total SxB from the risk profile with color Gray
+Rating : Score vs Threshold</Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>200</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Investasi</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian></Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile></derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system></input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile></Logic_Risk_Profile>
+    <risk_id>20</risk_id>
+    <id>201</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Tata Kelola (Risk Governance)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>202</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID>RK12001001</Profile_ID>
+    <Faktor_Penilaian>Perumusan tingkat risiko yang akan diambil (risk appetite) dan toleransi risiko (risk tolerance)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK12001001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>203</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID>RK12001002</Profile_ID>
+    <Faktor_Penilaian>Kecukupan pengawasan aktif oleh Dewan Komisaris dan Direksi termasuk pelaksanaan kewenangan dan tanggung jawab Dewan Komisaris dan Direksi.</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK12001002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>204</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Kerangka Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>205</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID>RK12002001</Profile_ID>
+    <Faktor_Penilaian>Strategi manajemen risiko yang searah dengan tingkat risiko yang akan diambil dan toleransi risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK12002001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>206</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID>RK12002002</Profile_ID>
+    <Faktor_Penilaian>Kecukupan perangkat organisasi dalam mendukung terlaksananya manajemen risiko secara efektif termasuk kejelasan wewenang dan tanggung jawab</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK12002002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>207</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID>RK12002003</Profile_ID>
+    <Faktor_Penilaian>Kecukupan kebijakan, prosedur dan penetapan limit</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK12002003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>208</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Proses Manajemen Risiko, SIM dan SDM</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>209</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID>RK12003001</Profile_ID>
+    <Faktor_Penilaian>Proses identifikasi, pengukuran, pemantauan, dan pengendalian risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK12003001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>210</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID>RK12003002</Profile_ID>
+    <Faktor_Penilaian>Kecukupan sistem informasi Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK12003002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>211</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID>RK12003003</Profile_ID>
+    <Faktor_Penilaian>Kecukupan kuantitas dan kualitas sumber daya manusia dalam mendukung efektivitas proses Manajemen Risiko</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK12003003</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>212</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Sistem Pengendalian</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score&lt;=36,
+4:  36 &lt; Score &lt;=52
+3:  52 &lt; Score &lt;=68
+2:  68 &lt; Score &lt;=84
+1:  84 &lt; Score &lt;=100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Sum dari SxB per section
+Bobot: from parameter
+SxB : Score * Bobot
+Rating : derived dari Score vs Threshold
+</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>213</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID>RK12004001</Profile_ID>
+    <Faktor_Penilaian>Kecukupan Sistem Pengendalian Internal</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK12004001</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>214</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID>RK12004002</Profile_ID>
+    <Faktor_Penilaian>Kecukupan kaji ulang oleh pihak independen dalam Bank, baik oleh Satuan Kerja Manajemen Risiko (SKMR) maupun oleh Satuan Kerja Audit Intern (SKAI)</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>data source</derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating>SK12004002</sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Rating : derived dari hasil penginputan Rating Consolidated KPMR
+Score: derived dari Rating to check score parameter
+IF(I7=1,92,IF(I7=2,76,IF(I7=3,60,IF(I7=4,44,IF(I7=5,28)))))
+
+Bobot : from Parameter
+SxB : Score * Bobot</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>215</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian>Total Score and Rating</Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile>Risk Profile</derived_from_data_source_Risk_Profile>
+    <Threshold>5 : Score &lt;= 40
+4:  40 &lt; Score &lt;= 55
+3:  55 &lt; Score &lt;= 70
+2:  70 &lt; Score &lt;= 85
+1:  85 &lt; Score &lt;= 100</Threshold>
+    <input_system>system</input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile>Score : Total SxB from the risk profile with color Gray
+Rating : Score vs Threshold</Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>216</id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <risiko_name>Risiko Imbal Hasil</risiko_name>
+    <Profile_ID></Profile_ID>
+    <Faktor_Penilaian></Faktor_Penilaian>
+    <derived_from_data_source_Risk_Profile></derived_from_data_source_Risk_Profile>
+    <Threshold></Threshold>
+    <input_system></input_system>
+    <sandi_acuan_from_Data_Source_result_in_Rating></sandi_acuan_from_Data_Source_result_in_Rating>
+    <Logic_Risk_Profile></Logic_Risk_Profile>
+    <risk_id>19</risk_id>
+    <id>217</id>
+  </DATA_RECORD>
+</kpmr_risk_profile_edge>

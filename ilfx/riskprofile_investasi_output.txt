@@ -1,0 +1,29 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1767325192.707046   54133 riskprofile_cli.cpp:91] Loading Inherent DataSource from: ../testdata/inherentds_investasi.xml
+I0000 00:00:1767325192.711673   54133 riskprofile_cli.cpp:98] Loading KPMR DataSource from: ../testdata/kpmrds_investasi.xml
+I0000 00:00:1767325192.713247   54133 riskprofile_cli.cpp:101] Loading Inherent Risk Profile from: ../testdata/inherent_riskpro.xml
+I0000 00:00:1767325192.721111   54133 riskprofile_cli.cpp:103] Loading KPMR Risk Profile from: ../testdata/kpmr_riskpro.xml
+I0000 00:00:1767325192.730483   54133 riskprofile_cli.cpp:107] All data loaded successfully
+I0000 00:00:1767325192.730494   54133 riskprofile_cli.cpp:117] Starting risk profile evaluation...
+Evaluating risk profile...
+  Processing Inherent Risk Profile Node: RI0700100107
+    Assessment Name: 1.1.4.3 Pembiayaan - Gearing Ratio
+    Value Rule: 
+        
+        var consolidateValue = findConsolidateByCode("SI07006000");
+        
+        return consolidateValue * 1.0;
+        
+      
+      Evaluated Value Rule Result: 0
+    Rating Rule: 
+        
+        var consolidateValue = findConsolidateByCode("SI07006000");
+        
+        var r = ratingByThreshold(threshold, consolidateValue);
+        
+        return r;
+        
+      
+E0000 00:00:1767325192.743447   54133 riskprofile_cli.cpp:235] Error: Error: "Variable redefined 'consolidateValue'" 
+Error: Error: "Variable redefined 'consolidateValue'" 

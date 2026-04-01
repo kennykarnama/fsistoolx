@@ -1,0 +1,43 @@
+# Ignore build artifacts
+*.o
+*.a
+*.so
+eval_cli
+eval_server
+eval_client
+eval_tests
+*_tests
+test_runner
+
+# Ignore output files
+*.xml
+!data/*.xml
+
+# Ignore temporary files
+*.log
+*.tmp
+.*.swp
+*~
+
+# Ignore git
+.git
+.gitignore
+
+# Ignore IDE files
+.vscode
+.idea
+*.code-workspace
+
+# Ignore documentation (can be included if needed)
+# docs/
+# README.md
+
+# Ignore test outputs
+cli_output.xml
+demo_output.xml
+final_test.xml
+production_output.xml
+risk_profile_output.xml
+server_output.xml
+updated_doc.xml
+updated_pic.xml

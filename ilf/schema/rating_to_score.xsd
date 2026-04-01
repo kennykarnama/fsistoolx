@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+  <!-- Root element -->
+  <xs:element name="RatingScores">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="RatingScore" type="RatingScoreType" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <!-- RatingScore complex type -->
+  <xs:complexType name="RatingScoreType">
+    <xs:sequence>
+      <xs:element name="Rating" type="RatingValueType"/>
+      <xs:element name="Score" type="ScoreValueType"/>
+      <xs:element name="weight" type="WeightValueType"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <!-- Simple type for Rating: integer from 1 to 5 -->
+  <xs:simpleType name="RatingValueType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="5"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- Simple type for Score: positive integer -->
+  <xs:simpleType name="ScoreValueType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="100"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- Simple type for weight: decimal from 0.0 to 1.0 -->
+  <xs:simpleType name="WeightValueType">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0.0"/>
+      <xs:maxInclusive value="1.0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/kpmr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/kpmr ./xsd/KPMRDataSource.xsd">
+  <riskName>Risiko Reputasi</riskName>
+  <list>
+    <id>135</id>
+    <code>SK06002000</code>
+    <risk_id>15</risk_id>
+    <assesment_factor>Kerangka Manajemen Risiko</assesment_factor>
+    <children>
+      <item>
+        <id>138</id>
+        <code>SK06002003</code>
+        <risk_id>15</risk_id>
+        <assesment_factor>Terdapat kebijakan, prosedur, dan limit Risiko reputasi untuk seluruh area manajemen Risiko reputasi yang diterapkan dan dipahami</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <detail>
+          <detail>
+            <companyName>PT. Bank Sinarmas</companyName>
+            <companyType/>
+            <value/>
+            <rating>0</rating>
+          </detail>
+        </detail>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK06002000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>136</id>
+        <code>SK06002001</code>
+        <risk_id>15</risk_id>
+        <assesment_factor>Fungsi Manajemen Risiko reputasi pada PUJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</assesment_factor>
+        <value>1</value>
+        <remark/>
+        <detail>
+          <detail>
+            <companyName>PT. Bank Sinarmas</companyName>
+            <companyType/>
+            <value/>
+            <rating>1</rating>
+          </detail>
+        </detail>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK06002001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>1</consolidate>
+      </item>
+      <item>
+        <id>137</id>
+        <code>SK06002002</code>
+        <risk_id>15</risk_id>
+        <assesment_factor>Strategi Risiko reputasi dan kesesuaiannya dengan tingkat Risiko yang akan diambil dan toleransi Risiko reputasi Konglomerasi Keuangan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <detail>
+          <detail>
+            <companyName>PT. Bank Sinarmas</companyName>
+            <companyType/>
+            <value/>
+            <rating>0</rating>
+          </detail>
+        </detail>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK06002002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>131</id>
+    <code>SK06001000</code>
+    <risk_id>15</risk_id>
+    <assesment_factor>Tata Kelola (Risk Governance)</assesment_factor>
+    <children>
+      <item>
+        <id>133</id>
+        <code>SK06001003</code>
+        <risk_id>15</risk_id>
+        <assesment_factor>Budaya Risiko reputasi dan internalisasi budaya Risiko pada seluruh PUJK dalam Konglomerasi Keuangan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <detail>
+          <detail>
+            <companyName>PT. Bank Sinarmas</companyName>
+            <companyType/>
+            <value/>
+            <rating>0</rating>
+          </detail>
+        </detail>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK06001000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>132</id>
+        <code>SK06001001</code>
+        <risk_id>15</risk_id>
+        <assesment_factor>Penetapan tingkat Risiko reputasi yang akan diambil oleh PUJK dalam Konglomerasi Keuangan dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis secara keseluruhan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <detail>
+          <detail>
+            <companyName>PT. Bank Sinarmas</companyName>
+            <companyType/>
+            <value/>
+            <rating>0</rating>
+          </detail>
+        </detail>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK06001001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>134</id>
+        <code>SK06001004</code>
+        <risk_id>15</risk_id>
+        <assesment_factor>Pelaksanaan tugas Dewan Komisaris dan Direksi PUJK secara keseluruhan untuk Risiko reputasi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <detail>
+          <detail>
+            <companyName>PT. Bank Sinarmas</companyName>
+            <companyType/>
+            <value/>
+            <rating>0</rating>
+          </detail>
+        </detail>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK06001004");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>100</id>
+        <code>SK06001002</code>
+        <risk_id>15</risk_id>
+        <assesment_factor>Awareness dan pemahaman Dewan Komisaris dan Direksi PUJK mengenai manajemen Risiko reputasi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <detail>
+          <detail>
+            <companyName>PT. Bank Sinarmas</companyName>
+            <companyType/>
+            <value/>
+            <rating>0</rating>
+          </detail>
+        </detail>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK06001002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>143</id>
+    <code>SK06004000</code>
+    <risk_id>15</risk_id>
+    <assesment_factor>Sistem Pengendalian</assesment_factor>
+    <children>
+      <item>
+        <id>144</id>
+        <code>SK06004001</code>
+        <risk_id>15</risk_id>
+        <assesment_factor>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko reputasi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <detail>
+          <detail>
+            <companyName>PT. Bank Sinarmas</companyName>
+            <companyType/>
+            <value/>
+            <rating>0</rating>
+          </detail>
+        </detail>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK06004000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>147</id>
+        <code>SK06004004</code>
+        <risk_id>15</risk_id>
+        <assesment_factor>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko reputasi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <detail>
+          <detail>
+            <companyName>PT. Bank Sinarmas</companyName>
+            <companyType/>
+            <value/>
+            <rating>0</rating>
+          </detail>
+        </detail>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK06004004");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>145</id>
+        <code>SK06004002</code>
+        <risk_id>15</risk_id>
+        <assesment_factor>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko reputasi oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi PUJK</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <detail>
+          <detail>
+            <companyName>PT. Bank Sinarmas</companyName>
+            <companyType/>
+            <value/>
+            <rating>0</rating>
+          </detail>
+        </detail>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK06004002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>146</id>
+        <code>SK06004003</code>
+        <risk_id>15</risk_id>
+        <assesment_factor>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko reputasi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <detail>
+          <detail>
+            <companyName>PT. Bank Sinarmas</companyName>
+            <companyType/>
+            <value/>
+            <rating>0</rating>
+          </detail>
+        </detail>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK06004003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>139</id>
+    <code>SK06003000</code>
+    <risk_id>15</risk_id>
+    <assesment_factor>Proses Manajemen Risiko, SIM dan SDM</assesment_factor>
+    <children>
+      <item>
+        <id>142</id>
+        <code>SK06003003</code>
+        <risk_id>15</risk_id>
+        <assesment_factor>Pemenuhan sumber daya manusia pada PUJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko reputasi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <detail>
+          <detail>
+            <companyName>PT. Bank Sinarmas</companyName>
+            <companyType/>
+            <value/>
+            <rating>0</rating>
+          </detail>
+        </detail>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK06003000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>140</id>
+        <code>SK06003001</code>
+        <risk_id>15</risk_id>
+        <assesment_factor>Proses manajemen Risiko reputasi oleh PUJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko reputasi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <detail>
+          <detail>
+            <companyName>PT. Bank Sinarmas</companyName>
+            <companyType/>
+            <value/>
+            <rating>0</rating>
+          </detail>
+        </detail>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK06003001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>141</id>
+        <code>SK06003002</code>
+        <risk_id>15</risk_id>
+        <assesment_factor>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko reputasi sehingga menghasilkan pelaporan Risiko reputasi secara keseluruhan yang komprehensif dan terintegrasi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <detail>
+          <detail>
+            <companyName>PT. Bank Sinarmas</companyName>
+            <companyType/>
+            <value/>
+            <rating>0</rating>
+          </detail>
+        </detail>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK06003002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+</data>

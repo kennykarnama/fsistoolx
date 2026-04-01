@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           xmlns:kpmr="http://example.com/kpmr"
+        targetNamespace="http://example.com/kpmr"
+           >
+
+    <!-- ========================= -->
+    <!-- Root element "data"       -->
+    <!-- But type name is renamed  -->
+    <!-- ========================= -->
+    <xs:element name="data" type="kpmr:ConsolidatedAssessmentType"/>
+
+    <xs:complexType name="ConsolidatedAssessmentType">
+        <xs:sequence>
+            <xs:element name="riskName" type="xs:string"/>
+            <xs:element name="list" type="kpmr:RiskGroupType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- ========================= -->
+    <!-- list[] items              -->
+    <!-- element name = list       -->
+    <!-- type name = RiskGroupType -->
+    <!-- ========================= -->
+    <xs:complexType name="RiskGroupType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string"/>
+            <xs:element name="code" type="xs:string"/>
+            <xs:element name="risk_id" type="xs:string"/>
+            <xs:element name="assesment_factor" type="xs:string"/>
+            <xs:element name="children" type="kpmr:RiskChildrenType" minOccurs="0"/>
+            <xs:element name="value" type="xs:integer"/>
+            <xs:element name="remark" type="xs:string"/>
+            <xs:element name="detail" type="kpmr:DetailListType" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- ========================= -->
+    <!-- children[]                -->
+    <!-- element name = children   -->
+    <!-- type name = RiskChildrenType -->
+    <!-- ========================= -->
+    <xs:complexType name="RiskChildrenType">
+        <xs:sequence>
+            <xs:element name="item" type="kpmr:RiskItemType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- ========================= -->
+    <!-- children/item             -->
+    <!-- element name = item       -->
+    <!-- type name = RiskItemType  -->
+    <!-- ========================= -->
+    <xs:complexType name="RiskItemType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string"/>
+            <xs:element name="code" type="xs:string"/>
+            <xs:element name="risk_id" type="xs:string"/>
+            <xs:element name="assesment_factor" type="xs:string"/>
+            <xs:element name="children" type="kpmr:RiskChildrenType" minOccurs="0"/>
+            <xs:element name="value" type="xs:integer"/>
+            <xs:element name="remark" type="xs:string"/>
+            <xs:element name="detail" type="kpmr:DetailListType" minOccurs="0"/>
+            <xs:element name="consolidationRule" type="xs:string" minOccurs="0"/>
+            <xs:element name="consolidate" type="xs:int" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- ========================= -->
+    <!-- detail[] list             -->
+    <!-- element name = detail     -->
+    <!-- type name = DetailListType -->
+    <!-- ========================= -->
+    <xs:complexType name="DetailListType">
+        <xs:sequence>
+            <xs:element name="detail" type="kpmr:DetailItemType" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- ========================= -->
+    <!-- detail/detail item        -->
+    <!-- element name = detail     -->
+    <!-- type name = DetailItemType -->
+    <!-- ========================= -->
+    <xs:complexType name="DetailItemType">
+        <xs:sequence>
+            <xs:element name="companyName" type="xs:string"/>
+            <xs:element name="companyType" type="xs:string"/>
+            <xs:element name="value" type="xs:string"/>
+            <xs:element name="rating" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

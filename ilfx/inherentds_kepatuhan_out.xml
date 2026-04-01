@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/inherent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/inherent ./xsd/InherentDataSource.xsd">
+  <riskName>Risiko Kepatuhan</riskName>
+  <list>
+    <item>
+      <code/>
+      <consolidate>0</consolidate>
+      <dataName/>
+      <detail/>
+      <id>443</id>
+    </item>
+    <item>
+      <code>SI08001000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Ekuitas atau Modal LJK</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI08001000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail/>
+      <id>435</id>
+    </item>
+    <item>
+      <code>SI08002000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Sanksi Denda</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI08002000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail/>
+      <id>436</id>
+    </item>
+    <item>
+      <code>SI08003000</code>
+      <consolidate>0</consolidate>
+      <dataName>Jumlah nominal sanksi denda atas kewajiban membayar yang dikenakan oleh Otoritas kepada LJK dalam Konglomerasi Keuangan.</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI08003000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail/>
+      <id>437</id>
+    </item>
+    <item>
+      <code>SI08004000</code>
+      <consolidate>0</consolidate>
+      <dataName>Jenis pelanggaran atau ketidakpatuhan yang dilakukan LJK dalam Konglomerasi Keuangan</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI08004000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+        
+      </consolidationRule>
+      <detail/>
+      <id>438</id>
+    </item>
+    <item>
+      <code>SI08005000</code>
+      <consolidate>0</consolidate>
+      <dataName>Jumlah pelanggaran berulang yang ditemukan setiap tahunnya dalam 3 tahun terakhir</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI08005000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail/>
+      <id>439</id>
+    </item>
+    <item>
+      <code>SI08006000</code>
+      <consolidate>0</consolidate>
+      <dataName>Signifikansi tindak lanjut LJK atas temuan pelanggaran berulang setiap tahunnya dalam 3 tahun terakhir</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI08006000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+        
+      </consolidationRule>
+      <detail/>
+      <id>440</id>
+    </item>
+    <item>
+      <code>SI08007000</code>
+      <consolidate>0</consolidate>
+      <dataName>Jumlah pelanggaran atas ketentuan pada transaksi keuangan yang sama karena tidak sesuai dengan standar yang berlaku umum</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI08007000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail/>
+      <id>441</id>
+    </item>
+    <item>
+      <code>SI08008000</code>
+      <consolidate>0</consolidate>
+      <dataName>Rata-rata Modal 1 semester pada periode pelaporan</dataName>
+      <consolidationRule>
+        
+var items = companyValuesByCode("SI08008000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        
+      </consolidationRule>
+      <detail/>
+      <id>442</id>
+    </item>
+  </list>
+  <responseCode>00</responseCode>
+  <responseMessage>Success</responseMessage>
+</data>

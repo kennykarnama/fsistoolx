@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <!-- Root Element -->
+  <xs:element name="kpmr_risk_profile_edge">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DATA_RECORD" type="KPMRDataRecordType" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- DATA_RECORD Type -->
+  <xs:complexType name="KPMRDataRecordType">
+    <xs:sequence>
+      <xs:element name="risiko_name" type="xs:string"/>
+      <xs:element name="profile_id" type="xs:string"/>
+      <xs:element name="assessment_factor" type="xs:string"/>
+      <xs:element name="derived_from" type="xs:string"/>
+      <xs:element name="threshold" type="xs:string"/>
+      <xs:element name="input_type" type="xs:string"/>
+      <xs:element name="source_reference" type="xs:string"/>
+      <xs:element name="calculation_logic" type="xs:string"/>
+      <xs:element name="risk_id" type="xs:integer"/>
+      <xs:element name="id" type="xs:integer"/>
+      <xs:element name="weight" type="xs:string"/>
+      <xs:element name="score_formula" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

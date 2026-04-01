@@ -1,0 +1,15 @@
+CREATE TABLE konglomerasi.inherent_risk_profile_edges (
+	id int4 DEFAULT nextval('konglomerasi.inherent_risk_profile_edge_id_seq'::regclass) NOT NULL,
+	profile_id varchar(255) NOT NULL,
+	risk_id int4 NOT NULL,
+	assessment_factor text NOT NULL,
+	derived_from varchar(255) NULL,
+	threshold text NULL,
+	input_type varchar(255) NOT NULL,
+	source_reference text NULL,
+	calculation_logic text NULL,
+	weight numeric(5, 2) NULL,
+	rating_to_score jsonb NULL,
+	CONSTRAINT inherent_risk_profile_edge_pkey PRIMARY KEY (id),
+	CONSTRAINT inherent_risk_profile_edge_profile_id_key UNIQUE (profile_id)
+);

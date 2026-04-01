@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/inherent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/inherent ./xsd/InherentDataSource.xsd">
+  <riskName>Risiko Imbal Hasil</riskName>
+  <list>
+    <item>
+      <code/>
+      <consolidate>0</consolidate>
+      <dataName/>
+      <detail/>
+      <id>503</id>
+    </item>
+    <item>
+      <code>SI12001000</code>
+      <consolidate>0</consolidate>
+      <dataName>Non Core Deposit</dataName>
+      <consolidationRule>
+        
+        var items = companyValuesByCode("SI12001000");
+
+var acc = 0.0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+}
+
+return acc;
+        
+      </consolidationRule>
+      <detail/>
+      <id>275</id>
+    </item>
+    <item>
+      <code>SI12002000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Dana Pihak Ketiga</dataName>
+      <consolidationRule>
+        
+        var items = companyValuesByCode("SI12002000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        
+      </consolidationRule>
+      <detail/>
+      <id>366</id>
+    </item>
+    <item>
+      <code>SI12003000</code>
+      <consolidate>0</consolidate>
+      <dataName>Pembiayaan Berbasis Utang Piutang</dataName>
+      <consolidationRule>
+        
+        var items = companyValuesByCode("SI12003000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        
+      </consolidationRule>
+      <detail/>
+      <id>494</id>
+    </item>
+    <item>
+      <code>SI12004000</code>
+      <consolidate>0</consolidate>
+      <dataName>Pembiayaan Berbasis Bagi Hasil</dataName>
+      <consolidationRule>
+        
+        var items = companyValuesByCode("SI12004000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        
+      </consolidationRule>
+      <detail/>
+      <id>495</id>
+    </item>
+    <item>
+      <code>SI12005000</code>
+      <consolidate>0</consolidate>
+      <dataName>Pembiayaan Bermasalah</dataName>
+      <consolidationRule>
+      
+      var items = companyValuesByCode("SI12005000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+      
+      </consolidationRule>
+      <detail/>
+      <id>496</id>
+    </item>
+    <item>
+      <code>SI12006000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Pembiayaan</dataName>
+      <consolidationRule>
+        
+        var items = companyValuesByCode("SI12006000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        
+      </consolidationRule>
+      <detail/>
+      <id>497</id>
+    </item>
+    <item>
+      <code>SI12007000</code>
+      <consolidate>0</consolidate>
+      <dataName>Laba Sebelum Pajak</dataName>
+      <consolidationRule>
+        
+        var items = companyValuesByCode("SI12007000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        
+      </consolidationRule>
+      <detail/>
+      <id>498</id>
+    </item>
+    <item>
+      <code>SI12008000</code>
+      <consolidate>0</consolidate>
+      <dataName>Rata-rata Total Aset</dataName>
+      <consolidationRule>
+        
+        var items = companyValuesByCode("SI12008000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        
+      </consolidationRule>
+      <detail/>
+      <id>499</id>
+    </item>
+    <item>
+      <code>SI12009000</code>
+      <consolidate>0</consolidate>
+      <dataName>Korelasi antara Tingkat Imbalan Deposito Mudharabah dengan Tingkat Bunga Deposito</dataName>
+      <consolidationRule>
+        
+        var items = companyValuesByCode("SI12009000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        
+      </consolidationRule>
+      <detail/>
+      <id>500</id>
+    </item>
+    <item>
+      <code>SI12010000</code>
+      <consolidate>0</consolidate>
+      <dataName>Realisasi Bagi Hasil Deposito Bank sesuai dengan Jangka Waktu terhadap Bagi Hasil Deposito / Bunga dari Bank Syariah lainnya / Bank Konvensional</dataName>
+      <detail/>
+      <id>501</id>
+    </item>
+    <item>
+      <code>SI12011000</code>
+      <consolidate>0</consolidate>
+      <dataName>Realisasi Bagi Hasil Deposito Bank terhadap Instrumen Lainnya</dataName>
+      <consolidationRule>
+        
+        var items = companyValuesByCode("SI12010000");
+
+var acc = 0.0;
+var c = 0;
+
+for (item : items) {
+    acc = acc + sum(item.second);
+    c = c + 1;
+}
+
+if (c == 0) {
+    return 0.0;
+}
+
+return acc * 1.0 / c * 1.0;
+        
+      </consolidationRule>
+      <detail/>
+      <id>502</id>
+    </item>
+  </list>
+  <responseCode>00</responseCode>
+  <responseMessage>Success</responseMessage>
+</data>

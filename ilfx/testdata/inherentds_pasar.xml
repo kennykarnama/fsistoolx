@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/inherent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/inherent ../xsd/InherentDataSource.xsd">
+  <riskName>Risiko Pasar</riskName>
+  <list>
+    <item>
+      <code/>
+      <consolidate>0</consolidate>
+      <dataName/>
+      <detail/>
+      <id>387</id>
+    </item>
+    <item>
+      <code>SI02001000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Aset</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02001000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>163</id>
+    </item>
+    <item>
+      <code>SI02002000</code>
+      <consolidate>0</consolidate>
+      <dataName>Aset Trading</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02002000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>164</id>
+    </item>
+    <item>
+      <code>SI02003000</code>
+      <consolidate>0</consolidate>
+      <dataName>Aset Derivatif</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02003000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>165</id>
+    </item>
+    <item>
+      <code>SI02004000</code>
+      <consolidate>0</consolidate>
+      <dataName>Aset Fair Value Option (FVO)</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02004000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>166</id>
+    </item>
+    <item>
+      <code>SI02005000</code>
+      <consolidate>0</consolidate>
+      <dataName>Kewajiban Trading</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02005000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>167</id>
+    </item>
+    <item>
+      <code>SI02006000</code>
+      <consolidate>0</consolidate>
+      <dataName>Kewajiban Derivatif</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02006000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>168</id>
+    </item>
+    <item>
+      <code>SI02007000</code>
+      <consolidate>0</consolidate>
+      <dataName>Kewajiban Fair Value Option (FVO)</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02007000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>169</id>
+    </item>
+    <item>
+      <code>SI02008000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Kewajiban</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02008000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>170</id>
+    </item>
+    <item>
+      <code>SI02009000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Structured Product</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02009000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>171</id>
+    </item>
+    <item>
+      <code>SI02010000</code>
+      <consolidate>0</consolidate>
+      <dataName>Potensi Keuntungan atau Kerugian dari Aset Trading, Derivatif, dan FVO</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02010000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>172</id>
+    </item>
+    <item>
+      <code>SI02011000</code>
+      <consolidate>0</consolidate>
+      <dataName>Pendapatan Operasional</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02011000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>173</id>
+    </item>
+    <item>
+      <code>SI02012000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Derivatif</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02012000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>174</id>
+    </item>
+    <item>
+      <code>SI02013000</code>
+      <consolidate>0</consolidate>
+      <dataName>Posisi Devisa Neto</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02013000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>175</id>
+    </item>
+    <item>
+      <code>SI02014000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Modal LJK</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02014000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>176</id>
+    </item>
+    <item>
+      <code>SI02015000</code>
+      <consolidate>0</consolidate>
+      <dataName>Ekuitas Kategori AFS</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02015000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>177</id>
+    </item>
+    <item>
+      <code>SI02016000</code>
+      <consolidate>0</consolidate>
+      <dataName>Aset Keuangan dengan suku bunga tetap yang jatuh tempo di atas satu tahun</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02016000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>178</id>
+    </item>
+    <item>
+      <code>SI02017000</code>
+      <consolidate>0</consolidate>
+      <dataName>Aset Keuangan dengan Sisa Jatuh Tempo Diatas Satu Tahun</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02017000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>179</id>
+    </item>
+    <item>
+      <code>SI02018000</code>
+      <consolidate>0</consolidate>
+      <dataName>Kewajiban Keuangan dengan Sisa Jatuh Tempo diatas Satu Tahun</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02018000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>180</id>
+    </item>
+    <item>
+      <code>SI02019000</code>
+      <consolidate>0</consolidate>
+      <dataName>Unrealized Loss Surat Berharga (AFS)</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02019000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>181</id>
+    </item>
+    <item>
+      <code>SI02020000</code>
+      <consolidate>0</consolidate>
+      <dataName>Karakteristik trading Konglomerasi Keuangan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02020000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>182</id>
+    </item>
+    <item>
+      <code>SI02021000</code>
+      <consolidate>0</consolidate>
+      <dataName>Posisi pasar Konglomerasi Keuangan dalam industri keuangan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02021000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>183</id>
+    </item>
+    <item>
+      <code>SI02022000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Investasi Trading</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02022000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>184</id>
+    </item>
+    <item>
+      <code>SI02023000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Investasi</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02023000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>185</id>
+    </item>
+    <item>
+      <code>SI02024000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Investasi Semester Sebelumnya</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02024000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>186</id>
+    </item>
+    <item>
+      <code>SI02025000</code>
+      <consolidate>0</consolidate>
+      <dataName>Karakteristik aktivitas bisnis yang berdampak pada Risiko suku bunga pada non trading dan karakteristik nasabah utama Konglomerasi Keuangan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02025000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>187</id>
+    </item>
+    <item>
+      <code>SI02026000</code>
+      <consolidate>0</consolidate>
+      <dataName>Rasio piutang pembiayaan dengan suku bunga floating</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02026000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>188</id>
+    </item>
+    <item>
+      <code>SI02027000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Kredit atau Pembiayaan</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02027000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>189</id>
+    </item>
+    <item>
+      <code>SI02028000</code>
+      <consolidate>0</consolidate>
+      <dataName>Piutang pembiayaan dalam valas</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02028000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>190</id>
+    </item>
+    <item>
+      <code>SI02029000</code>
+      <consolidate>0</consolidate>
+      <dataName>Rasio Haircut Portofolio&#xD;
+Jumlah Haircut Penyesuaian Risiko Pasar / Jumlah Portofolio Efek</dataName>
+      <fsiRule>
+        <![CDATA[
+var codes = [
+    "SI02029001": 0,
+    "SI02029002": 0
+];
+
+for (code : codes) {
+    var item = companyValuesByCodeAndCompanyName(code.first, companyName);
+    codes[code.first] = item;
+}
+
+var result = 0.0;
+
+if (codes["SI02029002"] != 0) {
+    result = codes["SI02029001"] * 1.0 / codes["SI02029002"] * 1.0;
+} else {
+    result = 0;
+}
+
+return result;
+        ]]>
+      </fsiRule>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02029000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return total_sum / total_count;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>191</id>
+    </item>
+    <item>
+      <code>SI02029001</code>
+      <consolidate>0</consolidate>
+      <dataName>Jumlah Haircut Penyesuaian Risiko Pasar</dataName>
+      <detail/>
+      <id>192</id>
+    </item>
+    <item>
+      <code>SI02029002</code>
+      <consolidate>0</consolidate>
+      <dataName>Jumlah Portofolio Efek</dataName>
+      <detail/>
+      <id>193</id>
+    </item>
+    <item>
+      <code>SI02030000</code>
+      <consolidate>0</consolidate>
+      <dataName>Kewajiban dalam valas</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02030000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>194</id>
+    </item>
+    <item>
+      <code>SI02031000</code>
+      <consolidate>0</consolidate>
+      <dataName>Pinjaman dalam valas</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02031000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>195</id>
+    </item>
+    <item>
+      <code>SI02032000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total pinjaman</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02032000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>196</id>
+    </item>
+    <item>
+      <code>SI02033000</code>
+      <consolidate>0</consolidate>
+      <dataName>Aset dalam valas</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02033000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>197</id>
+    </item>
+    <item>
+      <code>SI02034000</code>
+      <consolidate>0</consolidate>
+      <dataName>Total Modal LJK Bank</dataName>
+      <consolidationRule>
+        <![CDATA[
+var items = companyValuesByCode("SI02034000");
+var total = 0.0;
+
+for (entry : items) {
+    total = total + sum(entry.second);
+}
+
+return total;
+        ]]>
+      </consolidationRule>
+      <detail/>
+      <id>349</id>
+    </item>
+  </list>
+  <responseCode>00</responseCode>
+  <responseMessage>Success</responseMessage>
+</data>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/kpmr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/kpmr ./xsd/KPMRDataSource.xsd">
+  <riskName>Risiko Likuiditas</riskName>
+  <list>
+    <id>77</id>
+    <code>SK03002000</code>
+    <risk_id>10</risk_id>
+    <assesment_factor>Kerangka Manajemen Risiko</assesment_factor>
+    <children>
+      <item>
+        <id>80</id>
+        <code>SK03002003</code>
+        <risk_id>10</risk_id>
+        <assesment_factor>Terdapat kebijakan, prosedur, dan limit Risiko Likuiditas untuk seluruh area manajemen Risiko Likuiditas yang diterapkan dan dipahami</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK03002000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>78</id>
+        <code>SK03002001</code>
+        <risk_id>10</risk_id>
+        <assesment_factor>Fungsi Manajemen Risiko Likuiditas pada LJK dalam Konglomerasi Keuangan memiliki tugas dan tanggung jawab yang jelas, serta telah berjalan independen</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK03002001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>79</id>
+        <code>SK03002002</code>
+        <risk_id>10</risk_id>
+        <assesment_factor>Strategi pengelolaan likuiditas Konglomerasi Keuangan yang mencakup antara lain strategi pendanaan, strategi pengelolaan posisi dan Risiko likuiditas intrahari, manajemen posisi dan Risiko likuiditas intra-grup, manajemen aset likuid berkualitas tinggi sebagai agunan, dan rencana pendanaan darurat (Contingency Funding Plan/CFP)</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK03002002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>72</id>
+    <code>SK03001000</code>
+    <risk_id>10</risk_id>
+    <assesment_factor>Tata Kelola (Risk Governance)</assesment_factor>
+    <children>
+      <item>
+        <id>74</id>
+        <code>SK03001002</code>
+        <risk_id>10</risk_id>
+        <assesment_factor>Awareness dan pemahaman Dewan Komisaris dan Direksi LJK mengenai manajemen Risiko Likuiditas</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK03001000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>75</id>
+        <code>SK03001003</code>
+        <risk_id>10</risk_id>
+        <assesment_factor>Budaya Risiko Likuiditas dan internalisasi budaya Risiko pada LJK dalam Konglomerasi Keuangan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK03001003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>73</id>
+        <code>SK03001001</code>
+        <risk_id>10</risk_id>
+        <assesment_factor>Penetapan tingkat Risiko Likuiditas yang akan diambil oleh LJK dan toleransi Risikonya sejalan dengan sasaran strategis dan strategi bisnis LJK secara keseluruhan</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK03001001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>76</id>
+        <code>SK03001004</code>
+        <risk_id>10</risk_id>
+        <assesment_factor>Pelaksanaan tugas Dewan Komisaris dan Direksi LJK secara keseluruhan untuk Risiko Likuiditas</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK03001004");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>85</id>
+    <code>SK03004000</code>
+    <risk_id>10</risk_id>
+    <assesment_factor>Sistem Pengendalian</assesment_factor>
+    <children>
+      <item>
+        <id>86</id>
+        <code>SK03004001</code>
+        <risk_id>10</risk_id>
+        <assesment_factor>Sistem pengendalian intern dalam mendukung pelaksanaan manajemen Risiko Likuiditas</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK03004000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>89</id>
+        <code>SK03004004</code>
+        <risk_id>10</risk_id>
+        <assesment_factor>Pelaksanaan tindak lanjut atas hasil kaji ulang independen untuk Risiko Likuiditas</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK03004004");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>87</id>
+        <code>SK03004002</code>
+        <risk_id>10</risk_id>
+        <assesment_factor>Pelaksanaan kaji ulang secara independen (independent review) untuk Risiko Likuiditas oleh SKAIT baik dari sisi metodologi, frekuensi, maupun pelaporan kepada Dewan Komisaris dan Direksi LJK</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK03004002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>88</id>
+        <code>SK03004003</code>
+        <risk_id>10</risk_id>
+        <assesment_factor>Hasil kaji ulang independen terhadap penerapan Manajemen Risiko Terintegrasi untuk Risiko Likuiditas</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK03004003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>81</id>
+    <code>SK03003000</code>
+    <risk_id>10</risk_id>
+    <assesment_factor>Proses Manajemen Risiko, SIM dan SDM</assesment_factor>
+    <children>
+      <item>
+        <id>84</id>
+        <code>SK03003003</code>
+        <risk_id>10</risk_id>
+        <assesment_factor>Pemenuhan sumber daya manusia pada LJK dalam Konglomerasi Keuangan baik dari sisi kuantitas maupun kompetensi pada fungsi manajemen Risiko Likuiditas</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK03003000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>82</id>
+        <code>SK03003001</code>
+        <risk_id>10</risk_id>
+        <assesment_factor>Proses manajemen Risiko Likuiditas oleh LJK dalam Konglomerasi Keuangan dalam mengidentifikasi, mengukur, memantau, dan mengendalikan Risiko Likuiditas</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK03003001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+      <item>
+        <id>83</id>
+        <code>SK03003002</code>
+        <risk_id>10</risk_id>
+        <assesment_factor>Terdapat Sistem Informasi Manajemen Terintegrasi (SIMT) untuk Risiko Likuiditas sehingga menghasilkan pelaporan Risiko Likuiditas Konglomerasi Keuangan secara keseluruhan yang komprehensif dan terintegrasi</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          
+var items = companyValuesByCode("SK03003002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          
+        </consolidationRule>
+        <consolidate>0</consolidate>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+</data>

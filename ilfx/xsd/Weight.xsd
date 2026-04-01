@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <!-- Root element -->
+    <xs:element name="CompanyWeights">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Category" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Company" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Code" type="xs:string"/>
+                                        <xs:element name="CompanyName" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                                        <xs:element name="BobotBidangUsaha" type="xs:decimal" minOccurs="0"/>
+                                        <xs:element name="BobotPerPUJK" type="xs:decimal" minOccurs="0"/>
+                                        <xs:element name="BobotBankPembiayaan" type="xs:decimal" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="name" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

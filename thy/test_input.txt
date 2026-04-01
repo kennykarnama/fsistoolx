@@ -1,0 +1,5 @@
+40: Score <= 60
+70: 60 < Score <= 80
+90: 80 < Score <= 100
+name: Alice
+grade: A

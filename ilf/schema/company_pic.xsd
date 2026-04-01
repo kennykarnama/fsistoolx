@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+  <!-- Root element -->
+  <xs:element name="prmtr_company">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DATA_RECORD" type="DataRecordType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <!-- DATA_RECORD complex type -->
+  <xs:complexType name="DataRecordType">
+    <xs:sequence>
+      <xs:element name="id" type="xs:positiveInteger" minOccurs="0"/>
+      <xs:element name="company_name" type="xs:string" minOccurs="0"/>
+      <xs:element name="address" type="xs:string" minOccurs="0"/>
+      <xs:element name="telephone_no" type="xs:string" minOccurs="0"/>
+      <xs:element name="feedback" type="xs:string" minOccurs="0"/>
+      <xs:element name="status" type="StatusType" minOccurs="0"/>
+      <xs:element name="draft_name" type="xs:string" minOccurs="0"/>
+      <xs:element name="tag" type="xs:string" minOccurs="0"/>
+      <xs:element name="created_at" type="xs:string" minOccurs="0"/>
+      <xs:element name="created_by" type="xs:string" minOccurs="0"/>
+      <xs:element name="updated_at" type="xs:string" minOccurs="0"/>
+      <xs:element name="updated_by" type="xs:string" minOccurs="0"/>
+      <xs:element name="flag" type="FlagType" minOccurs="0"/>
+      <xs:element name="fsi_abbreviation" type="xs:string" minOccurs="0"/>
+      <xs:element name="fsi_code" type="xs:string" minOccurs="0"/>
+      <xs:element name="type" type="CompanyTypeType" minOccurs="0"/>
+      <xs:element name="pic_name" type="xs:string" minOccurs="0"/>
+      <xs:element name="pic_phone_number" type="xs:string" minOccurs="0"/>
+      <xs:element name="pic_email" type="EmailType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <!-- Simple type for status: integer status codes -->
+  <xs:simpleType name="StatusType">
+    <xs:union memberTypes="xs:positiveInteger EmptyStringType"/>
+  </xs:simpleType>
+  
+  <!-- Simple type for flag: internal or external -->
+  <xs:simpleType name="FlagType">
+    <xs:union memberTypes="FlagEnumType EmptyStringType"/>
+  </xs:simpleType>
+  
+  <xs:simpleType name="FlagEnumType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="internal"/>
+      <xs:enumeration value="external"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- Simple type for company type -->
+  <xs:simpleType name="CompanyTypeType">
+    <xs:union memberTypes="CompanyTypeEnumType EmptyStringType"/>
+  </xs:simpleType>
+  
+  <xs:simpleType name="CompanyTypeEnumType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="BANK"/>
+      <xs:enumeration value="FINANCING_COMPANY"/>
+      <xs:enumeration value="INSURANCE_COMPANY"/>
+      <xs:enumeration value="SECURITIES_COMPANY"/>
+      <xs:enumeration value="Perusahaan efek"/>
+      <xs:enumeration value="approve_depthead"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- Simple type for email: flexible pattern or empty -->
+  <xs:simpleType name="EmailType">
+    <xs:union memberTypes="EmailPatternType EmptyStringType"/>
+  </xs:simpleType>
+  
+  <xs:simpleType name="EmailPatternType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[^@]+@[^@]+\.[^@]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- Empty string type for optional fields -->
+  <xs:simpleType name="EmptyStringType">
+    <xs:restriction base="xs:string">
+      <xs:length value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

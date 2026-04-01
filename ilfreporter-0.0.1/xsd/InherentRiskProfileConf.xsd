@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:inherent="http://example.com/inherent"
+        targetNamespace="http://example.com/inherent"
+        elementFormDefault="qualified">
+
+    <xs:element name="InherentRiskProfileConf" >
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="inherent:AggregationConfig" name="aggregationConfig" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>
+                            aggregationConfig defines configuration to aggregate risk profile tree nodes to derive overall risk profile score and rating.
+                        </xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        
+    </xs:element>
+
+    <xs:complexType name="AggregationConfig">
+        <xs:sequence>
+            <xs:element name="risikoName" type="xs:string">
+                <xs:annotation>
+                    <xs:documentation>
+                        risikoName defines risk profile name, e.g. Risiko Kredit etc.
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="score_rule" type="xs:string">
+                <xs:annotation>
+                    <xs:documentation>
+                        Element score_rule defines user script that needs to be evaluated in order to derive the score. 
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="rating_rule" type="xs:string">
+                <xs:annotation>
+                    <xs:documentation>
+                        Element rating_rule defines user script that needs to evaluated in order to derive the rating. 
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            
+            <xs:element name="rating_to_score" type="xs:string">
+                <xs:annotation>
+                    <xs:documentation>
+                        Rating to score mapping before it will be transformed into exprtk
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:element>
+
+            <xs:element name="computed_weighted_score" type="xs:decimal" minOccurs="0"></xs:element>
+            <xs:element name="computed_rating" type="xs:string" minOccurs="0"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

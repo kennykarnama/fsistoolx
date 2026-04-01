@@ -1,0 +1,346 @@
+<errors>
+  <error id="Catalog001" reason="error failure"/>
+  <error id="Catalog002" reason="error failure"/>
+  <error id="Catalog003" reason="error failure"/>
+  <error id="Constr-compcomment-dash-4" reason="error failure"/>
+  <error id="Constr-compcomment-doubledash-4" reason="error failure"/>
+  <error id="Constr-cont-document-3" reason="result failure"/>
+  <error id="Constr-cont-nsmode-10" reason="no error failure"/>
+  <error id="Constr-cont-nsmode-7" reason="no error failure"/>
+  <error id="Constr-cont-nsmode-8" reason="no error failure"/>
+  <error id="Constr-inscope-1" reason="inspect" action="pass"/>
+  <error id="Constr-inscope-2" reason="inspect" action="pass"/>
+  <error id="Constr-inscope-3" reason="inspect" action="pass"/>
+  <error id="Constr-inscope-4" reason="inspect" action="pass"/>
+  <error id="Constr-namespace-13" reason="result failure"/>
+  <error id="GenCompEq-2" reason="error failure"/>
+  <error id="K-CodepointToStringFunc-26" reason="error failure"/>
+  <error id="K-CodepointToStringFunc-27" reason="error failure"/>
+  <error id="K-CodepointToStringFunc-28" reason="error failure"/>
+  <error id="K-FunctionCallExpr-11" reason="error failure" comment="XQilla provides the fn:document() function from XSLT 2.0"/>
+  <error id="K-FunctionCallExpr-12" reason="error failure" comment="XQilla provides the fn:unparsed-text() function from XSLT 2.0"/>
+  <error id="K-FunctionProlog-12" reason="no error failure"/>
+  <error id="K-InternalVariablesWith-21" reason="error failure"/>
+  <error id="K-InternalVariablesWith-22" reason="error failure"/>
+  <error id="K-InternalVariablesWith-23" reason="error failure"/>
+  <error id="K-NumericAdd-5" reason="result failure"/>
+  <error id="K-NumericAdd-6" reason="result failure"/>
+  <error id="K-SeqExprCast-1496" reason="error failure"/>
+  <error id="K-SeqExprCast-1497" reason="error failure"/>
+  <error id="K-StringJoinFunc-1" reason="no error failure" comment="XQuery 1.1 provides this function"/>
+  <error id="K2-ABSFunc-14" reason="result failure"/>
+  <error id="K2-ABSFunc-15" reason="result failure"/>
+  <error id="K2-ABSFunc-16" reason="result failure"/>
+  <error id="K2-ABSFunc-17" reason="result failure"/>
+  <error id="K2-ABSFunc-18" reason="result failure"/>
+  <error id="K2-ABSFunc-19" reason="result failure"/>
+  <error id="K2-ABSFunc-20" reason="result failure"/>
+  <error id="K2-ABSFunc-21" reason="result failure"/>
+  <error id="K2-ABSFunc-22" reason="result failure"/>
+  <error id="K2-ABSFunc-23" reason="result failure"/>
+  <error id="K2-ABSFunc-24" reason="result failure"/>
+  <error id="K2-ABSFunc-25" reason="result failure"/>
+  <error id="K2-ABSFunc-26" reason="result failure"/>
+  <error id="K2-ABSFunc-34" reason="result failure"/>
+  <error id="K2-Axes-2" reason="error failure"/>
+  <error id="K2-Axes-32" reason="error failure"/>
+  <error id="K2-Axes-54" reason="error failure"/>
+  <error id="K2-Axes-78" reason="result failure"/>
+  <error id="K2-Axes-84" reason="error failure"/>
+  <error id="K2-BaseURIProlog-4" reason="result failure"/>
+  <error id="K2-BaseURIProlog-5" reason="no error failure"/>
+  <error id="K2-ComputeConAttr-35" reason="error failure"/>
+  <error id="K2-ComputeConAttr-37" reason="error failure"/>
+  <error id="K2-ComputeConAttr-42" reason="error failure"/>
+  <error id="K2-ComputeConAttr-43" reason="error failure"/>
+  <error id="K2-ComputeConAttr-54" reason="result failure"/>
+  <error id="K2-ComputeConAttr-55" reason="result failure"/>
+  <error id="K2-ComputeConAttr-56" reason="result failure"/>
+  <error id="K2-ComputeConPI-3" reason="error failure"/>
+  <error id="K2-ComputeConPI-4" reason="error failure"/>
+  <error id="K2-ComputeConPI-5" reason="error failure"/>
+  <error id="K2-CopyNamespacesProlog-1" reason="result failure"/>
+  <error id="K2-CopyNamespacesProlog-5" reason="result failure"/>
+  <error id="K2-CopyNamespacesProlog-7" reason="result failure"/>
+  <error id="K2-CopyNamespacesProlog-9" reason="result failure"/>
+  <error id="K2-DirectConElem-36" reason="no error failure"/>
+  <error id="K2-DirectConElem-38" reason="error failure"/>
+  <error id="K2-DirectConElem-53" reason="no error failure"/>
+  <error id="K2-DirectConElemAttr-69" reason="error failure"/>
+  <error id="K2-DirectConOther-66" reason="result failure"/>
+  <error id="K2-ExternalVariablesWith-10" reason="error failure"/>
+  <error id="K2-ExternalVariablesWith-7" reason="error failure"/>
+  <error id="K2-ExternalVariablesWith-8" reason="error failure"/>
+  <error id="K2-ExternalVariablesWith-9" reason="error failure"/>
+  <error id="K2-ExternalVariablesWithout-4" reason="error failure"/>
+  <error id="K2-ExternalVariablesWithout-5" reason="error failure"/>
+  <error id="K2-ExternalVariablesWithout-6" reason="error failure"/>
+  <error id="K2-ExternalVariablesWithout-7" reason="error failure"/>
+  <error id="K2-InScopePrefixesFunc-18" reason="result failure"/>
+  <error id="K2-InScopePrefixesFunc-25" reason="result failure"/>
+  <error id="K2-InScopePrefixesFunc-27" reason="result failure"/>
+  <error id="K2-Literals-10" reason="no error failure"/>
+  <error id="K2-Literals-16" reason="no error failure"/>
+  <error id="K2-Literals-17" reason="no error failure"/>
+  <error id="K2-Literals-18" reason="no error failure"/>
+  <error id="K2-Literals-19" reason="no error failure"/>
+  <error id="K2-Literals-28" reason="result failure"/>
+  <error id="K2-Literals-35" reason="no error failure"/>
+  <error id="K2-Literals-36" reason="no error failure"/>
+  <error id="K2-Literals-39" reason="result failure"/>
+  <error id="K2-Literals-8" reason="no error failure"/>
+  <error id="K2-Literals-9" reason="no error failure"/>
+  <error id="K2-MatchesFunc-1" reason="result failure"/>
+  <error id="K2-MatchesFunc-16" reason="no error failure"/>
+  <error id="K2-MatchesFunc-2" reason="error failure"/>
+  <error id="K2-MatchesFunc-3" reason="error failure"/>
+  <error id="K2-MatchesFunc-4" reason="error failure"/>
+  <error id="K2-NameTest-21" reason="no error failure"/>
+  <error id="K2-NameTest-22" reason="result failure"/>
+  <error id="K2-NameTest-23" reason="error failure"/>
+  <error id="K2-NameTest-30" reason="result failure"/>
+  <error id="K2-NameTest-31" reason="result failure"/>
+  <error id="K2-NameTest-37" reason="error failure"/>
+  <error id="K2-NameTest-38" reason="error failure"/>
+  <error id="K2-NameTest-39" reason="error failure"/>
+  <error id="K2-NameTest-40" reason="error failure"/>
+  <error id="K2-NameTest-43" reason="error failure"/>
+  <error id="K2-NameTest-44" reason="error failure"/>
+  <error id="K2-NameTest-45" reason="error failure"/>
+  <error id="K2-NameTest-46" reason="error failure"/>
+  <error id="K2-NameTest-63" reason="result failure"/>
+  <error id="K2-NameTest-69" reason="error failure"/>
+  <error id="K2-NameTest-70" reason="error failure"/>
+  <error id="K2-NameTest-74" reason="error failure"/>
+  <error id="K2-NameTest-75" reason="error failure"/>
+  <error id="K2-NameTest-87" reason="error failure"/>
+  <error id="K2-NameTest-88" reason="error failure"/>
+  <error id="K2-NameTest-89" reason="error failure"/>
+  <error id="K2-NameTest-90" reason="error failure"/>
+  <error id="K2-NamespaceURIForPrefixFunc-2" reason="result failure"/>
+  <error id="K2-NodeTest-10" reason="error failure"/>
+  <error id="K2-NodeTest-19" reason="error failure"/>
+  <error id="K2-NodeTest-20" reason="error failure"/>
+  <error id="K2-NodeTest-28" reason="error failure"/>
+  <error id="K2-ReplaceFunc-3" reason="no error failure"/>
+  <error id="K2-SeqAVGFunc-1" reason="result failure"/>
+  <error id="K2-SeqAVGFunc-2" reason="result failure"/>
+  <error id="K2-SeqCollectionFunc-1" reason="error failure"/>
+  <error id="K2-SeqCollectionFunc-2" reason="error failure"/>
+  <error id="K2-SeqDeepEqualFunc-20" reason="result failure"/>
+  <error id="K2-SeqDeepEqualFunc-22" reason="result failure"/>
+  <error id="K2-SeqExprCast-215" reason="no error failure"/>
+  <error id="K2-SeqExprCast-216" reason="no error failure"/>
+  <error id="K2-SeqExprCast-217" reason="no error failure"/>
+  <error id="K2-SeqExprCast-218" reason="no error failure"/>
+  <error id="K2-SeqExprCast-221" reason="error failure"/>
+  <error id="K2-SeqExprCast-222" reason="error failure"/>
+  <error id="K2-SeqExprCast-225" reason="no error failure"/>
+  <error id="K2-SeqExprCast-226" reason="no error failure"/>
+  <error id="K2-SeqExprCast-507" reason="no error failure"/>
+  <error id="K2-SeqExprCast-508" reason="no error failure"/>
+  <error id="K2-SeqExprCast-510" reason="no error failure"/>
+  <error id="K2-SeqExprCast-511" reason="no error failure"/>
+  <error id="K2-SeqExprCast-513" reason="no error failure"/>
+  <error id="K2-SeqExprCast-514" reason="no error failure"/>
+  <error id="K2-SeqExprCast-516" reason="no error failure"/>
+  <error id="K2-SeqExprCast-517" reason="no error failure"/>
+  <error id="K2-SeqExprCast-522" reason="no error failure"/>
+  <error id="K2-SeqExprCast-523" reason="no error failure"/>
+  <error id="K2-SeqIDFunc-10" reason="result failure"/>
+  <error id="K2-SeqIDFunc-11" reason="result failure"/>
+  <error id="K2-SeqIDFunc-12" reason="result failure"/>
+  <error id="K2-SeqIDFunc-13" reason="result failure"/>
+  <error id="K2-SeqIntersect-41" reason="result failure"/>
+  <error id="K2-SeqSUMFunc-2" reason="result failure"/>
+  <error id="K2-SeqSUMFunc-3" reason="result failure"/>
+  <error id="K2-Serialization-1" reason="no error failure"/>
+  <error id="K2-Serialization-10" reason="result failure"/>
+  <error id="K2-Serialization-2" reason="no error failure"/>
+  <error id="K2-Serialization-3" reason="no error failure"/>
+  <error id="K2-Serialization-4" reason="no error failure"/>
+  <error id="K2-Serialization-5" reason="result failure"/>
+  <error id="K2-Serialization-6" reason="result failure"/>
+  <error id="K2-Serialization-9" reason="result failure"/>
+  <error id="K2-Steps-14" reason="result failure"/>
+  <error id="K2-Steps-34" reason="result failure"/>
+  <error id="K2-StringLT-1" reason="result failure"/>
+  <error id="K2-ancestor-or-selfAxis-3" reason="no error failure"/>
+  <error id="K2-ancestor-or-selfAxis-5" reason="result failure"/>
+  <error id="casthcds9" reason="result failure"/>
+  <error id="comp-attr-bad-name-5" reason="no error failure"/>
+  <error id="comp-attr-bad-name-6" reason="no error failure"/>
+  <error id="comp-attr-bad-name-7" reason="no error failure"/>
+  <error id="comp-elem-bad-name-1" reason="no error failure"/>
+  <error id="comp-elem-bad-name-2" reason="no error failure"/>
+  <error id="comp-elem-bad-name-3" reason="no error failure"/>
+  <error id="comp-elem-bad-name-4" reason="no error failure"/>
+  <error id="comp-elem-bad-name-5" reason="no error failure"/>
+  <error id="comp-elem-bad-name-6" reason="no error failure"/>
+  <error id="errata6-001" reason="error failure"/>
+  <error id="errata6-002" reason="error failure"/>
+  <error id="errata6-004" reason="no error failure"/>
+  <error id="errata6-005" reason="error failure"/>
+  <error id="errata6-006" reason="error failure"/>
+  <error id="errata6-007" reason="error failure"/>
+  <error id="errata8-003" reason="error failure"/>
+  <error id="extvardeclwithouttype-23" reason="error failure"/>
+  <error id="extvardeclwithtype-23" reason="result failure"/>
+  <error id="fn-abs-1" reason="result failure"/>
+  <error id="fn-avg-mix-args-012" reason="result failure"/>
+  <error id="fn-avg-mix-args-013" reason="result failure"/>
+  <error id="fn-avg-mix-args-015" reason="result failure"/>
+  <error id="fn-avg-mix-args-020" reason="result failure"/>
+  <error id="fn-avg-mix-args-022" reason="result failure"/>
+  <error id="fn-collection-3" reason="error failure"/>
+  <error id="fn-current-date-1" reason="inspect" action="pass"/>
+  <error id="fn-current-date-10" reason="inspect" action="pass"/>
+  <error id="fn-current-date-11" reason="inspect" action="pass"/>
+  <error id="fn-current-date-2" reason="inspect" action="pass"/>
+  <error id="fn-current-date-21" reason="inspect" action="pass"/>
+  <error id="fn-current-date-3" reason="inspect" action="pass"/>
+  <error id="fn-current-date-4" reason="inspect" action="pass"/>
+  <error id="fn-current-date-6" reason="inspect" action="pass"/>
+  <error id="fn-current-date-7" reason="inspect" action="pass"/>
+  <error id="fn-current-dateTime-1" reason="inspect" action="pass"/>
+  <error id="fn-current-dateTime-10" reason="inspect" action="pass"/>
+  <error id="fn-current-dateTime-11" reason="inspect" action="pass"/>
+  <error id="fn-current-dateTime-2" reason="inspect" action="pass"/>
+  <error id="fn-current-dateTime-21" reason="inspect" action="pass"/>
+  <error id="fn-current-dateTime-22" reason="inspect" action="pass"/>
+  <error id="fn-current-dateTime-23" reason="inspect" action="pass"/>
+  <error id="fn-current-dateTime-24" reason="inspect" action="pass"/>
+  <error id="fn-current-dateTime-3" reason="inspect" action="pass"/>
+  <error id="fn-current-dateTime-4" reason="inspect" action="pass"/>
+  <error id="fn-current-dateTime-6" reason="inspect" action="pass"/>
+  <error id="fn-current-datetime-7" reason="inspect" action="pass"/>
+  <error id="fn-current-time-1" reason="inspect" action="pass"/>
+  <error id="fn-current-time-10" reason="inspect" action="pass"/>
+  <error id="fn-current-time-11" reason="inspect" action="pass"/>
+  <error id="fn-current-time-2" reason="inspect" action="pass"/>
+  <error id="fn-current-time-3" reason="inspect" action="pass"/>
+  <error id="fn-current-time-4" reason="inspect" action="pass"/>
+  <error id="fn-current-time-6" reason="inspect" action="pass"/>
+  <error id="fn-current-time-7" reason="inspect" action="pass"/>
+  <error id="fn-deep-equal-mix-args-019" reason="result failure" comment="Incorrect test result?"/>
+  <error id="fn-doc-10" reason="error failure"/>
+  <error id="fn-doc-11" reason="error failure"/>
+  <error id="fn-doc-12" reason="error failure"/>
+  <error id="fn-doc-13" reason="error failure"/>
+  <error id="fn-doc-14" reason="error failure"/>
+  <error id="fn-doc-25" reason="error failure"/>
+  <error id="fn-doc-26" reason="error failure"/>
+  <error id="fn-doc-29" reason="error failure"/>
+  <error id="fn-doc-32" reason="result failure"/>
+  <error id="fn-doc-8" reason="error failure"/>
+  <error id="fn-doc-9" reason="error failure"/>
+  <error id="fn-element-with-id-1" reason="error failure"/>
+  <error id="fn-element-with-id-2" reason="error failure"/>
+  <error id="fn-element-with-id-3" reason="error failure"/>
+  <error id="fn-element-with-id-4" reason="error failure"/>
+  <error id="fn-element-with-id-5" reason="error failure"/>
+  <error id="fn-id-dtd-10" reason="error failure"/>
+  <error id="fn-id-dtd-11" reason="error failure"/>
+  <error id="fn-id-dtd-12" reason="error failure"/>
+  <error id="fn-id-dtd-13" reason="error failure"/>
+  <error id="fn-id-dtd-14" reason="error failure"/>
+  <error id="fn-id-dtd-15" reason="error failure"/>
+  <error id="fn-id-dtd-16" reason="error failure"/>
+  <error id="fn-id-dtd-17" reason="error failure"/>
+  <error id="fn-id-dtd-18" reason="error failure"/>
+  <error id="fn-id-dtd-19" reason="error failure"/>
+  <error id="fn-id-dtd-20" reason="error failure"/>
+  <error id="fn-id-dtd-21" reason="error failure"/>
+  <error id="fn-id-dtd-23" reason="error failure"/>
+  <error id="fn-id-dtd-5" reason="error failure"/>
+  <error id="fn-id-dtd-6" reason="error failure"/>
+  <error id="fn-id-dtd-7" reason="error failure"/>
+  <error id="fn-id-dtd-8" reason="error failure"/>
+  <error id="fn-id-dtd-9" reason="error failure"/>
+  <error id="fn-idref-30" reason="result failure"/>
+  <error id="fn-idref-31" reason="result failure"/>
+  <error id="fn-idref-dtd-10" reason="error failure"/>
+  <error id="fn-idref-dtd-11" reason="error failure"/>
+  <error id="fn-idref-dtd-12" reason="error failure"/>
+  <error id="fn-idref-dtd-13" reason="error failure"/>
+  <error id="fn-idref-dtd-14" reason="error failure"/>
+  <error id="fn-idref-dtd-15" reason="error failure"/>
+  <error id="fn-idref-dtd-16" reason="error failure"/>
+  <error id="fn-idref-dtd-17" reason="error failure"/>
+  <error id="fn-idref-dtd-18" reason="error failure"/>
+  <error id="fn-idref-dtd-19" reason="error failure"/>
+  <error id="fn-idref-dtd-20" reason="error failure"/>
+  <error id="fn-idref-dtd-21" reason="error failure"/>
+  <error id="fn-idref-dtd-23" reason="error failure"/>
+  <error id="fn-idref-dtd-24" reason="error failure"/>
+  <error id="fn-idref-dtd-5" reason="error failure"/>
+  <error id="fn-idref-dtd-6" reason="error failure"/>
+  <error id="fn-idref-dtd-7" reason="error failure"/>
+  <error id="fn-idref-dtd-8" reason="error failure"/>
+  <error id="fn-idref-dtd-9" reason="error failure"/>
+  <error id="fn-implicit-timezone-14" reason="inspect" action="pass"/>
+  <error id="fn-implicit-timezone-15" reason="inspect" action="pass"/>
+  <error id="fn-implicit-timezone-16" reason="inspect" action="pass"/>
+  <error id="fn-implicit-timezone-18" reason="inspect" action="pass"/>
+  <error id="fn-implicit-timezone-19" reason="inspect" action="pass"/>
+  <error id="fn-implicit-timezone-2" reason="inspect" action="pass"/>
+  <error id="fn-implicit-timezone-20" reason="inspect" action="pass"/>
+  <error id="fn-implicit-timezone-21" reason="inspect" action="pass"/>
+  <error id="fn-implicit-timezone-22" reason="inspect" action="pass"/>
+  <error id="fn-implicit-timezone-23" reason="inspect" action="pass"/>
+  <error id="fn-implicit-timezone-3" reason="inspect" action="pass"/>
+  <error id="fn-implicit-timezone-5" reason="inspect" action="pass"/>
+  <error id="fn-implicit-timezone-9" reason="inspect" action="pass"/>
+  <error id="fn-matches-26" reason="result failure"/>
+  <error id="fn-matches-37" reason="no error failure"/>
+  <error id="fn-matches-38" reason="no error failure"/>
+  <error id="fn-matches-39" reason="no error failure"/>
+  <error id="fn-matches-40" reason="no error failure"/>
+  <error id="fn-matchesErr-4" reason="no error failure"/>
+  <error id="fn-matchesErr-5" reason="no error failure"/>
+  <error id="fn-numberflt1args-1" reason="result failure"/>
+  <error id="fn-numberflt1args-3" reason="result failure"/>
+  <error id="fn-numberulng1args-3" reason="result failure"/>
+  <error id="fn-resolve-uri-9" reason="result failure"/>
+  <error id="fn-subsequence-mix-args-024" reason="result failure"/>
+  <error id="functx-fn-namespace-uri-for-prefix-all" reason="result failure"/>
+  <error id="functx-fn-replace-8" reason="result failure"/>
+  <error id="functx-fn-replace-all" reason="result failure"/>
+  <error id="functx-fn-substring-7" reason="result failure"/>
+  <error id="functx-fn-substring-all" reason="result failure"/>
+  <error id="functx-fn-tokenize-12" reason="result failure"/>
+  <error id="functx-fn-tokenize-all" reason="result failure"/>
+  <error id="functx-functx-first-node-2" reason="result failure"/>
+  <error id="functx-functx-first-node-all" reason="result failure"/>
+  <error id="functx-functx-get-matches-1" reason="result failure"/>
+  <error id="functx-functx-get-matches-2" reason="result failure"/>
+  <error id="functx-functx-get-matches-3" reason="result failure"/>
+  <error id="functx-functx-get-matches-all" reason="result failure"/>
+  <error id="functx-functx-id-from-element-1" reason="error failure"/>
+  <error id="functx-functx-last-node-2" reason="result failure"/>
+  <error id="functx-functx-last-node-all" reason="result failure"/>
+  <error id="functx-functx-path-to-node-with-pos-1" reason="result failure"/>
+  <error id="functx-functx-path-to-node-with-pos-2" reason="result failure"/>
+  <error id="functx-functx-path-to-node-with-pos-all" reason="result failure"/>
+  <error id="functx-functx-sequence-type-1" reason="error failure"/>
+  <error id="functx-functx-sequence-type-2" reason="error failure"/>
+  <error id="functx-functx-sequence-type-3" reason="error failure"/>
+  <error id="functx-functx-sequence-type-all" reason="error failure"/>
+  <error id="modules-19" reason="no error failure"/>
+  <error id="modules-20" reason="error failure"/>
+  <error id="modules-21" reason="error failure"/>
+  <error id="modules-22" reason="error failure"/>
+  <error id="modules-23" reason="error failure"/>
+  <error id="modules-25" reason="no error failure"/>
+  <error id="modules-26" reason="no error failure"/>
+  <error id="modules-27" reason="error failure"/>
+  <error id="modules-schema-context" reason="error failure"/>
+  <error id="normalization-1" reason="no error failure"/>
+  <error id="static-context-1" reason="error failure"/>
+  <error id="validate-constraints-1" reason="no error failure"/>
+  <error id="validate-constraints-2" reason="no error failure"/>
+  <error id="validate-constraints-3" reason="no error failure"/>
+  <error id="validateexpr-26" reason="error failure" action="pass" comment="'Element {}a is not defined as a global element [err:XQDY0084]' returned instead"/>
+  <error id="validateexpr-sc-6" reason="error failure"/>
+  <error id="validateexpr-sc-7" reason="error failure"/>
+</errors>

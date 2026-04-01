@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+  <!-- Root element -->
+  <xs:element name="kpmr_source">
+    <xs:annotation>
+      <xs:documentation>
+        Root element containing all KPMR (Kualitas Penerapan Manajemen Risiko) source data records.
+        This represents the raw assessment factor data from the database export.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DATA_RECORD" type="DataRecordType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <!-- Complex type for DATA_RECORD -->
+  <xs:complexType name="DataRecordType">
+    <xs:annotation>
+      <xs:documentation>
+        Represents a single assessment factor record with all metadata including
+        versioning, validity periods, and audit information.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <!-- Primary identification -->
+      <xs:element name="id" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Unique UUID identifier for this specific record version.
+            Format: UUID v4 (e.g., 2426624f-b9ce-465e-95f9-e7b1ffd5841e)
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="code" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Assessment factor code identifier.
+            Format: SKxxxxxxxx (e.g., SK01001000, SK01001001)
+            Used to establish hierarchical relationships:
+            - Codes ending with 000 are parent categories
+            - Other codes are child assessment factors
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="risk_id" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Risk type identifier.
+            Example: 8 represents credit risk (Risiko kredit)
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="assesment_factor" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Description of the assessment factor in Indonesian language.
+            Contains detailed explanation of what this factor evaluates in
+            the risk management framework.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="pic" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Person In Charge (PIC) or entity assignment information in JSON format.
+            
+            JSON Structure:
+            {
+              "value": "string - entity identifiers or wildcard",
+              "from_col": "string - source column type"
+            }
+            
+            Common patterns:
+            - {"value": "*", "from_col": "ALL"} - Applies to all entities
+            - {"value": "BANK,INSURANCE_COMPANY", "from_col": "COMPANY_TYPE"} - Specific company types
+            - {"value": "1,100", "from_col": "INDIVIDUAL"} - Specific entity IDs
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- State and workflow -->
+      <xs:element name="state" type="StateType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Publication state of the record.
+            Indicates whether this version is active or in draft.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="tx_id" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Transaction identifier (UUID) for grouping related record changes.
+            Multiple records with the same tx_id were modified in the same transaction.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Temporal validity -->
+      <xs:element name="valid_from" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Start of validity period for this record version.
+            Format: YYYY-MM-DD HH:MM:SS.mmm +ZZZZ
+            Example: 2025-11-28 11:44:31.712 +0700
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="valid_to" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            End of validity period for this record version.
+            Format: YYYY-MM-DD HH:MM:SS.mmm +ZZZZ or "infinity"
+            "infinity" indicates the record is currently valid with no end date.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Audit trail -->
+      <xs:element name="created_at" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Timestamp when the record was first created.
+            Format: YYYY-MM-DD HH:MM:SS.mmm +ZZZZ
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="created_by" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            User or system identifier that created the record.
+            Examples: "SYSTEM", user ID numbers
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="updated_at" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Timestamp when the record was last updated.
+            Format: YYYY-MM-DD HH:MM:SS.mmm +ZZZZ
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="updated_by" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            User or system identifier that last updated the record.
+            Examples: "SYSTEM", "301", "2" (user IDs)
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Numeric identifier -->
+      <xs:element name="numeric_id" type="xs:positiveInteger" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Sequential numeric identifier for the record.
+            Used for ordering or as a simpler reference ID.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <!-- Simple type for state enumeration -->
+  <xs:simpleType name="StateType">
+    <xs:annotation>
+      <xs:documentation>
+        Publication state values for records.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="PUBLISHED">
+        <xs:annotation>
+          <xs:documentation>Record is published and active</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="DRAFT">
+        <xs:annotation>
+          <xs:documentation>Record is in draft state</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="ARCHIVED">
+        <xs:annotation>
+          <xs:documentation>Record is archived</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  
+</xs:schema>

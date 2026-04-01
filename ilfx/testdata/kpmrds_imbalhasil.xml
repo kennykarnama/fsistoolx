@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<data xmlns="http://example.com/kpmr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/kpmr ../xsd/KPMRDataSource.xsd">
+  <riskName>Risiko Imbal Hasil</riskName>
+  <list>
+    <id>242</id>
+    <code>SK12002000</code>
+    <risk_id>19</risk_id>
+    <assesment_factor>Kerangka Manajemen Risiko</assesment_factor>
+    <children>
+      <item>
+        <id>243</id>
+        <code>SK12002001</code>
+        <risk_id>19</risk_id>
+        <assesment_factor>Strategi manajemen risiko yang searah dengan tingkat risiko yang akan diambil dan toleransi risiko</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK12002000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>245</id>
+        <code>SK12002003</code>
+        <risk_id>19</risk_id>
+        <assesment_factor>Kecukupan kebijakan, prosedur dan penetapan limit</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK12002003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>244</id>
+        <code>SK12002002</code>
+        <risk_id>19</risk_id>
+        <assesment_factor>Kecukupan perangkat organisasi dalam mendukung terlaksananya manajemen risiko secara efektif termasuk kejelasan wewenang dan tanggung jawab</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK12002002");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>246</id>
+    <code>SK12003000</code>
+    <risk_id>19</risk_id>
+    <assesment_factor>Proses Manajemen Risiko, SIM dan SDM</assesment_factor>
+    <children>
+      <item>
+        <id>248</id>
+        <code>SK12003002</code>
+        <risk_id>19</risk_id>
+        <assesment_factor>Kecukupan sistem informasi Manajemen Risiko</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK12003000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>247</id>
+        <code>SK12003001</code>
+        <risk_id>19</risk_id>
+        <assesment_factor>Proses identifikasi, pengukuran, pemantauan, dan pengendalian risiko</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK12003001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>249</id>
+        <code>SK12003003</code>
+        <risk_id>19</risk_id>
+        <assesment_factor>Kecukupan kuantitas dan kualitas sumber daya manusia dalam mendukung efektivitas proses Manajemen Risiko</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK12003003");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>250</id>
+    <code>SK12004000</code>
+    <risk_id>19</risk_id>
+    <assesment_factor>Sistem Pengendalian</assesment_factor>
+    <children>
+      <item>
+        <id>252</id>
+        <code>SK12004002</code>
+        <risk_id>19</risk_id>
+        <assesment_factor>Kecukupan kaji ulang oleh pihak independen dalam Bank, baik oleh Satuan Kerja Manajemen Risiko (SKMR) maupun oleh Satuan Kerja Audit Intern (SKAI)</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK12004000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>251</id>
+        <code>SK12004001</code>
+        <risk_id>19</risk_id>
+        <assesment_factor>Kecukupan Sistem Pengendalian Internal</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK12004001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+  <list>
+    <id>239</id>
+    <code>SK12001000</code>
+    <risk_id>19</risk_id>
+    <assesment_factor>Tata Kelola (Risk Governance)</assesment_factor>
+    <children>
+      <item>
+        <id>241</id>
+        <code>SK12001002</code>
+        <risk_id>19</risk_id>
+        <assesment_factor>Kecukupan pengawasan aktif oleh Dewan Komisaris dan Direksi termasuk pelaksanaan kewenangan dan tanggung jawab Dewan Komisaris dan Direksi.</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK12001000");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+      <item>
+        <id>240</id>
+        <code>SK12001001</code>
+        <risk_id>19</risk_id>
+        <assesment_factor>Perumusan tingkat risiko yang akan diambil (risk appetite) dan toleransi risiko (risk tolerance)</assesment_factor>
+        <value>0</value>
+        <remark/>
+        <consolidationRule>
+          <![CDATA[
+var items = companyValuesByCode("SK12001001");
+var total_sum = 0.0;
+var total_count = 0;
+
+for (entry : items) {
+    var values = entry.second;
+    total_sum = total_sum + sum(values);
+    total_count = total_count + size(values);
+}
+
+if (total_count == 0) { return 0.0; }
+return round(total_sum / total_count);
+          ]]>
+        </consolidationRule>
+      </item>
+    </children>
+    <value>0</value>
+    <remark/>
+  </list>
+</data>

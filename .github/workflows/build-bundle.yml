@@ -1,0 +1,56 @@
+name: Build deps bundle
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # needed to create/upload release assets
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up QEMU (for cross-compilation)
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build deps-bundle stage
+        run: |
+          docker buildx build \
+            --target deps-bundle \
+            --platform linux/arm64 \
+            --load \
+            --tag fsis-deps-bundle:ci \
+            .
+
+      - name: Extract deps-bundle.tar.gz from image
+        run: |
+          id=$(docker create --platform linux/arm64 fsis-deps-bundle:ci)
+          docker cp "$id":/deps-bundle.tar.gz ./deps-bundle.tar.gz
+          docker rm "$id"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: deps-bundle
+          path: deps-bundle.tar.gz
+          retention-days: 30
+
+      - name: Create GitHub Release and upload asset
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: deps-bundle.tar.gz

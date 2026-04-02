@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: [self-hosted]
 
     permissions:
       contents: write   # needed to create/upload release assets
@@ -31,14 +31,14 @@ jobs:
         run: |
           docker buildx build \
             --target deps-bundle \
-            --platform linux/arm64 \
+            --platform linux/amd64 \
             --load \
             --tag fsis-deps-bundle:ci \
             .
 
       - name: Extract deps-bundle.tar.gz from image
         run: |
-          id=$(docker create --platform linux/arm64 fsis-deps-bundle:ci)
+          id=$(docker create --platform linux/amd64 fsis-deps-bundle:ci)
           docker cp "$id":/deps-bundle.tar.gz ./deps-bundle.tar.gz
           docker rm "$id"
 

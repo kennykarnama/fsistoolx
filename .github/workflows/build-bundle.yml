@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    runs-on: sabalong-runner1
+    runs-on: sabalong-runner2
 
     permissions:
       contents: write   # needed to create/upload release assets
